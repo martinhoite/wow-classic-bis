@@ -2845,7 +2845,10 @@ let preRaidWarlock = new TableList(
                 13141,
                 "Tooth of Gnarr"
             ),
-            null,
+            new WowheadLink(
+                18728,
+                "Anastari Heirloom"
+            ),
             null,
         ),
         new ItemSlotRow( //Shoulder
@@ -2879,7 +2882,7 @@ let preRaidWarlock = new TableList(
                 "Spritecaster Cape",
             ),
             new WowheadLink(
-                20025,
+                20014,
                 "Enchant Cloak - Greater Resistance",
                 linkType.spell
             )
@@ -2971,7 +2974,10 @@ let preRaidWarlock = new TableList(
                 14136,
                 "Omnicast boots"
             ),
-            null,
+            new WowheadLink(
+                18735,
+                "Maleki's Footwraps"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
@@ -3208,12 +3214,12 @@ let tierOneWarlock = new TableList(
                 "Master's Boots of Shadow Wrath"
             ),
             new WowheadLink(
-                14136,
-                "Omnicast boots"
+                18735,
+                "Maleki's Footwraps"
             ),
             new WowheadLink(
-                16803,
-                "Felheart Slippers"
+                14136,
+                "Omnicast boots"
             ),
             new WowheadLink(
                 13890,
@@ -3260,8 +3266,8 @@ let tierOneWarlock = new TableList(
                 "Azuresong Mageblade"
             ),
             new WowheadLink(
-                17103,
-                "Staff of Dominance"
+                17719,
+                "Inventor's Focal Sword"
             ),
             new WowheadLink(
                 13964,
@@ -3281,6 +3287,16 @@ let tierOneWarlock = new TableList(
             ),
             null,
             null,
+        ),
+        new ItemSlotRow(//2H
+            itemSlots.twoHand,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
+            null,
+            null,
+            null
         ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
