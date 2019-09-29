@@ -2945,7 +2945,7 @@ let preRaidWarlock = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                12589,
+                11662,
                 "Bhan'thok Sash"
             ),
             new WowheadLink(
@@ -3182,14 +3182,17 @@ let tierOneWarlock = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                12589,
+                1162,
                 "Bhan'thok Sash"
+            ),
+            new WowheadLink(
+                13956,
+                "Clutch of Andros"
             ),
             new WowheadLink(
                 16806,
                 "Felheart Belt"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Feet
