@@ -1272,10 +1272,13 @@ let tierOneMage = new TableList(
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
-                11766,
+                16799,
                 "Arcanist Bindings"
             ),
-            null,
+            new WowheadLink(
+                11766,
+                "Flameweave Cuffs"
+            ),
             null,
             new WowheadLink(
                 20008,
@@ -1365,10 +1368,13 @@ let tierOneMage = new TableList(
         new ItemSlotRow( //Main Hand
             itemSlots.mainHand,
             new WowheadLink(
-                13964,
+                17103,
                 "Azuresong Mageblade"
             ),
-            null,
+            new WowheadLink(
+                13964,
+                "Witchblade"
+            ),
             null,
             new WowheadLink(
                 22749,
