@@ -1,0 +1,68 @@
+.tab-content,
+h3 {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-tabs .nav-item {
+        width: calc(100% / 8);
+    }
+}
+
+/* #region Class Colors*/
+.druid {
+    color: #ff7d0a !important;
+}
+
+.hunter {
+    color: #abd473 !important;
+}
+
+.mage {
+    color: #69ccf0 !important;
+}
+
+.paladin {
+    color: #f58cba !important;
+}
+
+.priest {
+    color: #ffffff !important;
+}
+
+.rogue {
+    color: #fff569 !important;
+}
+
+.shaman {
+    color: #0070de !important;
+}
+
+.warlock {
+    color: #9482c9 !important;
+}
+
+.warrior {
+    color: #c79c6e !important;
+}
+
+/* #endregion Class Colors*/
+
+/* #region Class Icons */
+.druid-icon {
+    display: block;
+    width: 56px;
+    height: 56px;
+    transform: scale(.5);
+    background: url('../images/icons/classes/vanilla-classes.gif') 0 0;
+}
+
+.hunter-icon {
+    display: block;
+    width: 56px;
+    height: 56px;
+    transform: scale(.5);
+    background: url('../images/icons/classes/vanilla-classes.gif') 0 -56px;
+}
+
+/* #endregion Class Icons */
