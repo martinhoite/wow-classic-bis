@@ -4477,8 +4477,6 @@ var preRaidPhaseOne = [
     preRaidWarriorTank
 ];
 
-console.log(tierOneRogue);
-
 var tierOnePhaseOne = [
     tierOneDruid,
     tierOneHunter,

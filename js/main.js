@@ -29,7 +29,6 @@ function createTabsNav(phaseNumber, tier) {
     $(phaseContainer).append(tabsNav);
 };
 
-/// test
 function createTabsContainer(phaseNumber, tier) {
     let containerSection = $(document.createElement('section'));
     let fullPhaseId = 'phase-' + phaseNumber + '-' + tier.replace(" ", "-").toLowerCase();
@@ -124,14 +123,17 @@ function createClassTabFrames(phaseNumber, tier, phaseData) {
     }
 }
 
+//Pre raid BiS lists
 createTabsNav(1, "Pre raid");
 createTabsContainer(1, "Pre raid");
 createClassTabFrames(1, "Pre raid", preRaidPhaseOne);
 
+//Tier 1 BiS lists
 createTabsNav(1, '1');
 createTabsContainer(1, '1');
 createClassTabFrames(1, '1', tierOnePhaseOne);
 
+//Dynamically created tabs don't get the normal binding from Bootstrap, so we do it manually.
 $(".nav-tabs").on("click", "a", function (e) {
     e.preventDefault();
     $(this).tab('show');
