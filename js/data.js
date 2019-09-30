@@ -3479,7 +3479,7 @@ let preRaidWarriorTank = new TableList(
                 "Deathbone Legguards"
             ),
             new WowheadLink(
-                11624,
+                11642,
                 "Lesser Arcanum of Constitution"
             )
         ),
