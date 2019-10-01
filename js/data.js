@@ -982,7 +982,7 @@ let preRaidMage = new TableList(
             ),
             null,
             new WowheadLink(
-                11649,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -1205,7 +1205,7 @@ let tierOneMage = new TableList(
                 "Netherwind Crown"),
             null,
             new WowheadLink(
-                11649,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -1429,7 +1429,7 @@ let preRaidPaladin = new TableList(
             ),
             null,
             new WowheadLink(
-                11647,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -1551,7 +1551,7 @@ let preRaidPaladin = new TableList(
             ),
             null,
             new WowheadLink(
-                11647,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -1647,7 +1647,7 @@ let tierOnePaladin = new TableList(
             ),
             null,
             new WowheadLink(
-                11647,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -1749,7 +1749,7 @@ let tierOnePaladin = new TableList(
             null,
             null,
             new WowheadLink(
-                11647,
+                11648,
                 "Lesser Arcanum of Voracity"
             )
         ),
@@ -1937,7 +1937,7 @@ let preRaidPriest = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
+                11649,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -2170,7 +2170,7 @@ let tierOnePriest = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
+                11649,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -2314,7 +2314,7 @@ let preRaidRogue = new TableList(
             ),
             null,
             new WowheadLink(
-                11645,
+                11647,
                 "Lesser Arcanum of Voracity"
             )
         ),
@@ -2431,7 +2431,7 @@ let preRaidRogue = new TableList(
             null,
             null,
             new WowheadLink(
-                11645,
+                11647,
                 "Lesser Arcanum of Voracity"
             )
         ),
@@ -2555,7 +2555,7 @@ let tierOneRogue = new TableList(
             ),
             null,
             new WowheadLink(
-                11645,
+                11647,
                 "Lesser Arcanum of Voracity"
             )
         ),
@@ -2696,7 +2696,7 @@ let tierOneRogue = new TableList(
             ),
             null,
             new WowheadLink(
-                11645,
+                11647,
                 "Lesser Arcanum of Voracity"
             )
         ),
@@ -2831,7 +2831,7 @@ let preRaidWarlock = new TableList(
                 "Felcloth Hood"
             ),
             new WowheadLink(
-                11649,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -3075,7 +3075,7 @@ let tierOneWarlock = new TableList(
                 "Eternal Crown of Shadow Wrath"
             ),
             new WowheadLink(
-                11649,
+                11648,
                 "Lesser Arcanum of Voracity"
             ),
         ),
@@ -4051,7 +4051,7 @@ let tierOneWarriorTank = new TableList(
                 "Cloudkeeper Legplates"
             ),
             new WowheadLink(
-                11624,
+                11642,
                 "Lesser Arcanum of Constitution"
             )
         ),
