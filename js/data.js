@@ -3565,8 +3565,8 @@ let preRaidWarriorTank = new TableList(
                 "Hand of Justice"
             ),
             new WowheadLink(
-                13965,
-                "Blackhand's Breadth"
+                17774,
+                "Mark of the Chosen"
             ),
             new WowheadLink(
                 11810,
@@ -4137,8 +4137,8 @@ let tierOneWarriorTank = new TableList(
                 "Hand of Justice"
             ),
             new WowheadLink(
-                13965,
-                "Blackhand's Breadth"
+                17774,
+                "Mark of the Chosen"
             ),
             new WowheadLink(
                 11810,
