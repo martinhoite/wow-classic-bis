@@ -13,6 +13,10 @@ const itemSlots = {
     trinkets: "Trinkets",
     mainHand: "MH",
     offHand: "OH",
+    mainHandSword: "MH Swords",
+    offHandSword: "OH Swords",
+    mainHandDagger: "MH Dagger",
+    offHandDagger: "OH Dagger",
     shield: "Shield",
     twoHand: "2H",
     ranged: "Ranged"

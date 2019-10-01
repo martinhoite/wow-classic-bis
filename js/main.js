@@ -100,18 +100,54 @@ function createClassTabFrames(phaseNumber, tier, phaseData) {
         $(tableList.ItemSlotRows).each(function (i, itemSlotRow) {
             let tableRow = $(document.createElement('tr'));
             let tableRowHead = $('<th scope="row"></th>').text(itemSlotRow.Slot);
-            let tableColumnBest = $('<td></td>').html("<a href='https://classic.wowhead.com/" + itemSlotRow.Best.Type + "=" + itemSlotRow.Best.Id + "'>" + itemSlotRow.Best.Name + "</a>");
+            let tableColumnBest = $('<td></td>').html(
+                "<a href='https://classic.wowhead.com/"
+                    + itemSlotRow.Best.Type
+                    + "="
+                    + itemSlotRow.Best.Id
+                    + "'>"
+                    + itemSlotRow.Best.Name
+                    + "</a>"
+                    + (itemSlotRow.Best.Comment ? "<p>" + itemSlotRow.Best.Comment + "</p>" : '')
+            );
             let tableColumnSecond = $('<td></td>').html('X');
             let tableColumnThird = $('<td></td>').html('X');
             let tableColumnEnchant = $('<td></td>').html('X');
             if (itemSlotRow.Second !== null) {
-                tableColumnSecond.html("<a href='https://classic.wowhead.com/" + itemSlotRow.Second.Type + "=" + itemSlotRow.Second.Id + "'>" + itemSlotRow.Second.Name + "</a>");
+                tableColumnSecond.html(
+                    "<a href='https://classic.wowhead.com/"
+                        + itemSlotRow.Second.Type
+                        + "="
+                        + itemSlotRow.Second.Id
+                        + "'>"
+                        + itemSlotRow.Second.Name
+                        + "</a>"
+                        + (itemSlotRow.Second.Comment ? "<p>" + itemSlotRow.Second.Comment + "</p>" : '')
+                );
             }
             if (itemSlotRow.Third !== null) {
-                tableColumnThird.html("<a href='https://classic.wowhead.com/" + itemSlotRow.Third.Type + "=" + itemSlotRow.Third.Id + "'>" + itemSlotRow.Third.Name + "</a>");
+                tableColumnThird.html(
+                    "<a href='https://classic.wowhead.com/"
+                        + itemSlotRow.Third.Type
+                        + "="
+                        + itemSlotRow.Third.Id
+                        + "'>"
+                        + itemSlotRow.Third.Name
+                        + "</a>"
+                        + (itemSlotRow.Third.Comment ? "<p>" + itemSlotRow.Third.Comment + "</p>" : '')
+                );
             }
             if (itemSlotRow.Enchant !== null) {
-                tableColumnEnchant.html("<a href='https://classic.wowhead.com/" + itemSlotRow.Enchant.Type + "=" + itemSlotRow.Enchant.Id + "'>" + itemSlotRow.Enchant.Name + "</a>");
+                tableColumnEnchant.html(
+                    "<a href='https://classic.wowhead.com/"
+                        + itemSlotRow.Enchant.Type
+                        + "="
+                        + itemSlotRow.Enchant.Id
+                        + "'>"
+                        + itemSlotRow.Enchant.Name
+                        + "</a>"
+                        + (itemSlotRow.Enchant.Comment ? "<p>" + itemSlotRow.Enchant.Comment + "</p>" : '')
+                );
             }
             tableRow.append(tableRowHead)
                 .append(tableColumnBest)

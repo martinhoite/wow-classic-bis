@@ -3,6 +3,15 @@ h3 {
     margin-top: 15px;
 }
 
+td>p {
+    margin: 0;
+}
+
+/* Overwrite Bootstrap */
+.table th, .table td {
+    vertical-align: middle;
+}
+
 @media only screen and (min-width: 600px) {
     .nav-tabs .nav-item {
         width: calc(100% / 8);

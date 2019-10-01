@@ -2484,8 +2484,8 @@ let preRaidRogue = new TableList(
             ),
             null
         ),
-        new ItemSlotRow( //MH
-            itemSlots.mainHand,
+        new ItemSlotRow( //MH Swords
+            itemSlots.mainHandSword,
             new WowheadLink(
                 12940,
                 "Dal'Rend's Sacred Charge"
@@ -2501,8 +2501,8 @@ let preRaidRogue = new TableList(
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //OH
-            itemSlots.offHand,
+        new ItemSlotRow( //OH Swords
+            itemSlots.offHandSword,
             new WowheadLink(
                 12939,
                 "Dal'Rend's Tribal Guardian"
@@ -2510,6 +2510,45 @@ let preRaidRogue = new TableList(
             new WowheadLink(
                 15806,
                 "Mirah's Song"
+            ),
+            null,
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //MH Daggers
+            itemSlots.mainHandDagger,
+            new WowheadLink(
+                12590,
+                "Felstriker"
+            ),
+            new WowheadLink(
+                12783,
+                "Heartseeker"
+            ),
+            new WowheadLink(
+                12791,
+                "Barman Shanker"
+            ),
+            new WowheadLink(
+                20031,
+                "Enchant Weapon - Superior Striking",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH Daggers
+            itemSlots.offHandDagger,
+            new WowheadLink(
+                14555,
+                "Alcor's Sunrazor"
+            ),
+            new WowheadLink(
+                12783,
+                "Heartseeker",
+                linkType.item,
+                "Only if not in MH"
             ),
             null,
             new WowheadLink(
