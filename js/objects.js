@@ -4,10 +4,11 @@ function TableList(Class, ItemSlotRows, Spec = null) {
     this.Spec = Spec;
 };
 
-function WowheadLink(Id, Name, Type = linkType.item) {
+function WowheadLink(Id, Name, Type = linkType.item, Comment = null) {
     this.Id = Id;
     this.Name = Name;
     this.Type = Type;
+    this.Comment = Comment;
 };
 
 function ItemSlotRow(Slot, Best, Second, Third, Enchant) {
