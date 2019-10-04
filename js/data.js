@@ -469,6 +469,267 @@ let tierOneDruid = new TableList(
     ]
 );
 
+let tierTwoDruid = new TableList(
+    classes.druid,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                16900,
+                "Stormrage Cover"
+            ),
+            new WowheadLink(
+                13102,
+                "Cassandra's Grace"
+            ),
+            null,
+            new WowheadLink(
+                11622,
+                "Lesser Arcanum of Rumination"
+            ),
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
+            ),
+            new WowheadLink(
+                17109,
+                "Choker of Enlightenment"
+            ),
+            new WowheadLink(
+                18723,
+                "Animated Chain Necklace"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                18810,
+                "Wild Growth Spaulders"
+            ),
+            new WowheadLink(
+                16836,
+                "Cenarion Spaulders"
+            ),
+            new WowheadLink(
+                15061,
+                "Living Shoulders"
+            ),
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn"
+            ),
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                13386,
+                "Archivist Cape"
+            ),
+            new WowheadLink(
+                17078,
+                "Sapphiron Drape"
+            ),
+            null,
+            new WowheadLink(
+                20014,
+                "Enchant Cloak - Greater Resistance",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                13346,
+                "Robes of the Exalted"
+            ),
+            new WowheadLink(
+                19145,
+                "Robe of Volatile Power"
+            ),
+            new WowheadLink(
+                16833,
+                "Cenarion Vestments"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                18263,
+                "Flarecore Wraps"
+            ),
+            new WowheadLink(
+                13208,
+                "Bleak Howler Armguards"
+            ),
+            new WowheadLink(
+                16830,
+                "Cenarion Bracers"
+            ),
+            new WowheadLink(
+                20009,
+                "Enchant Bracer - Superior Spirit",
+                linkType.spell
+            ),
+        ),
+
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                12554,
+                "Hands of the Exalted Herald"
+            ),
+            new WowheadLink(
+                13253,
+                "Hands of Power"
+            ),
+            new WowheadLink(
+                16831,
+                "Cenarion Gloves"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                14553,
+                "Sash of Mercy"
+
+            ),
+            new WowheadLink(
+                19136,
+                "Mana Igniting Cord"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                18875,
+                "Salamander Scale Pants"
+            ),
+            new WowheadLink(
+                16901,
+                "Stormrage Legguards"
+            ),
+            new WowheadLink(
+                16835,
+                "Cenarion Leggings"
+            ),
+            new WowheadLink(
+                11622,
+                "Lesser Arcanum of Rumination"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                16829,
+                "Cenarion Boots"
+            ),
+            new WowheadLink(
+                13954,
+                "Verdant Footpads"
+            ),
+            null,
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                13143,
+                "Mark of the Dragon Lord"
+            ),
+            new WowheadLink(
+                19140,
+                "Cauterizing Band"
+            ),
+            new WowheadLink(
+                16058,
+                "Fordring's Seal"
+            ),
+            null
+            // new WowheadLink(
+            //     13178,
+            //     "Rosewine Circle"
+            // ),
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                17064,
+                "Shard of the Scale"
+            ),
+            new WowheadLink(
+                12930,
+                "Briarwood Reed"
+            ),
+            new WowheadLink(
+                11819,
+                "Second Wind"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH
+            itemSlots.mainHand,
+            new WowheadLink(
+                17105,
+                "Aurastone Hammer"
+            ),
+            new WowheadLink(
+                11923,
+                "The Hammer of Grace"
+            ),
+            null,
+            new WowheadLink(
+                22750,
+                "Enchant Weapon - Healing Power",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //OH
+            itemSlots.offHand,
+            new WowheadLink(
+                11928,
+                "Thaurissan's Royal Scepter"
+            ),
+            null,
+            null,
+            null
+        ),
+        new ItemSlotRow( //2h
+            itemSlots.twoHand,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
+            new WowheadLink(
+                11932,
+                "Guiding Stave of Wisdom"
+            ),
+            null,
+            new WowheadLink(
+                22750,
+                "Enchant Weapon - Healing Power",
+                linkType.spell
+            ),
+        ),
+    ]
+);
+
 // #endregion Druid
 
 // #region Hunter

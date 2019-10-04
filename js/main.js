@@ -169,6 +169,9 @@ createTabsNav(1, '1');
 createTabsContainer(1, '1');
 createClassTabFrames(1, '1', tierOnePhaseOne);
 
+//Tier 2 BiS lists
+
+
 //Dynamically created tabs don't get the normal binding from Bootstrap, so we do it manually.
 $(".nav-tabs").on("click", "a", function (e) {
     e.preventDefault();
