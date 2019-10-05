@@ -177,20 +177,61 @@ createTabsContainer(3, '2');
 createClassTabFrames(3, '2', tierTwoPhaseThree);
 
 //Offset when jumping to anchors
-const shiftWindow = function () { scrollBy(0, -70); };
+// const shiftWindow = function () { scrollBy(0, -70); };
 
-window.addEventListener("hashchange", shiftWindow);
+// window.addEventListener("hashchange", shiftWindow);
+// $(document).ready(function () {
+//     if (location.hash) shiftWindow();
+// });
+
+// //Set active on nav click
+// $(".navbar-nav >.nav-item").on("click", function (e) {
+//     $("ul.navbar-nav > li.nav-item").removeClass("active");
+//     $(this).addClass("active");
+// });
+
+
 $(document).ready(function () {
-    if (location.hash) shiftWindow();
+    $(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+      
+        var target = this.hash,
+            // menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 1500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
 });
 
-//Set active on nav click
-$(".navbar-nav >.nav-item").on("click", function (e) {
-    $("ul.navbar-nav > li.nav-item").removeClass("active");
-    $(this).addClass("active");
-});
+function onScroll(event){
+    var scrollPos = $(document).scrollTop() + 140;
+    $('.navbar-nav a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.navbar-nav li').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
 
-
+//Class selector handler
 $('.class-selector > .nav-item > a').on('click', function (e) {
     e.preventDefault();
     const tabClass = $(this).data('class');
