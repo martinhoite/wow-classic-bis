@@ -1,5 +1,5 @@
-.tab-content,
-h3 {
+h3,
+h4 {
     margin-top: 15px;
 }
 
@@ -7,8 +7,18 @@ td>p {
     margin: 0;
 }
 
+.class-selector {
+    text-align: center;
+    position: fixed;
+    top: 70px;
+    width: 1110px;
+    z-index: 9;
+    background-color: #222;
+}
+
 /* Overwrite Bootstrap */
-.table th, .table td {
+.table th,
+.table td {
     vertical-align: middle;
 }
 

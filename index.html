@@ -31,13 +31,25 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#phase-3">Phase 3</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#phase-4">Phase 4</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <ul class="nav nav-tabs class-selector">
+            <li class="nav-item"><a href="#" data-class="druid" class="druid nav-link active show">Druid</a></li>
+            <li class="nav-item"><a href="#" data-class="hunter" class="hunter nav-link">Hunter</a></li>
+            <li class="nav-item"><a href="#" data-class="mage" class="mage nav-link">Mage</a></li>
+            <li class="nav-item"><a href="#" data-class="paladin" class="paladin nav-link">Paladin</a></li>
+            <li class="nav-item"><a href="#" data-class="priest" class="priest nav-link">Priest</a></li>
+            <li class="nav-item"><a href="#" data-class="rogue" class="rogue nav-link">Rogue</a></li>
+            <li class="nav-item"><a href="#" data-class="warlock" class="warlock nav-link">Warlock</a></li>
+            <li class="nav-item"><a href="#" data-class="warrior" class="warrior nav-link">Warrior</a></li>
+        </ul>
+    </div>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -48,7 +60,7 @@
         <div class="row">
             <div id="phase-2" class="col-lg-12 text-center">
                 <h2 class="mt-5">Phase 2</h1>
-                <h3>We're skipping phase 2 for now, as it's only Dire Maul that matters</h3>
+                    <h3>We're skipping phase 2 for now, as it's only Dire Maul that matters</h3>
             </div>
         </div>
         <div class="row">
@@ -59,7 +71,7 @@
     </div>
 
     <template id="tabFrame">
-        <article class="tab-pane fade" id="##tabFrameId##">
+        <article class="tab-pane fade ##tabFrameClass##" id="##tabFrameId##">
         </article>
     </template>
 
@@ -85,7 +97,8 @@
         </tbody>
     </template>
     <!-- #region Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/objects.js"></script>
     <script src="js/data.js"></script>
