@@ -185,8 +185,8 @@ $(document).ready(function () {
 });
 
 //Set active on nav click
-$(".nav-item").on("click", function (e) {
-    $("li.nav-item").removeClass("active");
+$(".navbar-nav >.nav-item").on("click", function (e) {
+    $("ul.navbar-nav > li.nav-item").removeClass("active");
     $(this).addClass("active");
 });
 
