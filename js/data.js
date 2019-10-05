@@ -475,17 +475,24 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //Head
             itemSlots.head,
             new WowheadLink(
+                19375,
+                "Mish'undare, Circlet of the Mind Flayer",
+                linkType.item,
+                "Crit build"
+            ),
+            new WowheadLink(
+                19132,
+                "Crystal Adorned Crown",
+                linkType.item,
+                "Non-Crit build"
+            ),
+            new WowheadLink(
                 16900,
                 "Stormrage Cover"
             ),
             new WowheadLink(
-                13102,
-                "Cassandra's Grace"
-            ),
-            null,
-            new WowheadLink(
-                11622,
-                "Lesser Arcanum of Rumination"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -495,12 +502,12 @@ let tierTwoDruid = new TableList(
                 "Choker of the Fire Lord"
             ),
             new WowheadLink(
-                17109,
-                "Choker of Enlightenment"
-            ),
-            new WowheadLink(
                 18723,
                 "Animated Chain Necklace"
+            ),
+            new WowheadLink(
+                19371,
+                "Pendant of the Fallen Dragon"
             ),
             null
         ),
@@ -511,12 +518,12 @@ let tierTwoDruid = new TableList(
                 "Wild Growth Spaulders"
             ),
             new WowheadLink(
-                16836,
+                16902,
                 "Cenarion Spaulders"
             ),
             new WowheadLink(
-                15061,
-                "Living Shoulders"
+                16836,
+                "Cenarion Spaulders"
             ),
             new WowheadLink(
                 18182,
@@ -526,14 +533,17 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
-                13386,
-                "Archivist Cape"
+                19430,
+                "Shroud of Pure Thought"
             ),
             new WowheadLink(
-                17078,
-                "Sapphiron Drape"
+                18510,
+                "Hide of the Wild"
             ),
-            null,
+            new WowheadLink(
+                18208,
+                "Drape of Benediction"
+            ),
             new WowheadLink(
                 20014,
                 "Enchant Cloak - Greater Resistance",
@@ -551,8 +561,8 @@ let tierTwoDruid = new TableList(
                 "Robe of Volatile Power"
             ),
             new WowheadLink(
-                16833,
-                "Cenarion Vestments"
+                16897,
+                "Stormrage Chestguard"
             ),
             new WowheadLink(
                 20025,
@@ -563,20 +573,20 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
+                16904,
+                "Stormrage Bracers"
+            ),
+            new WowheadLink(
                 18263,
                 "Flarecore Wraps"
             ),
             new WowheadLink(
-                13208,
-                "Bleak Howler Armguards"
+                18525,
+                "Bracers of Prosperity"
             ),
             new WowheadLink(
-                16830,
-                "Cenarion Bracers"
-            ),
-            new WowheadLink(
-                20009,
-                "Enchant Bracer - Superior Spirit",
+                23802,
+                "Enchant Bracer - Healing Power",
                 linkType.spell
             ),
         ),
@@ -584,35 +594,41 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
+                16899,
+                "Stormrage Handguards"
+            ),
+            new WowheadLink(
                 12554,
                 "Hands of the Exalted Herald"
             ),
             new WowheadLink(
-                13253,
-                "Hands of Power"
-            ),
-            new WowheadLink(
-                16831,
-                "Cenarion Gloves"
+                18309,
+                "Gloves of Restoration"
             ),
             null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                14553,
-                "Sash of Mercy"
-
+                19162,
+                "Corehound Belt"
             ),
             new WowheadLink(
-                19136,
-                "Mana Igniting Cord"
+                18327,
+                "Whipvine Cord"
             ),
-            null,
+            new WowheadLink(
+                19400,
+                "Firemaw's Clutch"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
             itemSlots.legs,
+            new WowheadLink(
+                19385,
+                "Empowered Leggings"
+            ),
             new WowheadLink(
                 18875,
                 "Salamander Scale Pants"
@@ -622,25 +638,26 @@ let tierTwoDruid = new TableList(
                 "Stormrage Legguards"
             ),
             new WowheadLink(
-                16835,
-                "Cenarion Leggings"
-            ),
-            new WowheadLink(
-                11622,
-                "Lesser Arcanum of Rumination"
+                18330,
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
-                16829,
-                "Cenarion Boots"
+                19437,
+                "Boots of Pure Thought"
             ),
             new WowheadLink(
-                13954,
-                "Verdant Footpads"
+                16898,
+                "Stormrage Boots",
+                linkType.item,
+                "Crit Build"
             ),
-            null,
+            new WowheadLink(
+                19131,
+                "Snowblind Shoes"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
@@ -650,50 +667,53 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                13143,
-                "Mark of the Dragon Lord"
+                19382,
+                "Pure Elementium Band"
             ),
             new WowheadLink(
                 19140,
                 "Cauterizing Band"
             ),
             new WowheadLink(
-                16058,
-                "Fordring's Seal"
+                19397,
+                "Ring of Blackrock"
             ),
             null
-            // new WowheadLink(
-            //     13178,
-            //     "Rosewine Circle"
-            // ),
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                19395,
+                "Rejuvenating Gem"
+            ),
+            new WowheadLink(
+                19379,
+                "Neltharion's Tear",
+                linkType.item,
+                "Crit Build"
+            ),
+            new WowheadLink(
                 17064,
                 "Shard of the Scale"
-            ),
-            new WowheadLink(
-                12930,
-                "Briarwood Reed"
-            ),
-            new WowheadLink(
-                11819,
-                "Second Wind"
             ),
             null
         ),
         new ItemSlotRow( //MH
             itemSlots.mainHand,
             new WowheadLink(
-                17105,
-                "Aurastone Hammer"
+                19360,
+                "Lok'amir il Romathis"
             ),
             new WowheadLink(
-                11923,
-                "The Hammer of Grace"
+                17070,
+                "Fang of the Mystics",
+                linkType.item,
+                "Crit Build"
             ),
-            null,
+            new WowheadLink(
+                19347,
+                "Claw of Chromaggus"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
@@ -703,24 +723,35 @@ let tierTwoDruid = new TableList(
         new ItemSlotRow( //OH
             itemSlots.offHand,
             new WowheadLink(
-                11928,
-                "Thaurissan's Royal Scepter"
+                19312,
+                "Lei of the Lifegiver"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18523,
+                "Brightly Glowing Stone"
+            ),
+            new WowheadLink(
+                19366,
+                "Master Dragonslayer's Orb"
+            ),
             null
         ),
         new ItemSlotRow( //2h
             itemSlots.twoHand,
             new WowheadLink(
-                18842,
-                "Staff of Dominance"
+                19356,
+                "Staff of the Shadow Flame"
             ),
             new WowheadLink(
-                11932,
-                "Guiding Stave of Wisdom"
+                17113,
+                "Amberseal Keeper"
             ),
-            null,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance",
+                linkType.item,
+                "Crit-Build"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
