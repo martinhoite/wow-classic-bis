@@ -170,6 +170,9 @@ createTabsContainer(1, '1');
 createClassTabFrames(1, '1', tierOnePhaseOne);
 
 //Tier 2 BiS lists
+createTabsNav(3, '2');
+createTabsContainer(3, '2');
+createClassTabFrames(3, '2', tierTwoPhaseThree);
 
 
 //Dynamically created tabs don't get the normal binding from Bootstrap, so we do it manually.

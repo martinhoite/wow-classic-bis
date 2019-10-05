@@ -4844,3 +4844,7 @@ var tierOnePhaseOne = [
     tierOneWarriorDPS,
     tierOneWarriorTank
 ];
+
+var tierTwoPhaseThree = [
+    tierTwoDruid
+]
