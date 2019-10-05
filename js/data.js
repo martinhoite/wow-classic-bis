@@ -740,7 +740,9 @@ let tierTwoDruid = new TableList(
             itemSlots.twoHand,
             new WowheadLink(
                 19356,
-                "Staff of the Shadow Flame"
+                "Staff of the Shadow Flame",
+                linkType.item,
+                "Crit-Build"
             ),
             new WowheadLink(
                 17113,
