@@ -1,6 +1,6 @@
 function createTabsNav(phaseNumber, tier) {
-    let tabsNav = $(document.createElement('ul'));
-    tabsNav.addClass('nav nav-tabs');
+    // let tabsNav = $(document.createElement('ul'));
+    // tabsNav.addClass('nav nav-tabs');
     let phaseContainer = $('#phase-' + phaseNumber);
     let containerHeader = $(document.createElement('h3'));
     containerHeader.text('Tier: ' + tier);
@@ -26,7 +26,7 @@ function createTabsNav(phaseNumber, tier) {
     //     $(tabsNav).append(tabsNavItem);
     // });
 
-    $(phaseContainer).append(tabsNav);
+    // $(phaseContainer).append(tabsNav);
 };
 
 function createTabsContainer(phaseNumber, tier) {
