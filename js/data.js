@@ -3287,7 +3287,9 @@ let tierTwoRogue = new TableList(
             ),
             new WowheadLink(
                 15063,
-                "Devilsaur Gauntlets"
+                "Devilsaur Gauntlets",
+                linkType.item,
+                "Keep set until you can replace both"
             ),
             new WowheadLink(
                 20012,
@@ -3377,12 +3379,14 @@ let tierTwoRogue = new TableList(
                 "Drake Fang Talisman"
             ),
             new WowheadLink(
-                18465,
-                "Royal Seal of Eldre'Thalas"
-            ),
-            new WowheadLink(
                 11815,
                 "Hand of Justice"
+            ),
+            new WowheadLink(
+                18465,
+                "Royal Seal of Eldre'Thalas",
+                linkType.item,
+                "Better than HoJ if you need the hit"
             ),
             null
         ),
