@@ -2839,6 +2839,10 @@ let preRaidRogue = new TableList(
                 "Alcor's Sunrazor"
             ),
             new WowheadLink(
+                13368,
+                "Bonescraper",
+            ),
+            new WowheadLink(
                 12783,
                 "Heartseeker",
                 linkType.item,
@@ -2883,10 +2887,13 @@ let tierOneRogue = new TableList(
                 "Bloodfang Hood"
             ),
             new WowheadLink(
+                16821,
+                "Nightslayer Cover"
+            ),
+            new WowheadLink(
                 13404,
                 "Mask of the Unforgiven"
             ),
-            null,
             new WowheadLink(
                 11647,
                 "Lesser Arcanum of Voracity"
@@ -3024,10 +3031,15 @@ let tierOneRogue = new TableList(
                 "Bloodfang Pants"
             ),
             new WowheadLink(
-                15062,
-                "Devilsaur Leggings"
+                16822,
+                "Nightslayer Pants",
             ),
-            null,
+            new WowheadLink(
+                15062,
+                "Devilsaur Leggings",
+                linkType.item,
+                "Keep set until you can replace both"
+            ),
             new WowheadLink(
                 11647,
                 "Lesser Arcanum of Voracity"
@@ -3154,10 +3166,13 @@ let tierTwoRogue = new TableList(
                 "Bloodfang Hood"
             ),
             new WowheadLink(
+                16821,
+                "Nightslayer Cover"
+            ),
+            new WowheadLink(
                 13404,
                 "Mask of the Unforgiven"
             ),
-            null,
             new WowheadLink(
                 11647,
                 "Lesser Arcanum of Voracity"
@@ -3166,6 +3181,10 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Neck
             itemSlots.neck,
             new WowheadLink(
+                19377,
+                "Prestor's Talisman of Connivery"
+            ),
+            new WowheadLink(
                 18404,
                 "Onyxia Tooth Pendant"
             ),
@@ -3173,14 +3192,16 @@ let tierTwoRogue = new TableList(
                 15411,
                 "Mark of Fordring"
             ),
-            new WowheadLink(
-                11933,
-                "Imperial Jewel"
-            ),
             null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
+            new WowheadLink(
+                16832,
+                "Bloodfang Spaulders",
+                linkType.item,
+                "Best with 8 set"
+            ),
             new WowheadLink(
                 16823,
                 "Nightslayer Shoulders Pads"
@@ -3190,10 +3211,6 @@ let tierTwoRogue = new TableList(
                 "Truestrike Shoulders"
             ),
             new WowheadLink(
-                12082,
-                "Wyrmhide Spaulders"
-            ),
-            new WowheadLink(
                 18182,
                 "Chromatic Mantle of the Dawn"
             )
@@ -3201,16 +3218,16 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
+                19398,
+                "Cloak of Firemaw"
+            ),
+            new WowheadLink(
                 13340,
                 "Cape of the Black Baron"
             ),
             new WowheadLink(
                 17102,
                 "Cloak of the Shrouded Mists"
-            ),
-            new WowheadLink(
-                13397,
-                "Stoneskin Gargoyle Cape"
             ),
             new WowheadLink(
                 13882,
@@ -3221,16 +3238,16 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Chest
             itemSlots.chest,
             new WowheadLink(
+                16905,
+                "Bloodfang Chestpiece"
+            ),
+            new WowheadLink(
                 16820,
                 "Nightslayer Chestpiece"
             ),
             new WowheadLink(
                 14637,
                 "Cadaverous Armor"
-            ),
-            new WowheadLink(
-                12603,
-                "Nightbrace Tunic"
             ),
             new WowheadLink(
                 20025,
@@ -3241,16 +3258,16 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
+                16911,
+                "Bloodfang Bracers"
+            ),
+            new WowheadLink(
                 16825,
                 "Nightslayer Bracers"
             ),
             new WowheadLink(
                 13120,
                 "Deepfury Bracers"
-            ),
-            new WowheadLink(
-                12966,
-                "Blackmist Armguards"
             ),
             new WowheadLink(
                 20010,
@@ -3261,6 +3278,10 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
+                16907,
+                "Bloodfang Gloves"
+            ),
+            new WowheadLink(
                 16826,
                 "Nightslayer Gloves"
             ),
@@ -3268,7 +3289,6 @@ let tierTwoRogue = new TableList(
                 15063,
                 "Devilsaur Gauntlets"
             ),
-            null,
             new WowheadLink(
                 20012,
                 "Enchant Gloves - Greater Agility",
@@ -3278,6 +3298,10 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
+                16910,
+                "Bloodfang Belt"
+            ),
+            new WowheadLink(
                 16827,
                 "Nightslayer Belt"
             ),
@@ -3285,7 +3309,6 @@ let tierTwoRogue = new TableList(
                 13252,
                 "Cloudrunner Girdle"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Legs
@@ -3295,10 +3318,15 @@ let tierTwoRogue = new TableList(
                 "Bloodfang Pants"
             ),
             new WowheadLink(
-                15062,
-                "Devilsaur Leggings"
+                16822,
+                "Nightslayer Pants"
             ),
-            null,
+            new WowheadLink(
+                15062,
+                "Devilsaur Leggings",
+                linkType.item,
+                "Keep set until you can replace both"
+            ),
             new WowheadLink(
                 11647,
                 "Lesser Arcanum of Voracity"
@@ -3307,16 +3335,18 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
+                16906,
+                "Bloodfang Boots",
+                linkType.item,
+                "Best with 8 set"
+            ),
+            new WowheadLink(
+                19381,
+                "Boots of the Shadow Flame"
+            ),
+            new WowheadLink(
                 16824,
                 "Nightslayer Boots"
-            ),
-            new WowheadLink(
-                12553,
-                "Swiftwalker Boots"
-            ),
-            new WowheadLink(
-                13210,
-                "Pads of the Dread Wolf"
             ),
             new WowheadLink(
                 20023,
@@ -3327,6 +3357,10 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
+                19384,
+                "Master Dragonslayer's Ring"
+            ),
+            new WowheadLink(
                 17063,
                 "Band of Accuria"
             ),
@@ -3334,30 +3368,30 @@ let tierTwoRogue = new TableList(
                 17713,
                 "Blackstone Ring"
             ),
-            new WowheadLink(
-                13098,
-                "Painweaver Band"
-            ),
             null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                19406,
+                "Drake Fang Talisman"
+            ),
+            new WowheadLink(
+                18465,
+                "Royal Seal of Eldre'Thalas"
+            ),
+            new WowheadLink(
                 11815,
                 "Hand of Justice"
-            ),
-            new WowheadLink(
-                13965,
-                "Blackhand's Breadth"
-            ),
-            new WowheadLink(
-                12065,
-                "Ward of the Elements"
             ),
             null
         ),
         new ItemSlotRow( //MH
             itemSlots.mainHand,
+            new WowheadLink(
+                19352,
+                "Chromatically Tempered Sword"
+            ),
             new WowheadLink(
                 17075,
                 "Vis'kag the Bloodletter"
@@ -3366,7 +3400,6 @@ let tierTwoRogue = new TableList(
                 12940,
                 "Dal'Rend's Sacred Charge"
             ),
-            null,
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
@@ -3376,16 +3409,16 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //OH
             itemSlots.offHand,
             new WowheadLink(
+                19351,
+                "Maladath, Runed Blade of the Black Flight"
+            ),
+            new WowheadLink(
                 18832,
                 "Brutality Blade"
             ),
             new WowheadLink(
                 12939,
                 "Dal'Rend's Tribal Guardian"
-            ),
-            new WowheadLink(
-                15806,
-                "Mirah's Song"
             ),
             new WowheadLink(
                 20034,
@@ -3400,12 +3433,14 @@ let tierTwoRogue = new TableList(
                 "Striker's Mark"
             ),
             new WowheadLink(
-                2100,
-                "Precisely Calibrated Boomstick"
+                12651,
+                "Blackcrow",
+                linkType.item,
+                "You need the hit."
             ),
             new WowheadLink(
-                12651,
-                "Blackcrow"
+                2100,
+                "Precisely Calibrated Boomstick"
             ),
             new WowheadLink(
                 10548,
