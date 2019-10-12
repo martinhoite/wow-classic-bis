@@ -1042,6 +1042,7 @@ let preRaidHunter = new TableList(
         ),
     ]
 );
+
 let tierOneHunter = new TableList(
     classes.hunter,
     [
@@ -1250,6 +1251,264 @@ let tierOneHunter = new TableList(
                 "Rhok'delar, Longbow of the Ancient Keepers"
             ),
             null,
+            null,
+            new WowheadLink(
+                18283,
+                "Biznicks 247x128 Accurascope"
+            ),
+        ),
+    ]
+);
+
+let tierTwoHunter = new TableList(
+    classes.hunter,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                16939,
+                "Dragonstalker’s Helm"
+            ),
+            new WowheadLink(
+                16846,
+                "Giantstalker's Helmet"
+            ),
+            null,
+            new WowheadLink(
+                11647,
+                "Lesser Arcanum of Voracity"
+            ),
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                19377,
+                "Prestor’s Talisman of Connivery"
+            ),
+            new WowheadLink(
+                18404,
+                "Onyxia Tooth Pendant"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                16937,
+                "Dragonstalker’s Spaulders"
+            ),
+            new WowheadLink(
+                16848,
+                "Giantstalker's Epaulets"
+            ),
+            null,
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn"
+            ),
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                17102,
+                "Cloak of the Shrouded Mists"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                13882,
+                "Enchant Cloak - Lesser Agility",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                16942,
+                "Dragonstalker’s Breastplate"
+            ),
+            new WowheadLink(
+                16845,
+                "Giantstalker's Breastplate"
+            ),
+            null,
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                16935,
+                "Dragonstalker’s Bracers"
+            ),
+            new WowheadLink(
+                16850,
+                "Giantstalker's Bracers"
+            ),
+            null,
+            new WowheadLink(
+                7779,
+                "Enchant Bracer - Minor Agility",
+                linkType.spell
+            ),
+        ),
+
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                16940,
+                "Dragonstalker’s Gauntlets"
+            ),
+            new WowheadLink(
+                16852,
+                "Giantstalker's Gloves"
+            ),
+            null,
+            new WowheadLink(
+                20012,
+                "Enchant Gloves - Greater Agility",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                16936,
+                "Dragonstalker’s Belt"
+            ),
+            new WowheadLink(
+                16851,
+                "Giantstalker's Belt"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                16938,
+                "Dragonstalker’s Legguards"
+            ),
+            new WowheadLink(
+                16847,
+                "Giantstalker's Leggings"
+            ),
+            null,
+            new WowheadLink(
+                11647,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                16941,
+                "Dragonstalker’s Greaves"
+            ),
+            new WowheadLink(
+                16849,
+                "Giantstalker's Boots"
+            ),
+            null,
+            new WowheadLink(
+                13890,
+                "Enchant Boots – Minor Speed",
+                linkType.spell
+            )
+            // new WowheadLink(
+            //     20023,
+            //     "Enchant Boots - Greater Agility",
+            //     linkType.spell
+            // )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                18821,
+                "Quick Strike Ring"
+            ),
+            new WowheadLink(
+                17063,
+                "Band of Accuria"
+            ),
+            new WowheadLink(
+                19325,
+                "Don Julio’s Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19406,
+                "Drake Fang Talisman"
+            ),
+            new WowheadLink(
+                18472,
+                "Royal Seal of Eldre’Thalas"
+            ),
+            new WowheadLink(
+                13965,
+                "Blackhand's Breadth"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH
+            itemSlots.mainHand,
+            new WowheadLink(
+                18832,
+                "Brutality Blade"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                23800,
+                "Enchant Weapon – Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH
+            itemSlots.offHand,
+            new WowheadLink(
+                18805,
+                "Core Hound Tooth"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                23800,
+                "Enchant Weapon – Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //2h
+            itemSlots.twoHand,
+            new WowheadLink(
+                18715,
+                "Lok'delar, Stave of the Ancient Keepers"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                20036,
+                "Enchant 2H Weapon - Major Intellect",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                19361,
+                "Ashjre’thul, Crossbow of Smiting"
+            ),
+            new WowheadLink(
+                18713,
+                "Rhok'delar, Longbow of the Ancient Keepers"
+            ),
             null,
             new WowheadLink(
                 18283,
@@ -2382,6 +2641,226 @@ let tierOnePaladin = new TableList(
                 "Thaurissan's Royal Scepter"
             ),
             null,
+            null,
+            null
+        ),
+    ]
+);
+
+let tierTwoPaladin = new TableList(
+    classes.paladin,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                19375,
+                "Mish'undare, Circlet of the Mind Flayer"
+            ),
+            new WowheadLink(
+                10504,
+                "Green Lens"
+            ),
+            new WowheadLink(
+                16955,
+                "Judgement Crown"
+            ),
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Voracity"
+            ),
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18723,
+                "Animated Chain Necklace"
+            ),
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                18810,
+                "Wild Growth Spaulders"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn"
+            ),
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                19430,
+                "Shroud of Pure Thought"
+            ),
+            new WowheadLink(
+                13386,
+                "Archivist Cape"
+            ),
+            null,
+            new WowheadLink(
+                20014,
+                "Enchant Cloak - Greater Resistance",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                19145,
+                "Robe of Volatile Power"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                13969,
+                "Loomguard Armbraces"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                20008,
+                "Enchant Bracer - Greater Intellect",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                19390,
+                "Taut Dragonhide Gloves"
+            ),
+            new WowheadLink(
+                10787,
+                "Atal'ai Gloves"
+            ),
+            new WowheadLink(
+                12554,
+                "Hands of the Exalted Herald"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                19162,
+                "Corehound Belt"
+            ),
+            null,
+            null,
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                19385,
+                "Empowered Leggings"
+            ),
+            new WowheadLink(
+                18875,
+                "Salamander Scale Pants"
+            ),
+            null,
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                19437,
+                "Boots of Pure Thought"
+            ),
+            new WowheadLink(
+                13954,
+                "Verdant Footpads"
+            ),
+            null,
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19382,
+                "Pure Elementium Band"
+            ),
+            new WowheadLink(
+                19140,
+                "Cauterizing Band"
+            ),
+            new WowheadLink(
+                19140,
+                "Cauterizing Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19395,
+                "Rejuvenating Gem"
+            ),
+            new WowheadLink(
+                17064,
+                "Shard of the Scale"
+            ),
+            new WowheadLink(
+                12930,
+                "Briarwood Reed"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH
+            itemSlots.mainHand,
+            new WowheadLink(
+                19360,
+                "Lok'amir il Romathis"
+            ),
+            new WowheadLink(
+                17103,
+                "Azuresong Mageblade"
+            ),
+            new WowheadLink(
+                17105,
+                "Aurastone Hammer"
+            ),
+            new WowheadLink(
+                22750,
+                "Enchant Weapon - Healing Power",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH
+            itemSlots.offHand,
+            new WowheadLink(
+                19312,
+                "Lei of the Lifegiver"
+            ),
+            new WowheadLink(
+                11928,
+                "Thaurissan's Royal Scepter"
+            ),
             null,
             null
         ),
@@ -5431,5 +5910,7 @@ var tierOnePhaseOne = [
 var tierTwoPhaseThree = [
     tierTwoDruid,
     tierTwoRogue,
+    tierTwoPaladin,
+    tierTwoHunter,
     tierTwoMage
 ]
