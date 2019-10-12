@@ -4988,6 +4988,286 @@ let tierOneWarlock = new TableList(
     ]
 );
 
+let tierTwoWarlock = new TableList(
+    classes.warlock,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                19375,
+                "Mish'undare, Circlet of the Mind Flayer"
+            ),
+            new WowheadLink(
+                23255,
+                "Champion's Dreadweave Cowl",
+                linkType.item,
+                "PvP Rank 10"
+            ),
+            new WowheadLink(
+                16929,
+                "Nemesis Skullcap"
+            ),
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Voracity"
+            ),
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18814,
+                "Choker of the Firelord"
+            ),
+            new WowheadLink(
+                18691,
+                "Dark Advisor's Pendant"
+            ),
+            new WowheadLink(
+                17109,
+                "Choker of Enlightenment"
+            ),
+            null,
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                19370,
+                "Mantle of the Blackwing Cabal"
+            ),
+            new WowheadLink(
+                23311,
+                "Lieutenant Commander's Dreadweave Spaulders"
+            ),
+            new WowheadLink(
+                14335,
+                "Eternal Spaulders"
+            ),
+            new WowheadLink(
+                18182,
+                "Chromatic mantle of the Dawn"
+            ),
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                19378,
+                "Cloak of the Brood Lord"
+            ),
+            new WowheadLink(
+                13386,
+                "Archivist Cape of Shadow Wrath"
+            ),
+            new WowheadLink(
+                11623,
+                "Master's Cloak of Shadow Wrath"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Cloak - Greater Resistance",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                19145,
+                "Robe of Volatile Power"
+            ),
+            new WowheadLink(
+                14153,
+                "Robe of the Void"
+            ),
+            new WowheadLink(
+                16809,
+                "Felheart Robes"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                19374,
+                "Bracers of Arcane Accuracy"
+            ),
+            new WowheadLink(
+                19595,
+                "Dryad's Wrist Bindings"
+            ),
+            new WowheadLink(
+                13409,
+                "Tearfall Bracers of Shadow Wrath"
+            ),
+            new WowheadLink(
+                20008,
+                "Enchant Bracer - Greater intellect",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                19133,
+                "Fel Infused Leggings"
+            ),
+            new WowheadLink(
+                16930,
+                "Nemesis Leggings"
+            ),
+            new WowheadLink(
+                13170,
+                "Skyshroud leggings"
+            ),
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Voracity"
+            ),
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                19407,
+                "Ebony Flame Gloves"
+            ),
+            new WowheadLink(
+                14146,
+                "Gloves of Spell Mastery"
+            ),
+            new WowheadLink(
+                16805,
+                "Felheart Gloves"
+            ),
+            null,
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                19136,
+                "Mana Igniting Cord"
+            ),
+            new WowheadLink(
+                18809,
+                "Sash of Whispered Secrets"
+            ),
+            new WowheadLink(
+                1162,
+                "Bhan'thok Sash"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                19131,
+                "Snowblind Shoes"
+            ),
+            new WowheadLink(
+                18735,
+                "Maleki's Footwraps"
+            ),
+            new WowheadLink(
+                10247,
+                "Master's Boots of Shadow Wrath"
+            ),
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19434,
+                "Band of Dark Dominion"
+            ),
+            new WowheadLink(
+                19403,
+                "Band of Forced Concentration"
+            ),
+            new WowheadLink(
+                19147,
+                "Ring of Spell Power"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19379,
+                "Neltharion's Tear"
+            ),
+            new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power"
+            ),
+            new WowheadLink(
+                12930,
+                "Briarwood Reed"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Main Hand
+            itemSlots.mainHand,
+            new WowheadLink(
+                17103,
+                "Azuresong Mageblade"
+            ),
+            new WowheadLink(
+                17719,
+                "Inventor's Focal Sword"
+            ),
+            new WowheadLink(
+                13964,
+                "Witchblade"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Off-hand
+            itemSlots.offHand,
+            new WowheadLink(
+                10796,
+                "Drakestone of Shadow Wrath"
+            ),
+            new WowheadLink(
+                11904,
+                "Spirit of Aquementas"
+            ),
+            null,
+            null,
+        ),
+        new ItemSlotRow(//2H
+            itemSlots.twoHand,
+            new WowheadLink(
+                19356,
+                "Staff of the Shadow Flame"
+            ),
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                15283,
+                "Lunar Wand of Shadow Wrath"
+            ),
+            new WowheadLink(
+                13396,
+                "Skul's Ghastly Touch",
+            ),
+            null,
+            null
+        )
+    ]
+);
+
 // #endregion Warlock
 
 // #region Warrior
@@ -6190,9 +6470,10 @@ var tierOnePhaseOne = [
 
 var tierTwoPhaseThree = [
     tierTwoDruid,
-    tierTwoRogue,
+    tierTwoHunter,
+    tierTwoMage,
     tierTwoPaladin,
     tierTwoPriest,
-    tierTwoHunter,
-    tierTwoMage
+    tierTwoRogue,
+    tierTwoWarlock
 ]
