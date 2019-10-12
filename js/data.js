@@ -3340,6 +3340,287 @@ let tierOnePriest = new TableList(
     ]
 );
 
+let tierTwoPriest = new TableList(
+    classes.priest,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                19375,
+                "Mish'undare, Circlet of the Mind Flayer"
+            ),
+            new WowheadLink(
+                10504,
+                "Green Lens of Healing"
+            ),
+            new WowheadLink(
+                13102,
+                "Cassandra's Grace"
+            ),
+            new WowheadLink(
+                11649,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
+            ),
+            new WowheadLink(
+                18723,
+                "Animated Chain Necklace"
+            ),
+            new WowheadLink(
+                13141,
+                "Tooth of Gnarr"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                19370,
+                "Mantle of the Blackwing Cabal"
+            ),
+            new WowheadLink(
+                18681,
+                "Burial Shawl"
+            ),
+            new WowheadLink(
+                13013,
+                "Elder Wizard's Mantle"
+            ),
+            new WowheadLink(
+                18182,
+                "Chromatic mantle of the Dawn"
+            )
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                19430,
+                "Shroud of Pure Thought"
+            ),
+            new WowheadLink(
+                19378,
+                "Cloak of the Brood Lord"
+            ),
+            new WowheadLink(
+                13386,
+                "Archivist Cape of Healing"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Cloak - Greater Resistance",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                14154,
+                "Truefaith Vestments"
+            ),
+            new WowheadLink(
+                16923,
+                "Robes of Transcendence"
+            ),
+            new WowheadLink(
+                13346,
+                "Robes of the Exalted"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                16926,
+                "Bindings of Transcendence"
+            ),
+            new WowheadLink(
+                16819,
+                "Vambraces of Prophecy"
+            ),
+            new WowheadLink(
+                18263,
+                "Flarecore Wraps"
+            ),
+            new WowheadLink(
+                20009,
+                "Enchant Bracer - Superior Spirit",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                19385,
+                "Empowered Leggings"
+            ),
+            new WowheadLink(
+                16922,
+                "Leggings of Transcendence"
+            ),
+            new WowheadLink(
+                11841,
+                "Senior Designer's Pantaloons"
+            ),
+            null,
+            new WowheadLink(
+                11649,
+                "Lesser Arcanum of Voracity"
+            ),
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                16920,
+                "Handguards of Transcendence"
+            ),
+            new WowheadLink(
+                19369,
+                "Gloves of Rapid Evolution"
+            ),
+            new WowheadLink(
+                12554,
+                "Hands of the Exalted Herald"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                16925,
+                "Belt of Transcendence"
+            ),
+            new WowheadLink(
+                16817,
+                "Girdle of Prophecy"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                16919,
+                "Boots of Transcendence"
+            ),
+            new WowheadLink(
+                19391,
+                "Shimmering Geta"
+            ),
+            new WowheadLink(
+                16811,
+                "Boots of Prophecy"
+            ),
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19382,
+                "Pure Elementium Band"
+            ),
+            new WowheadLink(
+                19140,
+                "Cauterizing Band"
+            ),
+            new WowheadLink(
+                19397,
+                "Ring of Blackrock"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19395,
+                "Rejuvenating Gem"
+            ),
+            new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power"
+            ),
+            new WowheadLink(
+                17064,
+                "Shard of the Scale"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH
+            itemSlots.mainHand,
+            new WowheadLink(
+                19360,
+                "Lok'amir il Romathis"
+            ),
+            new WowheadLink(
+                17105,
+                "Aurastone Hammer"
+            ),
+            null,
+            new WowheadLink(
+                22750,
+                "Enchant Weapon - Healing Power",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH
+            itemSlots.offHand,
+            new WowheadLink(
+                19366,
+                "Master Dragonslayer's Orb"
+            ),
+            new WowheadLink(
+                11928,
+                "Thaurissan's Royal Scepter"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //2H
+            itemSlots.twoHand,
+            new WowheadLink(
+                18608,
+                "Benediction"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                22750,
+                "Enchant Weapon - Healing Power",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                19367,
+                "Dragon's Touch",
+            ),
+            new WowheadLink(
+                19435,
+                "Essence Gatherer",
+            ),
+            new WowheadLink(
+                13938,
+                "Bonecreeper Stylus",
+            ),
+            null
+        )
+    ]
+);
+
 // #endregion Priest
 
 // #region Rogue
@@ -5911,6 +6192,7 @@ var tierTwoPhaseThree = [
     tierTwoDruid,
     tierTwoRogue,
     tierTwoPaladin,
+    tierTwoPriest,
     tierTwoHunter,
     tierTwoMage
 ]
