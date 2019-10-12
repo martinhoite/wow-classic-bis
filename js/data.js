@@ -1705,6 +1705,277 @@ let tierOneMage = new TableList(
     ]
 );
 
+let tierTwoMage = new TableList(
+    classes.mage,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                19375,
+                "Mish'undare, Circlet of the Mind Flayer"
+            ),
+            new WowheadLink(
+                16795,
+                "Arcanist Crown"
+            ),
+            new WowheadLink(
+                16914,
+                "Netherwind Crown"
+            ),
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Focus"
+            ),
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
+            ),
+            new WowheadLink(
+                17109,
+                "Choker of Enlightenment"
+            ),
+            null,
+            null,
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                19370,
+                "Mantle of the Blackwing Cabal"
+            ),
+            new WowheadLink(
+                11782,
+                "Boreal Mantle"
+            ),
+            null,
+            new WowheadLink(
+                18182,
+                "Chromatic mantle of the Dawn"
+            ),
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                19378,
+                "Cloak of the Brood Lord"
+            ),
+            new WowheadLink(
+                13386,
+                "Archivist Cape of Frozen Wrath"
+            ),
+            new WowheadLink(
+                17078,
+                "Sapphiron Drape"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Cloak - Greater Resistance",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                14152,
+                "Robe of the Archmage"
+            ),
+            new WowheadLink(
+                16916,
+                "Netherwind Robes"
+            ),
+            new WowheadLink(
+                19145,
+                "Robe of Volatile Power"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                19374,
+                "Bracers of Arcane Accuracy"
+            ),
+            new WowheadLink(
+                16918,
+                "Netherwind Bindings"
+            ),
+            new WowheadLink(
+                16799,
+                "Arcanist Bindings"
+            ),
+            new WowheadLink(
+                20008,
+                "Enchant Bracer - Greater Intellect",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                16915,
+                "Netherwind Pants"
+            ),
+            new WowheadLink(
+                16796,
+                "Arcanist Leggings"
+            ),
+            null,
+            new WowheadLink(
+                11648,
+                "Lesser Arcanum of Focus"
+            ),
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                16913,
+                "Netherwind Gloves"
+            ),
+            new WowheadLink(
+                13253,
+                "Hands of Power"
+            ),
+            null,
+            null,
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                19136,
+                "Mana Igniting Cord"
+            ),
+            new WowheadLink(
+                19400,
+                "Firemaw's Clutch"
+            ),
+            new WowheadLink(
+                11662,
+                "Ban'thok Sash"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                19438,
+                "Ringo's Blizzard Boots"
+            ),
+            new WowheadLink(
+                10247,
+                "Arcanist Boots"
+            ),
+            null,
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Ring
+            itemSlots.rings,
+            new WowheadLink(
+                19147,
+                "Ring of Spell Power"
+            ),
+            new WowheadLink(
+                19403,
+                "Band of Forced Concentration"
+            ),
+            new WowheadLink(
+                12543,
+                "Songstone of Ironforge"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power"
+            ),
+            new WowheadLink(
+                19379,
+                "Neltharion's Tear"
+            ),
+            new WowheadLink(
+                19339,
+                "Mind Quickening Gem"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Main Hand
+            itemSlots.mainHand,
+            new WowheadLink(
+                17103,
+                "Azuresong Mageblade"
+            ),
+            new WowheadLink(
+                13964,
+                "Witchblade"
+            ),
+            null,
+            new WowheadLink(
+                22749,
+                "Spell Power",
+                linkType.spell
+            ),
+        ),
+        new ItemSlotRow( //Off-hand
+            itemSlots.offHand,
+            new WowheadLink(
+                10796,
+                "Drakestone of Frozen Wrath"
+            ),
+            new WowheadLink(
+                19142,
+                "Fire Runed Grimoire",
+            ),
+            new WowheadLink(
+                11904,
+                "Spirit of Aquementas",
+            ),
+            null
+        ),
+        new ItemSlotRow( //2H
+            itemSlots.twoHand,
+            new WowheadLink(
+                19356,
+                "Staff of the Shadow Flame"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                22749,
+                "Spell Power",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                19130,
+                "Cold Snap",
+            ),
+            new WowheadLink(
+                15283,
+                "Lunar Wand of Frozen Wrath"
+            ),
+            new WowheadLink(
+                13938,
+                "Bonecreeper Stylus",
+            ),
+            null
+        )
+    ]
+);
+
 // #endregion Mage
 
 // #region Paladin
@@ -5159,5 +5430,6 @@ var tierOnePhaseOne = [
 
 var tierTwoPhaseThree = [
     tierTwoDruid,
-    tierTwoRogue
+    tierTwoRogue,
+    tierTwoMage
 ]
