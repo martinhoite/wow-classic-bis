@@ -1428,16 +1428,16 @@ let tierTwoHunter = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                18821,
-                "Quick Strike Ring"
-            ),
-            new WowheadLink(
                 17063,
                 "Band of Accuria"
             ),
             new WowheadLink(
                 19325,
                 "Don Julio’s Band"
+            ),
+            new WowheadLink(
+                18821,
+                "Quick Strike Ring"
             ),
             null
         ),
@@ -6442,7 +6442,7 @@ let tierOneWarriorDPS = new TableList(
     "DPS"
 );
 
-let tierOneWarriorTank = new TableList(
+let tierTwoWarriorTank = new TableList(
     classes.warrior,
     [
         new ItemSlotRow( //Head
@@ -6785,6 +6785,357 @@ let tierOneWarriorTank = new TableList(
     "Tank"
 );
 
+let tierTwoWarriorDPS = new TableList(
+    classes.warrior,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                12640,
+                "Lionheart Helm"
+            ),
+            new WowheadLink(
+                23244,
+                "Champion's Plate Helm",
+                linkType.item,
+                "Rank 10 PvP"
+            ),
+            new WowheadLink(
+                16542,
+                "Warlord's Plate Headpiece",
+                linkType.item,
+                "Rank 13 PvP"
+            ),
+            new WowheadLink(
+                11645,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18404,
+                "Onyxia Tooth Pendant"
+            ),
+            new WowheadLink(
+                15411,
+                "Mark of Fordring"
+            ),
+            new WowheadLink(
+                11933,
+                "Imperial Jewel"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                23243,
+                "Champion's Plate Shoulders",
+                linkType.item,
+                "Rank 10 PvP"
+            ),
+            new WowheadLink(
+                16544,
+                "Warlord's Plate Shoulders",
+                linkType.item,
+                "Rank 13 PvP"
+            ),
+            new WowheadLink(
+                12927,
+                "Truestrike Shoulders"
+            ),
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn"
+            )
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                18541,
+                "Puissant Cape"
+            ),
+            new WowheadLink(
+                13340,
+                "Cape of the Black Baron"
+            ),
+            new WowheadLink(
+                13397,
+                "Stoneskin Gargoyle Cape"
+            ),
+            new WowheadLink(
+                13882,
+                "Enchant Cloak - Lesser Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                11726,
+                "Savage Gladiator Chain"
+            ),
+            new WowheadLink(
+                22872,
+                "Legionnaire's Plate Hauberk",
+                linkType.item,
+                "Rank 8 PvP"
+            ),
+            new WowheadLink(
+                16541,
+                "Warlord's Plate Armor",
+                linkType.item,
+                "Rank 13 PvP"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                19578,
+                "Berserker Bracers",
+                linkType.item,
+                "WSG Exalted"
+            ),
+            new WowheadLink(
+                19146,
+                "Wristguards of Stability"
+            ),
+            new WowheadLink(
+                12936,
+                "Battleborn Armbraces"
+            ),
+            new WowheadLink(
+                20010,
+                "Enchant Bracer - Superior Strength",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                16548,
+                "General's Plate Gauntlets",
+                linkType.item,
+                "Rank 12 PvP"
+            ),
+            new WowheadLink(
+                22868,
+                "Blood Guard's Plate Gauntlets",
+                linkType.item,
+                "Rank 7 PvP"
+            ),
+            new WowheadLink(
+                15063,
+                "Devilsaur Gauntlets"
+            ),
+            new WowheadLink(
+                20013,
+                "Enchant Gloves - Greater Strength",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                19137,
+                "Onslaught Girdle"
+            ),
+            new WowheadLink(
+                13142,
+                "Brigam Girdle"
+            ),
+            new WowheadLink(
+                13959,
+                "Omokk's Girth Restrainer"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                16543,
+                "General's Plate Leggins",
+                linkType.item,
+                "Rank 12 PvP"
+            ),
+            new WowheadLink(
+                22651,
+                "Outrider's Plate Legguards",
+                linkType.item,
+                "WSG Exalted"
+            ),
+            new WowheadLink(
+                22873,
+                "Legionnaire's Plate Leggings",
+                linkType.item,
+                "Rank 8 PvP"
+            ),
+            new WowheadLink(
+                11645,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                19387,
+                "Chromatic Boots"
+            ),
+            new WowheadLink(
+                16545,
+                "General's Plate Boots",
+                linkType.item,
+                "Rank 12 PvP"
+            ),
+            new WowheadLink(
+                22858,
+                "Blood Guard's Plate Greaves",
+                linkType.item,
+                "Rank 7 PvP"
+            ),
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19325,
+                "Don Julio's Band",
+                linkType.item,
+                "AV Exalted"
+            ),
+            new WowheadLink(
+                19384,
+                "Master Dragonslayer's Ring"
+            ),
+            new WowheadLink(
+                18821,
+                "Quick Strike Ring"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19406,
+                "Drake Fang Talisman"
+            ),
+            new WowheadLink(
+                11815,
+                "Hand of Justice"
+            ),
+            new WowheadLink(
+                13965,
+                "Blackhand's Breadth"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH
+            itemSlots.mainHand,
+            new WowheadLink(
+                17112,
+                "Empyrean Demolisher",
+                linkType.item,
+                "Rank 14 weapons are close"
+            ),
+            new WowheadLink(
+                19352,
+                "Chromatically Tempered Sword",
+                linkType.item,
+                "Best human"
+            ),
+            new WowheadLink(
+                19363,
+                "Crul'shorukh, Edge of Chaos",
+                linkType.item,
+                "Best non human"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH
+            itemSlots.offHand,
+            new WowheadLink(
+                23467,
+                "High Warlord's Quickblade",
+                linkType.item,
+                "Any of the Rank 14 PvP weapons are BiS",
+            ),
+            new WowheadLink(
+                19351,
+                "Maladath, Runed Blade of the Black Flight",
+                linkType.item,
+                "Best human"
+            ),
+            new WowheadLink(
+                19362,
+                "Doom's Edge",
+                linkType.item,
+                "Best non human"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //2H
+            itemSlots.twoHand,
+            new WowheadLink(
+                17076,
+                "Bonereaver's Edge"
+            ),
+            new WowheadLink(
+                19334,
+                "The Untamed Blade",
+                linkType.item,
+                "Best if you fish for procs with Hamstring"
+            ),
+            new WowheadLink(
+                18876,
+                "Grand Marshal's Claymore"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                17069,
+                "Striker's Mark"
+            ),
+            new WowheadLink(
+                17072,
+                "Blastershot Launcher"
+            ),
+            new WowheadLink(
+                18323,
+                "Satyr's Bow"
+            ),
+            new WowheadLink(
+                10548,
+                "Sniper Scope"
+            )
+        )
+    ],
+    "DPS"
+);
+
 // #endregion Warrior
 
 var preRaidPhaseOne = [
@@ -6819,5 +7170,6 @@ var tierTwoPhaseThree = [
     tierTwoPriest,
     tierTwoRogue,
     tierTwoWarlock,
+    tierTwoWarriorDPS,
     tierTwoWarriorTank
 ]
