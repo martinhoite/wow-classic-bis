@@ -171,6 +171,11 @@ createTabsNav(1, '1');
 createTabsContainer(1, '1');
 createClassTabFrames(1, '1', tierOnePhaseOne);
 
+//Phase 2 Pre raid BiS lists
+createTabsNav(2, "Pre raid");
+createTabsContainer(2, "Pre raid");
+createClassTabFrames(2, "Pre raid", preRaidPhaseTwo);
+
 //Tier 2 BiS lists
 createTabsNav(3, '2');
 createTabsContainer(3, '2');
@@ -235,14 +240,14 @@ function onScroll(event){
 $('.class-selector > .nav-item > a').on('click', function (e) {
     e.preventDefault();
     const tabClass = $(this).data('class');
-    const test = 'article.' + tabClass;
+    const article = 'article.' + tabClass;
 
     $('article').removeClass('show active');
 
     $(".class-selector > .nav-item > a").removeClass("active");
-    $(this).addClass("active");
+    $(article).addClass("active");
 
-    $(test).each(function (e) {
+    $(article).each(function (e) {
         const tabId = '#' + this.id;
         $(tabId).addClass("show active");
     });

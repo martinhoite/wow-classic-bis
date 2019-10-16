@@ -3908,6 +3908,298 @@ let preRaidRogue = new TableList(
     ]
 );
 
+let preRaidPhaseTwoRogue = new TableList(
+    classes.rogue,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                13404,
+                "Mask of the Unforgiven"
+            ),
+            new WowheadLink(
+                12587,
+                "Eye of Rend"
+            ),
+            null,
+            new WowheadLink(
+                11647,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                15411,
+                "Mark of Fordring"
+            ),
+            new WowheadLink(
+                11933,
+                "Imperial Jewel"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                12927,
+                "Truestrike Shoulders"
+            ),
+            new WowheadLink(
+                12082,
+                "Wyrmhide Spaulders"
+            ),
+            null,
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn"
+            )
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                13340,
+                "Cape of the Black Baron"
+            ),
+            new WowheadLink(
+                13397,
+                "Stoneskin Gargoyle Cape"
+            ),
+            null,
+            new WowheadLink(
+                13882,
+                "Enchant Cloak - Lesser Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                14637,
+                "Cadaverous Armor"
+            ),
+            new WowheadLink(
+                12603,
+                "Nightbrace Tunic"
+            ),
+            null,
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                18375,
+                "Bracers of the Eclipse"
+            ),
+            new WowheadLink(
+                13120,
+                "Deepfury Bracers"
+            ),
+            new WowheadLink(
+                12966,
+                "Blackmist Armguards"
+            ),
+            new WowheadLink(
+                20010,
+                "Enchant Bracer - Superior Strength",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                15063,
+                "Devilsaur Gauntlets"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                20012,
+                "Enchant Gloves - Greater Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                13252,
+                "Cloudrunner Girdle"
+            ),
+            null,
+            null,
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                15062,
+                "Devilsaur Leggings"
+            ),
+            null,
+            null,
+            new WowheadLink(
+                11647,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                12553,
+                "Swiftwalker Boots"
+            ),
+            new WowheadLink(
+                18506,
+                "Mongoose Boots"
+            ),
+            new WowheadLink(
+                13210,
+                "Pads of the Dread Wolf"
+            ),
+            new WowheadLink(
+                20023,
+                "Enchant Boots - Greater Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                18500,
+                "Tarnished Elven Ring",
+                linkType.item,
+                "2 of these is best"
+            ),
+            new WowheadLink(
+                17713,
+                "Blackstone Ring"
+            ),
+            new WowheadLink(
+                13098,
+                "Painweaver Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                11815,
+                "Hand of Justice"
+            ),
+            new WowheadLink(
+                13965,
+                "Blackhand's Breadth"
+            ),
+            new WowheadLink(
+                18537,
+                "Counterattack Lodestone"
+            ),
+            null
+        ),
+        new ItemSlotRow( //MH Swords
+            itemSlots.mainHandSword,
+            new WowheadLink(
+                12940,
+                "Dal'Rend's Sacred Charge"
+            ),
+            new WowheadLink(
+                15806,
+                "Mirah's Song"
+            ),
+            null,
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH Swords
+            itemSlots.offHandSword,
+            new WowheadLink(
+                12939,
+                "Dal'Rend's Tribal Guardian"
+            ),
+            new WowheadLink(
+                15806,
+                "Mirah's Song"
+            ),
+            null,
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //MH Daggers
+            itemSlots.mainHandDagger,
+            new WowheadLink(
+                12590,
+                "Felstriker"
+            ),
+            new WowheadLink(
+                12783,
+                "Heartseeker"
+            ),
+            new WowheadLink(
+                12791,
+                "Barman Shanker"
+            ),
+            new WowheadLink(
+                20031,
+                "Enchant Weapon - Superior Striking",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH Daggers
+            itemSlots.offHandDagger,
+            new WowheadLink(
+                14555,
+                "Alcor's Sunrazor"
+            ),
+            new WowheadLink(
+                13368,
+                "Bonescraper",
+            ),
+            new WowheadLink(
+                12783,
+                "Heartseeker",
+                linkType.item,
+                "Only if not in MH"
+            ),
+            null,
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Ranged
+            itemSlots.ranged,
+            new WowheadLink(
+                18323,
+                "Satyr's Bow"
+            ),
+            new WowheadLink(
+                12651,
+                "Blackcrow"
+            ),
+            new WowheadLink(
+                2100,
+                "Precisely Calibrated Boomstick"
+            ),
+            new WowheadLink(
+                10548,
+                "Sniper Scope"
+            )
+        )
+    ]
+);
+
 let tierOneRogue = new TableList(
     classes.rogue,
     [
@@ -7160,6 +7452,10 @@ var tierOnePhaseOne = [
     tierOneWarlock,
     tierOneWarriorDPS,
     tierOneWarriorTank
+];
+
+var preRaidPhaseTwo = [
+    preRaidPhaseTwoRogue
 ];
 
 var tierTwoPhaseThree = [
