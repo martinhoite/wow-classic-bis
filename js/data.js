@@ -5160,7 +5160,7 @@ let tierOneWarlock = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                1162,
+                11623,
                 "Bhan'thok Sash"
             ),
             new WowheadLink(
@@ -5445,7 +5445,7 @@ let tierTwoWarlock = new TableList(
                 "Sash of Whispered Secrets"
             ),
             new WowheadLink(
-                1162,
+                11623,
                 "Bhan'thok Sash"
             ),
             null
