@@ -3879,7 +3879,6 @@ let preRaidRogue = new TableList(
                 linkType.item,
                 "Only if not in MH"
             ),
-            null,
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
@@ -4171,7 +4170,6 @@ let preRaidPhaseTwoRogue = new TableList(
                 linkType.item,
                 "Only if not in MH"
             ),
-            null,
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
@@ -4182,7 +4180,7 @@ let preRaidPhaseTwoRogue = new TableList(
             itemSlots.ranged,
             new WowheadLink(
                 18323,
-                "Satyr's Bow"
+                "Satyr's Bow",
             ),
             new WowheadLink(
                 12651,
@@ -4457,6 +4455,46 @@ let tierOneRogue = new TableList(
                 linkType.spell
             )
         ),
+        new ItemSlotRow( //MH Daggers
+            itemSlots.mainHandDagger,
+            new WowheadLink(
+                18816,
+                "Perdition's Blade"
+            ),
+            new WowheadLink(
+                12590,
+                "Felstriker"
+            ),
+            new WowheadLink(
+                12783,
+                "Heartseeker"
+            ),
+            new WowheadLink(
+                20031,
+                "Enchant Weapon - Superior Striking",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //OH Daggers
+            itemSlots.offHandDagger,
+            new WowheadLink(
+                18805,
+                "Corehound Tooth",
+            ),
+            new WowheadLink(
+                14555,
+                "Alcor's Sunrazor"
+            ),
+            new WowheadLink(
+                13368,
+                "Bonescraper",
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
@@ -4464,12 +4502,12 @@ let tierOneRogue = new TableList(
                 "Striker's Mark"
             ),
             new WowheadLink(
-                2100,
-                "Precisely Calibrated Boomstick"
-            ),
-            new WowheadLink(
                 12651,
                 "Blackcrow"
+            ),
+            new WowheadLink(
+                18323,
+                "Satyr's Bow"
             ),
             new WowheadLink(
                 10548,
