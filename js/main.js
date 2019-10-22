@@ -215,9 +215,9 @@ $(document).ready(function () {
             // menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
+            'scrollTop': $target.offset().top - 90
         }, 1500, 'swing', function () {
-            window.location.hash = target;
+            // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
     });
@@ -231,7 +231,7 @@ $(document).ready(function () {
 });
 
 function onScroll(event){
-    var scrollPos = $(document).scrollTop() + 140;
+    var scrollPos = $(document).scrollTop() + 125;
     $('.navbar-nav a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
