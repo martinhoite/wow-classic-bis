@@ -16,6 +16,30 @@ td>p {
     background-color: #222;
 }
 
+.collapse-control {
+    cursor: pointer;
+}
+
+.collapse-indicator::after {
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.45em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+
+.collapse-indicator.collapsed::after {
+    top: 0.30em;
+    transform: rotate(135deg);
+}
+
+
 /* Overwrite Bootstrap */
 .table th,
 .table td {

@@ -1,10 +1,10 @@
 function createTabsNav(phaseNumber, tier) {
     // let tabsNav = $(document.createElement('ul'));
     // tabsNav.addClass('nav nav-tabs');
-    let phaseContainer = $('#phase-' + phaseNumber);
-    let containerHeader = $(document.createElement('h3'));
-    containerHeader.text('Tier: ' + tier);
-    phaseContainer.append(containerHeader);
+    // let phaseContainer = $('#phase-' + phaseNumber);
+    // let containerHeader = $(document.createElement('h3'));
+    // containerHeader.text('Tier: ' + tier);
+    // phaseContainer.append(containerHeader);
 
     // Object.keys(classes).forEach(function (value) {
     //     let tabsNavItem = $(document.createElement('li'));
@@ -29,33 +29,33 @@ function createTabsNav(phaseNumber, tier) {
     // $(phaseContainer).append(tabsNav);
 };
 
-function createTabsContainer(phaseNumber, tier) {
+function createTabsContainer(tierName) {
     let containerSection = $(document.createElement('section'));
-    let fullPhaseId = 'phase-' + phaseNumber + '-' + tier.replace(" ", "-").toLowerCase();
-    let phaseContainer = $('#phase-' + phaseNumber);
+    // let fullPhaseId = phaseName;
+    let tierContainer = $('#' + tierName + "-container");
 
-    containerSection.attr('id', fullPhaseId);
+    containerSection.attr('id', tierName);
     containerSection.addClass('tab-content');
 
-    phaseContainer.append(containerSection);
+    tierContainer.append(containerSection);
 };
 
-function createClassTabFrames(phaseNumber, tier, phaseData) {
-    let phaseSectionId = '#phase-' + phaseNumber + '-' + tier.replace(" ", "-").toLowerCase();
+function createClassTabFrames(tierName, tierData) {
+    let tierSectionId = '#' + tierName;
     let createdClasses = [];
 
-    $(phaseData).each(function (i, _tableList) {
+    $(tierData).each(function (i, _tableList) {
         //Setup article (tabFrame)
         const tableList = _tableList;
-        let tabFrameId = tableList.Class.toLowerCase() + '-' + tier.replace(" ", "-").toLowerCase() + '-phase-' + phaseNumber;
+        let tabFrameId = tableList.Class.toLowerCase() + '-' + tierName;
         let tabFrameTemplate = $('#tabFrame').html()
             .replace('##tabFrameId##', tabFrameId)
             .replace('##tabFrameClass##', tableList.Class.toLowerCase());
 
-        $(phaseSectionId).append(tabFrameTemplate);
+        $(tierSectionId).append(tabFrameTemplate);
 
         if ($.inArray(tableList.Class, createdClasses) === -1) {
-            let tabTableId = "table-" + tableList.Class.toLowerCase() + '-' + tier.replace(" ", "-").toLowerCase() + '-phase-' + phaseNumber;
+            let tabTableId = "table-" + tableList.Class.toLowerCase() + '-' + tierName;
             let tableFrameTemplate = $('#tableFrame').html()
                 .replace('##tabFrameTableId##', tabTableId);
 
@@ -77,7 +77,7 @@ function createClassTabFrames(phaseNumber, tier, phaseData) {
             createdClasses.push(tableList.Class);
         } else { //This class already exists, add the spec list to the correct article
             if (tableList.Spec !== null) { //Just in case...
-                let tabTableId = "table-" + tableList.Class.toLowerCase() + '-' + tier.replace(" ", "-").toLowerCase() + '-phase-' + phaseNumber + "-" + tableList.Spec.toLowerCase();
+                let tabTableId = "table-" + tableList.Class.toLowerCase() + '-' + tierName + '-' + tableList.Spec.toLowerCase();
                 let tableFrameTemplate = $('#tableFrame').html()
                     .replace('##tabFrameTableId##', tabTableId);
 
@@ -162,24 +162,26 @@ function createClassTabFrames(phaseNumber, tier, phaseData) {
 }
 
 //Pre raid BiS lists
-createTabsNav(1, "Pre raid");
-createTabsContainer(1, "Pre raid");
-createClassTabFrames(1, "Pre raid", preRaidPhaseOne);
+// createTabsNav(1, "Pre raid");
+createTabsContainer("pre-raid");
+createClassTabFrames("pre-raid", preRaid);
 
 //Tier 1 BiS lists
-createTabsNav(1, '1');
-createTabsContainer(1, '1');
-createClassTabFrames(1, '1', tierOnePhaseOne);
-
-//Phase 2 Pre raid BiS lists
-createTabsNav(2, "Pre raid");
-createTabsContainer(2, "Pre raid");
-createClassTabFrames(2, "Pre raid", preRaidPhaseTwo);
+// createTabsNav(1, '1');
+createTabsContainer("tier-1");
+createClassTabFrames("tier-1", tierOne);
 
 //Tier 2 BiS lists
-createTabsNav(3, '2');
-createTabsContainer(3, '2');
-createClassTabFrames(3, '2', tierTwoPhaseThree);
+// createTabsNav(3, '2');
+createTabsContainer("tier-2");
+createClassTabFrames("tier-2", tierTwo);
+
+//Phase 2 Pre raid BiS lists
+// createTabsNav(2, "Pre raid");
+// createTabsContainer(2, "Pre raid");
+// createClassTabFrames(2, "Pre raid", preRaidPhaseTwo);
+
+
 
 //Offset when jumping to anchors
 // const shiftWindow = function () { scrollBy(0, -70); };
@@ -217,6 +219,13 @@ $(document).ready(function () {
         }, 1500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
+        });
+    });
+
+    $('.collapse-control').click( function () {
+        let el = $(this);
+        el.parent().find('section').slideToggle("fast", function () {
+            el.find('.collapse-indicator').toggleClass('collapsed');
         });
     });
 });
