@@ -1755,11 +1755,15 @@ let tierOneMage = new TableList(
             ),
             new WowheadLink(
                 16914,
-                "Netherwind Crown"),
-            null,
+                "Netherwind Crown"
+            ),
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
+                18727,
+                "Crimsom Felt Hat"
+            ),
+            new WowheadLink(
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -1772,7 +1776,10 @@ let tierOneMage = new TableList(
                 17109,
                 "Choker of Enlightenment"
             ),
-            null,
+            new WowheadLink(
+                12103,
+                "Star of Mystaria"
+            ),
             null,
         ),
         new ItemSlotRow( //Shoulder
@@ -1781,8 +1788,14 @@ let tierOneMage = new TableList(
                 11782,
                 "Boreal Mantle"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18681,
+                "Burial Shawl"
+            ),
+            new WowheadLink(
+                16797,
+                "Arcanist Mantle"
+            ),
             new WowheadLink(
                 18182,
                 "Chromatic mantle of the Dawn"
@@ -1798,7 +1811,10 @@ let tierOneMage = new TableList(
                 17078,
                 "Sapphiron Drape"
             ),
-            null,
+            new WowheadLink(
+                11623,
+                "Spritecaster Drape"
+            ),
             new WowheadLink(
                 20025,
                 "Enchant Cloak - Greater Resistance",
@@ -1832,7 +1848,10 @@ let tierOneMage = new TableList(
                 11766,
                 "Flameweave Cuffs"
             ),
-            null,
+            new WowheadLink(
+                18497,
+                "Sublime Wristguards"
+            ),
             new WowheadLink(
                 20008,
                 "Enchant Bracer - Greater Intellect",
@@ -1851,8 +1870,8 @@ let tierOneMage = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Focus"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Hands
@@ -1861,24 +1880,33 @@ let tierOneMage = new TableList(
                 13253,
                 "Hands of Power"
             ),
-            null,
-            null,
+            new WowheadLink(
+                16801,
+                "Arcanist Gloves"
+            ),
+            new WowheadLink(
+                18693,
+                "Shivery Handwraps"
+            ),
             null,
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
+                19136,
+                "Mana Igniting Cord"
+            ),
+            new WowheadLink(
                 11662,
                 "Ban'thok Sash"
             ),
-            null,
             null,
             null
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
-                10247,
+                16800,
                 "Arcanist Boots"
             ),
             null,
@@ -1908,6 +1936,10 @@ let tierOneMage = new TableList(
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power"
+            ),
+            new WowheadLink(
                 12930,
                 "Briarwood Reed"
             ),
@@ -1915,7 +1947,6 @@ let tierOneMage = new TableList(
                 13968,
                 "Eye of the Beast"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Main Hand
@@ -1925,10 +1956,13 @@ let tierOneMage = new TableList(
                 "Azuresong Mageblade"
             ),
             new WowheadLink(
+                18878,
+                "Sorcerous Dagger"
+            ),
+            new WowheadLink(
                 13964,
                 "Witchblade"
             ),
-            null,
             new WowheadLink(
                 22749,
                 "Spellpower",
@@ -1945,8 +1979,31 @@ let tierOneMage = new TableList(
                 11904,
                 "Spirit of Aquementas",
             ),
-            null,
+            new WowheadLink(
+                19142,
+                "Fire Runed Grimoire"
+            ),
             null
+        ),
+        new ItemSlotRow( //Main Hand
+            itemSlots.twoHand,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
+            new WowheadLink(
+                18534,
+                "Rod of the Ogre Magi"
+            ),
+            new WowheadLink(
+                15276,
+                "Magus Long Staff"
+            ),
+            new WowheadLink(
+                22749,
+                "Spellpower",
+                linkType.spell
+            ),
         ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
