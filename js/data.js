@@ -3803,8 +3803,16 @@ let preRaidRogue = new TableList(
                 13252,
                 "Cloudrunner Girdle"
             ),
-            null,
-            null,
+            new WowheadLink(
+                13118,
+                "Serpentine Sash"
+            ),
+            new WowheadLink(
+                18505,
+                "Mugger's Belt",
+                linkType.item,
+                "BiS for dagger rogues"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
@@ -3881,10 +3889,13 @@ let preRaidRogue = new TableList(
                 "Dal'Rend's Sacred Charge"
             ),
             new WowheadLink(
+                13246,
+                "Argent Avenger"
+            ),
+            new WowheadLink(
                 15806,
                 "Mirah's Song"
             ),
-            null,
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
@@ -3901,7 +3912,10 @@ let preRaidRogue = new TableList(
                 15806,
                 "Mirah's Song"
             ),
-            null,
+            new WowheadLink(
+                13246,
+                "Argent Avenger"
+            ),
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
@@ -4116,7 +4130,12 @@ let tierOneRogue = new TableList(
                 13252,
                 "Cloudrunner Girdle"
             ),
-            null,
+            new WowheadLink(
+                18505,
+                "Mugger's Belt",
+                linkType.item,
+                "BiS for dagger rogues"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
