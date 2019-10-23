@@ -1535,8 +1535,8 @@ let preRaidMage = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -1632,8 +1632,8 @@ let preRaidMage = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Hands
@@ -2039,8 +2039,8 @@ let tierTwoMage = new TableList(
                 "Netherwind Crown"
             ),
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Focus"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -2144,8 +2144,8 @@ let tierTwoMage = new TableList(
             ),
             null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Focus"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Hands
