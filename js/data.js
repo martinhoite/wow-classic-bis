@@ -5615,16 +5615,16 @@ let preRaidWarriorTank = new TableList(
         new ItemSlotRow( //MH
             itemSlots.mainHand,
             new WowheadLink(
+                18348,
+                "Quel'Serrar"
+            ),
+            new WowheadLink(
                 15806,
                 "Mirah's Song"
             ),
             new WowheadLink(
                 11684,
                 "Ironfoe"
-            ),
-            new WowheadLink(
-                13015,
-                "Serathil"
             ),
             new WowheadLink(
                 20034,
@@ -5750,8 +5750,8 @@ let preRaidWarriorDPS = new TableList(
                 "Cadaverous Armor"
             ),
             new WowheadLink(
-                11926,
-                "Deathdealer Breastplate"
+                13944,
+                "Tombstone Breastplate"
             ),
             new WowheadLink(
                 20025,
@@ -6349,8 +6349,8 @@ let tierOneWarriorDPS = new TableList(
                 "Cadaverous Armor"
             ),
             new WowheadLink(
-                11926,
-                "Deathdealer Breastplate"
+                13944,
+                "Tombstone Breastplate"
             ),
             new WowheadLink(
                 20025,
@@ -6453,16 +6453,16 @@ let tierOneWarriorDPS = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                17713,
-                "Blackstone Ring"
+                17063,
+                "Band of Accuria"
             ),
             new WowheadLink(
                 18821,
                 "Quick Strike Ring"
             ),
             new WowheadLink(
-                13098,
-                "Painweaver Band"
+                17713,
+                "Blackstone Ring"
             ),
             null
         ),
