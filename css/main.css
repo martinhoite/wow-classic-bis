@@ -1,3 +1,12 @@
+h2 {
+    margin-bottom: 0;
+    border: 1px solid #444;
+    background: #434343;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5rem;
+}
+
 h3,
 h4 {
     margin-top: 15px;

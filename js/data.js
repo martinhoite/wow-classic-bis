@@ -4621,7 +4621,9 @@ let preRaidWarlock = new TableList(
             ),
             new WowheadLink(
                 14332,
-                "Eternal Crown of Shadow Wrath"
+                "Eternal Crown of Shadow Wrath",
+                linkType.item,
+                "+41 Shadow damage"
             ),
             new WowheadLink(
                 14111,
@@ -4652,7 +4654,9 @@ let preRaidWarlock = new TableList(
             itemSlots.shoulder,
             new WowheadLink(
                 14335,
-                "Eternal Spaulders"
+                "Eternal Spaulders",
+                linkType.item,
+                "+30 Shadow damage"
             ),
             new WowheadLink(
                 14112,
@@ -4671,8 +4675,10 @@ let preRaidWarlock = new TableList(
                 "Archivist Cape of Shadow Wrath"
             ),
             new WowheadLink(
-                11623,
-                "Master's Cloak of Shadow Wrath"
+                10249,
+                "Master's Cloak of Shadow Wrath",
+                linkType.item,
+                "+21 Shadow Damage"
             ),
             new WowheadLink(
                 11623,
@@ -4755,25 +4761,30 @@ let preRaidWarlock = new TableList(
                 "Bhan'thok Sash"
             ),
             new WowheadLink(
-                18740,
+                13956,
                 "Clutch of Andros"
             ),
-            null,
+            new WowheadLink(
+                18740,
+                "Thuzadin Sash"
+            ),
             null,
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
-                10247,
-                "Master's Boots of Shadow Wrath"
-            ),
-            new WowheadLink(
-                14136,
-                "Omnicast boots"
-            ),
-            new WowheadLink(
                 18735,
                 "Maleki's Footwraps"
+            ),
+            new WowheadLink(
+                10247,
+                "Master's Boots of Shadow Wrath",
+                linkType.item,
+                "+20 Shadow damage"
+            ),
+            new WowheadLink(
+                11822,
+                "Omnicast boots"
             ),
             new WowheadLink(
                 13890,
@@ -4843,7 +4854,9 @@ let preRaidWarlock = new TableList(
             itemSlots.ranged,
             new WowheadLink(
                 15283,
-                "Lunar Wand of Shadow Wrath"
+                "Lunar Wand of Shadow Wrath",
+                linkType.item,
+                "+20 Shadow damage"
             ),
             new WowheadLink(
                 13396,
@@ -4869,7 +4882,9 @@ let tierOneWarlock = new TableList(
             ),
             new WowheadLink(
                 14332,
-                "Eternal Crown of Shadow Wrath"
+                "Eternal Crown of Shadow Wrath",
+                linkType.item,
+                "+41 Shadow damage"
             ),
             new WowheadLink(
                 11648,
@@ -4991,28 +5006,32 @@ let tierOneWarlock = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                11623,
+                19136,
+                "Mana Igniting Cord",
+                linkType.item,
+                "BiS if you can afford losing hit"
+            ),
+            new WowheadLink(
+                11662,
                 "Bhan'thok Sash"
             ),
             new WowheadLink(
                 13956,
                 "Clutch of Andros"
             ),
-            new WowheadLink(
-                16806,
-                "Felheart Belt"
-            ),
             null
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
-                10247,
-                "Master's Boots of Shadow Wrath"
-            ),
-            new WowheadLink(
                 18735,
                 "Maleki's Footwraps"
+            ),
+            new WowheadLink(
+                10247,
+                "Master's Boots of Shadow Wrath",
+                linkType.item,
+                "+30 Shadow damage"
             ),
             new WowheadLink(
                 14136,
@@ -5082,7 +5101,10 @@ let tierOneWarlock = new TableList(
                 11904,
                 "Spirit of Aquementas"
             ),
-            null,
+            new WowheadLink(
+                19142,
+                "Fire Runed Grimiore",
+            ),
             null,
         ),
         new ItemSlotRow(//2H
@@ -5099,7 +5121,9 @@ let tierOneWarlock = new TableList(
             itemSlots.ranged,
             new WowheadLink(
                 15283,
-                "Lunar Wand of Shadow Wrath"
+                "Lunar Wand of Shadow Wrath",
+                linkType.item,
+                "+20 Shadow damage"
             ),
             new WowheadLink(
                 13396,
@@ -5159,11 +5183,15 @@ let tierTwoWarlock = new TableList(
             ),
             new WowheadLink(
                 23311,
-                "Lieutenant Commander's Dreadweave Spaulders"
+                "Lieutenant Commander's Dreadweave Spaulders",
+                linkType.item,
+                "Rank 10 PvP"
             ),
             new WowheadLink(
                 14335,
-                "Eternal Spaulders"
+                "Eternal Spaulders",
+                linkType.item,
+                "+30 Shadow damage"
             ),
             new WowheadLink(
                 18182,
@@ -5276,7 +5304,7 @@ let tierTwoWarlock = new TableList(
                 "Sash of Whispered Secrets"
             ),
             new WowheadLink(
-                11623,
+                11662,
                 "Bhan'thok Sash"
             ),
             null
@@ -5293,7 +5321,9 @@ let tierTwoWarlock = new TableList(
             ),
             new WowheadLink(
                 10247,
-                "Master's Boots of Shadow Wrath"
+                "Master's Boots of Shadow Wrath",
+                linkType.item,
+                "+41 Shadow damage"
             ),
             new WowheadLink(
                 13890,
@@ -5379,7 +5409,9 @@ let tierTwoWarlock = new TableList(
             itemSlots.ranged,
             new WowheadLink(
                 15283,
-                "Lunar Wand of Shadow Wrath"
+                "Lunar Wand of Shadow Wrath",
+                linkType.item,
+                "+20 Shadow damage"
             ),
             new WowheadLink(
                 13396,
