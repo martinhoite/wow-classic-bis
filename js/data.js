@@ -218,13 +218,16 @@ let tierOneDruid = new TableList(
                 "Stormrage Cover"
             ),
             new WowheadLink(
+                18490,
+                "Insightful Hood"
+            ),
+            new WowheadLink(
                 13102,
                 "Cassandra's Grace"
             ),
-            null,
             new WowheadLink(
-                11622,
-                "Lesser Arcanum of Rumination"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -234,12 +237,12 @@ let tierOneDruid = new TableList(
                 "Choker of the Fire Lord"
             ),
             new WowheadLink(
-                17109,
-                "Choker of Enlightenment"
-            ),
-            new WowheadLink(
                 18723,
                 "Animated Chain Necklace"
+            ),
+            new WowheadLink(
+                13141,
+                "Tooth of Gnarr"
             ),
             null
         ),
@@ -250,12 +253,12 @@ let tierOneDruid = new TableList(
                 "Wild Growth Spaulders"
             ),
             new WowheadLink(
-                16836,
-                "Cenarion Spaulders"
-            ),
-            new WowheadLink(
                 15061,
                 "Living Shoulders"
+            ),
+            new WowheadLink(
+                18681,
+                "Burial shawl"
             ),
             new WowheadLink(
                 18182,
@@ -265,14 +268,19 @@ let tierOneDruid = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
-                13386,
-                "Archivist Cape"
+                18510,
+                "Hide of the Wild"
             ),
             new WowheadLink(
-                17078,
-                "Sapphiron Drape"
+                13386,
+                "Archivist Cape",
+                linkType.item,
+                "of Healing"
             ),
-            null,
+            new WowheadLink(
+                18389,
+                "Cloak of the Cosmos"
+            ),
             new WowheadLink(
                 20014,
                 "Enchant Cloak - Greater Resistance",
@@ -302,12 +310,12 @@ let tierOneDruid = new TableList(
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
-                18263,
-                "Flarecore Wraps"
+                18525,
+                "Bracers of Prosperity"
             ),
             new WowheadLink(
-                13208,
-                "Bleak Howler Armguards"
+                18263,
+                "Flarecore Wraps"
             ),
             new WowheadLink(
                 16830,
@@ -318,36 +326,45 @@ let tierOneDruid = new TableList(
                 "Enchant Bracer - Superior Spirit",
                 linkType.spell
             ),
+            //Not available until phase 3!
+            // new WowheadLink(
+            //     23802,
+            //     "Enchant Bracer - Healing Power",
+            //     linkType.spell
+            // ),
         ),
-
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
+                10787,
+                "Atal'ai Gloves",
+                linkType.item,
+                "of Healing"
+            ),
+            new WowheadLink(
+                18309,
+                "Gloves of Restoration"
+            ),
+            new WowheadLink(
                 12554,
                 "Hands of the Exalted Herald"
-            ),
-            new WowheadLink(
-                13253,
-                "Hands of Power"
-            ),
-            new WowheadLink(
-                16831,
-                "Cenarion Gloves"
             ),
             null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                14553,
-                "Sash of Mercy"
-
+                19162,
+                "Corehound Belt"
             ),
             new WowheadLink(
-                19136,
-                "Mana Igniting Cord"
+                18327,
+                "Whipvine Cord"
             ),
-            null,
+            new WowheadLink(
+                14553,
+                "Sash of Mercy"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
@@ -361,12 +378,12 @@ let tierOneDruid = new TableList(
                 "Stormrage Legguards"
             ),
             new WowheadLink(
-                16835,
-                "Cenarion Leggings"
+                18386,
+                "Padre's Trousers"
             ),
             new WowheadLink(
-                11622,
-                "Lesser Arcanum of Rumination"
+                18330,
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Feet
@@ -379,7 +396,10 @@ let tierOneDruid = new TableList(
                 13954,
                 "Verdant Footpads"
             ),
-            null,
+            new WowheadLink(
+                18507,
+                "Boots of the Full Moon"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
@@ -389,36 +409,36 @@ let tierOneDruid = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                13143,
-                "Mark of the Dragon Lord"
+                19140,
+                "Cauterizing Band",
+                linkType.item,
+                "2 of these"
             ),
             new WowheadLink(
-                19140,
-                "Cauterizing Band"
+                13178,
+                "Rosewine Circle"
             ),
             new WowheadLink(
                 16058,
                 "Fordring's Seal"
             ),
             null
-            // new WowheadLink(
-            //     13178,
-            //     "Rosewine Circle"
-            // ),
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                18470,
+                "Royal Seal of Eldre'Thalas"
+            ),
+            new WowheadLink(
                 17064,
-                "Shard of the Scale"
+                "Shard of the Scale",
+                linkType.item,
+                "or Mindtap Talism"
             ),
             new WowheadLink(
                 12930,
                 "Briarwood Reed"
-            ),
-            new WowheadLink(
-                11819,
-                "Second Wind"
             ),
             null
         ),
@@ -432,7 +452,10 @@ let tierOneDruid = new TableList(
                 11923,
                 "The Hammer of Grace"
             ),
-            null,
+            new WowheadLink(
+                18321,
+                "Energetic Rod"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
@@ -442,11 +465,17 @@ let tierOneDruid = new TableList(
         new ItemSlotRow( //OH
             itemSlots.offHand,
             new WowheadLink(
+                18523,
+                "Brightly Glowing Stone"
+            ),
+            new WowheadLink(
                 11928,
                 "Thaurissan's Royal Scepter"
             ),
-            null,
-            null,
+            new WowheadLink(
+                10796,
+                "Drakestone of Healing"
+            ),
             null
         ),
         new ItemSlotRow( //2h
@@ -459,7 +488,10 @@ let tierOneDruid = new TableList(
                 11932,
                 "Guiding Stave of Wisdom"
             ),
-            null,
+            new WowheadLink(
+                18534,
+                "Rod of the Ogre Magi"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
@@ -2519,17 +2551,20 @@ let tierOnePaladin = new TableList(
         new ItemSlotRow( //Head
             itemSlots.head,
             new WowheadLink(
-                10504,
-                "Green Lens"
+                18490,
+                "Insightful Hood"
+            ),
+            new WowheadLink(
+                18870,
+                "Helm of the Lifegiver"
             ),
             new WowheadLink(
                 16955,
                 "Judgement Crown"
             ),
-            null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Neck
@@ -2538,8 +2573,14 @@ let tierOnePaladin = new TableList(
                 18814,
                 "Choker of the Fire Lord"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18723,
+                "Animated Chain Necklace"
+            ),
+            new WowheadLink(
+                18317,
+                "Tempest Talisman"
+            ),
             null
         ),
         new ItemSlotRow( //Shoulder
@@ -2548,8 +2589,14 @@ let tierOnePaladin = new TableList(
                 18810,
                 "Wild Growth Spaulders"
             ),
-            null,
-            null,
+            new WowheadLink(
+                12625,
+                "Dawnbringer Shoulders"
+            ),
+            new WowheadLink(
+                14548,
+                "Royal Cap Spaulders"
+            ),
             new WowheadLink(
                 18182,
                 "Chromatic Mantle of the Dawn"
@@ -2558,11 +2605,19 @@ let tierOnePaladin = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
-                13386,
-                "Archivist Cape"
+                18510,
+                "Hide of the Wild"
             ),
-            null,
-            null,
+            new WowheadLink(
+                13386,
+                "Archivist Cape",
+                linkType.item,
+                "of Healing"
+            ),
+            new WowheadLink(
+                18389,
+                "Cloak of the Cosmos"
+            ),
             new WowheadLink(
                 20014,
                 "Enchant Cloak - Greater Resistance",
@@ -2575,8 +2630,14 @@ let tierOnePaladin = new TableList(
                 19145,
                 "Robe of Volatile Power"
             ),
-            null,
-            null,
+            new WowheadLink(
+                13346,
+                "Robes of the Exalted"
+            ),
+            new WowheadLink(
+                15047,
+                "Red Dragonscale Breastplate"
+            ),
             new WowheadLink(
                 20025,
                 "Enchant Chest - Greater Stats",
@@ -2586,11 +2647,17 @@ let tierOnePaladin = new TableList(
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
+                18459,
+                "Gallant's Wristguards"
+            ),
+            new WowheadLink(
                 13969,
                 "Loomguard Armbraces"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18525,
+                "Bracers of Prosperity"
+            ),
             new WowheadLink(
                 20008,
                 "Enchant Bracer - Greater Intellect",
@@ -2600,14 +2667,17 @@ let tierOnePaladin = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
-                10787,
-                "Atal'ai Gloves"
+                18527,
+                "Harmonious Gauntlets"
+            ),
+            new WowheadLink(
+                18309,
+                "Gloves of Restoration"
             ),
             new WowheadLink(
                 12554,
                 "Hands of the Exalted Herald"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Belt
@@ -2615,10 +2685,15 @@ let tierOnePaladin = new TableList(
             new WowheadLink(
                 19162,
                 "Corehound Belt"
-
             ),
-            null,
-            null,
+            new WowheadLink(
+                18702,
+                "Belt of the Ordained"
+            ),
+            new WowheadLink(
+                18327,
+                "Whipvine Cord"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
@@ -2627,11 +2702,17 @@ let tierOnePaladin = new TableList(
                 18875,
                 "Salamander Scale Pants"
             ),
-            null,
-            null,
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
+                18386,
+                "Padre's Trousers"
+            ),
+            new WowheadLink(
+                18682,
+                "Ghoul Skin Leggings"
+            ),
+            new WowheadLink(
+                18330,
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Feet
@@ -2640,8 +2721,14 @@ let tierOnePaladin = new TableList(
                 13954,
                 "Verdant Footpads"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18507,
+                "Boots of the Full Moon"
+            ),
+            new WowheadLink(
+                11822,
+                "Omnicast Boots"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
@@ -2652,13 +2739,15 @@ let tierOnePaladin = new TableList(
             itemSlots.rings,
             new WowheadLink(
                 19140,
-                "Cauterizing Band"
+                "Cauterizing Band",
+                linkType.item,
+                "2 of these"
+            ),
+            new WowheadLink(
+                13178,
+                "Rosewine Circle"
             ),
             null,
-            new WowheadLink(
-                19140,
-                "Cauterizing Band"
-            ),
             null
         ),
         new ItemSlotRow( //Trinkets
@@ -2671,7 +2760,10 @@ let tierOnePaladin = new TableList(
                 12930,
                 "Briarwood Reed"
             ),
-            null,
+            new WowheadLink(
+                18472,
+                "Royal Seal of Eldre'Thalas"
+            ),
             null
         ),
         new ItemSlotRow( //MH
@@ -2684,7 +2776,10 @@ let tierOnePaladin = new TableList(
                 17105,
                 "Aurastone Hammer"
             ),
-            null,
+            new WowheadLink(
+                11923,
+                "The Hammer of Grace"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
@@ -2694,11 +2789,19 @@ let tierOnePaladin = new TableList(
         new ItemSlotRow( //OH
             itemSlots.offHand,
             new WowheadLink(
+                18523,
+                "Brightly Glowing Stone"
+            ),
+            new WowheadLink(
                 11928,
                 "Thaurissan's Royal Scepter"
             ),
-            null,
-            null,
+            new WowheadLink(
+                10796,
+                "Drakestone of Healing",
+                linkType.item,
+                "of Healing"
+            ),
             null
         ),
     ]
@@ -3160,17 +3263,22 @@ let tierOnePriest = new TableList(
         new ItemSlotRow( //Head
             itemSlots.head,
             new WowheadLink(
+                16921,
+                "Halo of Trancendence"
+            ),
+            new WowheadLink(
+                13102,
+                "Cassandra's Grace",
+                linkType.item,
+                ""
+            ),
+            new WowheadLink(
                 10504,
                 "Green Lens of Healing"
             ),
             new WowheadLink(
-                13102,
-                "Cassandra's Grace"
-            ),
-            null,
-            new WowheadLink(
-                11649,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Neck
@@ -3192,16 +3300,16 @@ let tierOnePriest = new TableList(
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
             new WowheadLink(
+                16816,
+                "Mantle of Prophecy"
+            ),
+            new WowheadLink(
                 18681,
                 "Burial Shawl"
             ),
             new WowheadLink(
-                13013,
-                "Elder Wizard's Mantle"
-            ),
-            new WowheadLink(
-                16816,
-                "Mantle of Prophecy"
+                11624,
+                "Kentic Amice"
             ),
             new WowheadLink(
                 18182,
@@ -3211,14 +3319,19 @@ let tierOnePriest = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
-                13386,
-                "Archivist Cape of Healing"
+                18510,
+                "Hide of the Wild"
             ),
             new WowheadLink(
-                17078,
-                "Sapphiron Drape"
+                13386,
+                "Archivist Cape of Healing",
+                linkType.item,
+                "of Healing"
             ),
-            null,
+            new WowheadLink(
+                18389,
+                "Cloak of the Cosmos"
+            ),
             new WowheadLink(
                 20025,
                 "Enchant Cloak - Greater Resistance",
@@ -3235,7 +3348,10 @@ let tierOnePriest = new TableList(
                 13346,
                 "Robes of the Exalted"
             ),
-            null,
+            new WowheadLink(
+                16815,
+                "Robes of Prophecy"
+            ),
             new WowheadLink(
                 20025,
                 "Enchant Chest - Greater Stats",
@@ -3252,7 +3368,10 @@ let tierOnePriest = new TableList(
                 18263,
                 "Flarecore Wraps"
             ),
-            null,
+            new WowheadLink(
+                18497,
+                "Sublime Wristguards"
+            ),
             new WowheadLink(
                 20009,
                 "Enchant Bracer - Superior Spirit",
@@ -3266,36 +3385,48 @@ let tierOnePriest = new TableList(
                 "Leggings of Transcendence"
             ),
             new WowheadLink(
+                18386,
+                "Padre's Trousers"
+            ),
+            new WowheadLink(
                 11841,
                 "Senior Designer's Pantaloons"
             ),
-            null,
             new WowheadLink(
-                11649,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             ),
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
+                16812,
+                "Gloves of Prophecy"
+            ),
+            new WowheadLink(
                 12554,
                 "Hands of the Exalted Herald"
             ),
             new WowheadLink(
-                16812,
-                "Gloves of Prophecy"
+                13253,
+                "Hands of Power"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
+                18327,
+                "Whipvine Cord"
+            ),
+            new WowheadLink(
                 16817,
                 "Girdle of Prophecy"
             ),
-            null,
-            null,
+            new WowheadLink(
+                12589,
+                "Dustfeather Sash"
+            ),
             null
         ),
         new ItemSlotRow( //Feet
@@ -3322,27 +3453,33 @@ let tierOnePriest = new TableList(
             itemSlots.rings,
             new WowheadLink(
                 19140,
-                "Cauterizing Band"
+                "Cauterizing Band",
+                linkType.item,
+                "2 of these"
             ),
             new WowheadLink(
-                19138,
-                "Band of Sulfuras"
+                13178,
+                "Rosewine Circle"
             ),
-            null,
+            new WowheadLink(
+                16058,
+                "Fordring's Seal"
+            ),
             null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
-                18820,
-                "Talisman of Ephemeral Power"),
+                18469,
+                "Royal Seal of Eldre'Thalas"
+            ),
+            new WowheadLink(
+                17064,
+                "Shard of the Scale"
+            ),
             new WowheadLink(
                 12930,
                 "Briarwood Reed"
-            ),
-            new WowheadLink(
-                11819,
-                "Second Wind"
             ),
             null
         ),
@@ -3352,8 +3489,14 @@ let tierOnePriest = new TableList(
                 17105,
                 "Aurastone Hammer"
             ),
-            null,
-            null,
+            new WowheadLink(
+                11923,
+                "The Hammer of Grace"
+            ),
+            new WowheadLink(
+                18321,
+                "Energetic Rod"
+            ),
             new WowheadLink(
                 22750,
                 "Enchant Weapon - Healing Power",
@@ -3363,11 +3506,19 @@ let tierOnePriest = new TableList(
         new ItemSlotRow( //OH
             itemSlots.offHand,
             new WowheadLink(
+                18523,
+                "Brightly Glowing Stone"
+            ),
+            new WowheadLink(
                 11928,
                 "Thaurissan's Royal Scepter"
             ),
-            null,
-            null,
+            new WowheadLink(
+                10796,
+                "Drakestone of Healing",
+                linkType.item,
+                "of Healing"
+            ),
             null
         ),
         new ItemSlotRow( //2H
@@ -3376,7 +3527,10 @@ let tierOnePriest = new TableList(
                 18608,
                 "Benediction"
             ),
-            null,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
             null,
             new WowheadLink(
                 22750,

@@ -253,7 +253,8 @@ $('.class-selector > .nav-item > a').on('click', function (e) {
 
     $('article').removeClass('show active');
 
-    $(".class-selector > .nav-item > a").removeClass("active");
+    $(".class-selector > .nav-item > a").removeClass("show active");
+    $(this).addClass('active');
     $(article).addClass("active");
 
     $(article).each(function (e) {
