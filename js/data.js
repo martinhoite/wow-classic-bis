@@ -4340,12 +4340,12 @@ let tierOneRogue = new TableList(
                 "Band of Accuria"
             ),
             new WowheadLink(
-                17713,
-                "Blackstone Ring"
+                18821,
+                "Quick Strike Ring"
             ),
             new WowheadLink(
-                13098,
-                "Painweaver Band"
+                18500,
+                "Tarnished Elven Ring"
             ),
             null
         ),
