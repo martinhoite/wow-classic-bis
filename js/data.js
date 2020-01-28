@@ -4508,7 +4508,7 @@ let tierTwoRogue = new TableList(
                 16832,
                 "Bloodfang Spaulders",
                 linkType.item,
-                "Best with 8 set"
+                "Best with 8 set (sword)"
             ),
             new WowheadLink(
                 16823,
@@ -4574,8 +4574,8 @@ let tierTwoRogue = new TableList(
                 "Nightslayer Bracers"
             ),
             new WowheadLink(
-                13120,
-                "Deepfury Bracers"
+                18375,
+                "Bracers of the Eclipse"
             ),
             new WowheadLink(
                 20010,
@@ -4587,17 +4587,19 @@ let tierTwoRogue = new TableList(
             itemSlots.hands,
             new WowheadLink(
                 16907,
-                "Bloodfang Gloves"
+                "Bloodfang Gloves",
+                linkType.item,
+                "(Sword BiS)"
+            ),
+            new WowheadLink(
+                18823,
+                "Aged Core Leather Gloves",
+                linkType.item,
+                "(Dagger BiS)"
             ),
             new WowheadLink(
                 16826,
                 "Nightslayer Gloves"
-            ),
-            new WowheadLink(
-                15063,
-                "Devilsaur Gauntlets",
-                linkType.item,
-                "Keep set until you can replace both"
             ),
             new WowheadLink(
                 20012,
@@ -4616,8 +4618,10 @@ let tierTwoRogue = new TableList(
                 "Nightslayer Belt"
             ),
             new WowheadLink(
-                13252,
-                "Cloudrunner Girdle"
+                18505,
+                "Mugger's Belt",
+                linkType.item,
+                "(Dagger BiS if you need +5 skill)"
             ),
             null
         ),
@@ -4671,8 +4675,24 @@ let tierTwoRogue = new TableList(
                 "Master Dragonslayer's Ring"
             ),
             new WowheadLink(
+                18821,
+                "Quick Strike Ring"
+            ),
+            new WowheadLink(
+                13098,
+                "Painweaver Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
                 17063,
                 "Band of Accuria"
+            ),
+            new WowheadLink(
+                18500,
+                "Tarnished Elven Ring"
             ),
             new WowheadLink(
                 17713,
@@ -4687,6 +4707,16 @@ let tierTwoRogue = new TableList(
                 "Drake Fang Talisman"
             ),
             new WowheadLink(
+                13965,
+                "Blackhand's Breadth"
+            ),
+            null,
+
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
                 11815,
                 "Hand of Justice"
             ),
@@ -4694,11 +4724,15 @@ let tierTwoRogue = new TableList(
                 18465,
                 "Royal Seal of Eldre'Thalas",
                 linkType.item,
-                "Better than HoJ if you need the hit"
+                "If you need the hit"
+            ),
+            new WowheadLink(
+                18537,
+                "Counterattack Lodestone"
             ),
             null
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
             new WowheadLink(
                 19352,
@@ -4718,7 +4752,7 @@ let tierTwoRogue = new TableList(
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //OH
+        new ItemSlotRow( //Offhand
             itemSlots.offHand,
             new WowheadLink(
                 19351,
@@ -4729,8 +4763,50 @@ let tierTwoRogue = new TableList(
                 "Brutality Blade"
             ),
             new WowheadLink(
-                12939,
-                "Dal'Rend's Tribal Guardian"
+                15806,
+                "Mirah's Song",
+                linkType.item,
+                "Use Dal'Rends OH if using MH"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Mainhanddagger
+            itemSlots.mainHandDagger,
+            new WowheadLink(
+                18816,
+                "Perdition's Blade"
+            ),
+            new WowheadLink(
+                19346,
+                "Dragonfang Blade"
+            ),
+            new WowheadLink(
+                12590,
+                "Felstriker"
+            ),
+            new WowheadLink(
+                20031,
+                "Enchant Weapon - Superior Striking",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhanddagger
+            itemSlots.offHandDagger,
+            new WowheadLink(
+                18805,
+                "Corehound Tooth"
+            ),
+            new WowheadLink(
+                14555,
+                "Alcor's Sunrazor"
+            ),
+            new WowheadLink(
+                13368,
+                "Bonescraper"
             ),
             new WowheadLink(
                 20034,
@@ -4745,19 +4821,18 @@ let tierTwoRogue = new TableList(
                 "Striker's Mark"
             ),
             new WowheadLink(
-                12651,
-                "Blackcrow",
+                19350,
+                "Heartstriker",
                 linkType.item,
-                "You need the hit."
+                "Slightly ahead of +14 agi options"
             ),
             new WowheadLink(
-                2100,
-                "Precisely Calibrated Boomstick"
+                18323,
+                "Satyr's Bow",
+                linkType.item,
+                "Better if you need hit"
             ),
-            new WowheadLink(
-                10548,
-                "Sniper Scope"
-            )
+            null
         )
     ]
 );
