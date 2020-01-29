@@ -3558,19 +3558,25 @@ let tierTwoPriest = new TableList(
             itemSlots.head,
             new WowheadLink(
                 19375,
-                "Mish'undare, Circlet of the Mind Flayer"
+                "Mish'undare, Circlet of the Mind Flayer",
+                linkType.item,
+                "Crit "
             ),
             new WowheadLink(
-                10504,
-                "Green Lens of Healing"
+                19132,
+                "Crystal Adorned Crown",
+                linkType.item,
+                "Raw Healing "
             ),
             new WowheadLink(
-                13102,
-                "Cassandra's Grace"
+                16921,
+                "Halo of Transcendence",
+                linkType.item,
+                "Set"
             ),
             new WowheadLink(
-                11649,
-                "Lesser Arcanum of Voracity"
+                18330,
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Neck
@@ -3584,8 +3590,10 @@ let tierTwoPriest = new TableList(
                 "Animated Chain Necklace"
             ),
             new WowheadLink(
-                13141,
-                "Tooth of Gnarr"
+                19371,
+                "Pendant of the Fallen Dragon",
+                linkType.item,
+                "MP5"
             ),
             null
         ),
@@ -3593,37 +3601,47 @@ let tierTwoPriest = new TableList(
             itemSlots.shoulder,
             new WowheadLink(
                 19370,
-                "Mantle of the Blackwing Cabal"
+                "Mantle of the Blackwing Cabal",
+                linkType.item,
+                "Raw Healing "
+            ),
+            new WowheadLink(
+                16924,
+                "Pauldrons of Transcendence",
+                linkType.item,
+                "Set "
             ),
             new WowheadLink(
                 18681,
                 "Burial Shawl"
             ),
             new WowheadLink(
-                13013,
-                "Elder Wizard's Mantle"
-            ),
-            new WowheadLink(
                 18182,
-                "Chromatic mantle of the Dawn"
+                "Chromatic Mantle of the Dawn",
+                linkType.item,
+                "or +5 Fire Res. if not Exalted"
             )
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
                 19430,
-                "Shroud of Pure Thought"
+                "Shroud of Pure Thought",
+                linkType.item,
+                "MP5"
             ),
             new WowheadLink(
                 19378,
                 "Cloak of the Brood Lord"
             ),
             new WowheadLink(
-                13386,
-                "Archivist Cape of Healing"
+                18510,
+                "Hide of the Wild",
+                linkType.item,
+                "Raw Healing"
             ),
             new WowheadLink(
-                20025,
+                20014,
                 "Enchant Cloak - Greater Resistance",
                 linkType.spell
             )
@@ -3632,11 +3650,15 @@ let tierTwoPriest = new TableList(
             itemSlots.chest,
             new WowheadLink(
                 14154,
-                "Truefaith Vestments"
+                "Truefaith Vestments",
+                linkType.item,
+                "Raw Output / MP5"
             ),
             new WowheadLink(
                 16923,
-                "Robes of Transcendence"
+                "Robes of Transcendence",
+                linkType.item,
+                "Set"
             ),
             new WowheadLink(
                 13346,
@@ -3646,13 +3668,15 @@ let tierTwoPriest = new TableList(
                 20025,
                 "Enchant Chest - Greater Stats",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
                 16926,
-                "Bindings of Transcendence"
+                "Bindings of Transcendence",
+                linkType.item,
+                "Set"
             ),
             new WowheadLink(
                 16819,
@@ -3660,43 +3684,30 @@ let tierTwoPriest = new TableList(
             ),
             new WowheadLink(
                 18263,
-                "Flarecore Wraps"
+                "Flarecore Wraps",
+                linkType.item,
+                "MP5 enchanted with H-Power"
             ),
             new WowheadLink(
                 20009,
                 "Enchant Bracer - Superior Spirit",
-                linkType.spell
+                linkType.spell,
+                "or Enchant Bracer - Healing Power"
             )
-        ),
-        new ItemSlotRow( //Legs
-            itemSlots.legs,
-            new WowheadLink(
-                19385,
-                "Empowered Leggings"
-            ),
-            new WowheadLink(
-                16922,
-                "Leggings of Transcendence"
-            ),
-            new WowheadLink(
-                11841,
-                "Senior Designer's Pantaloons"
-            ),
-            null,
-            new WowheadLink(
-                11649,
-                "Lesser Arcanum of Voracity"
-            ),
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
                 16920,
-                "Handguards of Transcendence"
+                "Handguards of Transcendence",
+                linkType.item,
+                "Set"
             ),
             new WowheadLink(
                 19369,
-                "Gloves of Rapid Evolution"
+                "Gloves of Rapid Evolution",
+                linkType.item,
+                "High Spirit or T1 Gloves depending on how many Setitems "
             ),
             new WowheadLink(
                 12554,
@@ -3708,68 +3719,155 @@ let tierTwoPriest = new TableList(
             itemSlots.belt,
             new WowheadLink(
                 16925,
-                "Belt of Transcendence"
+                "Belt of Transcendence",
+                linkType.item,
+                "Set"
+            ),
+            new WowheadLink(
+                19400,
+                "Firemaw's Clutch",
+                linkType.item,
+                "MP5"
             ),
             new WowheadLink(
                 16817,
                 "Girdle of Prophecy"
             ),
-            null,
             null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                19385,
+                "Empowered Leggings",
+                linkType.item,
+                "Raw Output"
+            ),
+            new WowheadLink(
+                16922,
+                "Leggings of Transcendence",
+                linkType.item,
+                "Set"
+            ),
+            new WowheadLink(
+                18386,
+                "Padre's Trousers",
+                linkType.item,
+                "MP5"
+            ),
+            new WowheadLink(
+                18330,
+                "Arcanum of Focus"
+            )
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
                 16919,
-                "Boots of Transcendence"
+                "Boots of Transcendence",
+                linkType.item,
+                "Set"
+            ),
+            new WowheadLink(
+                19437,
+                "Boots of Pure Thought",
+                linkType.item,
+                "Raw Output"
             ),
             new WowheadLink(
                 19391,
-                "Shimmering Geta"
-            ),
-            new WowheadLink(
-                16811,
-                "Boots of Prophecy"
+                "Shimmering Geta",
+                linkType.item,
+                "MP5"
             ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
                 19382,
-                "Pure Elementium Band"
+                "Pure Elementium Band",
+                linkType.item,
+                "Raw Output "
             ),
             new WowheadLink(
                 19140,
-                "Cauterizing Band"
+                "Cauterizing Band",
+                linkType.item,
+                "Raw Output "
             ),
             new WowheadLink(
                 19397,
-                "Ring of Blackrock"
+                "Ring of Blackrock",
+                linkType.item,
+                "MP5"
             ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                16058,
+                "Fordring's Seal"
+            ),
+            new WowheadLink(
+                13178,
+                "Rosewine Circle",
+                linkType.item,
+                "MP5"
+            ),
+            null,
             null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
                 19395,
-                "Rejuvenating Gem"
-            ),
-            new WowheadLink(
-                18820,
-                "Talisman of Ephemeral Power"
+                "Rejuvenating Gem",
+                linkType.item,
+                "Raw Output / MP5"
             ),
             new WowheadLink(
                 17064,
-                "Shard of the Scale"
+                "Shard of the Scale",
+                linkType.item,
+                "MP5"
+            ),
+            new WowheadLink(
+                19379,
+                "Neltharion's Tear",
+                linkType.item,
+                "Raw Output"
             ),
             null
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                19288,
+                "Darkmoon Card: Blue Dragon",
+                linkType.item,
+                "MP5 / Beasts Deck"
+            ),
+            new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power",
+                linkType.item,
+                "Raw Output on CD "
+            ),
+            new WowheadLink(
+                18469,
+                "Royal Seal of Eldre'Thalas",
+                linkType.item,
+                "Raw Output / MP5"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
             new WowheadLink(
                 19360,
@@ -3786,20 +3884,27 @@ let tierTwoPriest = new TableList(
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //OH
+        new ItemSlotRow( //Offhand
             itemSlots.offHand,
             new WowheadLink(
                 19366,
-                "Master Dragonslayer's Orb"
+                "Master Dragonslayer's Orb",
+                linkType.item,
+                "Head of Nefarian Stat Chice"
             ),
             new WowheadLink(
-                11928,
-                "Thaurissan's Royal Scepter"
+                19312,
+                "Lei of the Lifegiver",
+                linkType.item,
+                "Stormpike Guard Exalted (AV) Raw Output / MP5"
             ),
-            null,
+            new WowheadLink(
+                18532,
+                "Brightly Glowing Stone"
+            ),
             null
         ),
-        new ItemSlotRow( //2H
+        new ItemSlotRow( //Twohand
             itemSlots.twoHand,
             new WowheadLink(
                 18608,
@@ -3811,21 +3916,27 @@ let tierTwoPriest = new TableList(
                 22750,
                 "Enchant Weapon - Healing Power",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
                 19367,
                 "Dragon's Touch",
+                linkType.item,
+                "Stat Choice"
             ),
             new WowheadLink(
                 19435,
                 "Essence Gatherer",
+                linkType.item,
+                "MP5"
             ),
             new WowheadLink(
-                13938,
-                "Bonecreeper Stylus",
+                15283,
+                "Lunar Wand",
+                linkType.item,
+                "of Healing Raw Output"
             ),
             null
         )
