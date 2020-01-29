@@ -622,7 +622,6 @@ let tierTwoDruid = new TableList(
                 linkType.spell
             ),
         ),
-
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
@@ -630,14 +629,15 @@ let tierTwoDruid = new TableList(
                 "Stormrage Handguards"
             ),
             new WowheadLink(
-                12554,
-                "Hands of the Exalted Herald"
+                19390,
+                "Taut Dragonhide Gloves",
+                linkType.item,
+                "Crit Build"
             ),
             new WowheadLink(
                 18309,
                 "Gloves of Restoration"
-            ),
-            null
+            ), null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
