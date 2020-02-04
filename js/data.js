@@ -2342,7 +2342,9 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 16795,
-                "Arcanist Crown"
+                "Arcanist Crown",
+                linkType.item,
+                "For 3-set Bonus "
             ),
             new WowheadLink(
                 16914,
@@ -2350,8 +2352,9 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 18330,
-                "Arcanum of Focus"
-            ),
+                "Arcanum of Focus",
+                linkType.spell
+            )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
@@ -2360,11 +2363,14 @@ let tierTwoMage = new TableList(
                 "Choker of the Fire Lord"
             ),
             new WowheadLink(
-                17109,
-                "Choker of Enlightenment"
+                19426,
+                "Orb of the Darkmoon"
             ),
-            null,
-            null,
+            new WowheadLink(
+                17109,
+                "Choker of enlightenment"
+            ),
+            null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
@@ -2376,11 +2382,18 @@ let tierTwoMage = new TableList(
                 11782,
                 "Boreal Mantle"
             ),
-            null,
+            new WowheadLink(
+                16797,
+                "Arcanist Mantle",
+                linkType.item,
+                "For 3-set Bonus"
+            ),
             new WowheadLink(
                 18182,
-                "Chromatic mantle of the Dawn"
-            ),
+                "Chromatic Mantle of the Dawn",
+                linkType.spell,
+                "5 FR if not exalted"
+            )
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
@@ -2390,17 +2403,21 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 13386,
-                "Archivist Cape of Frozen Wrath"
+                "Archivist Cape of Frozen Wrath",
+                linkType.item,
+                "Any cloak with +21 Frost damage"
             ),
             new WowheadLink(
                 17078,
-                "Sapphiron Drape"
+                "Sapphiron Drape",
+                linkType.item,
+                "For stats"
             ),
             new WowheadLink(
-                20025,
-                "Enchant Cloak - Greater Resistance",
+                20014,
+                "Enchant cloak - Greater Resistances",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Chest
             itemSlots.chest,
@@ -2420,7 +2437,7 @@ let tierTwoMage = new TableList(
                 20025,
                 "Enchant Chest - Greater Stats",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
@@ -2434,29 +2451,11 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 16799,
-                "Arcanist Bindings"
+                "Arcanist Bindings",
+                linkType.item,
+                "For 3-set bonus"
             ),
-            new WowheadLink(
-                20008,
-                "Enchant Bracer - Greater Intellect",
-                linkType.spell
-            ),
-        ),
-        new ItemSlotRow( //Legs
-            itemSlots.legs,
-            new WowheadLink(
-                16915,
-                "Netherwind Pants"
-            ),
-            new WowheadLink(
-                16796,
-                "Arcanist Leggings"
-            ),
-            null,
-            new WowheadLink(
-                18330,
-                "Arcanum of Focus"
-            ),
+            null
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
@@ -2465,11 +2464,22 @@ let tierTwoMage = new TableList(
                 "Netherwind Gloves"
             ),
             new WowheadLink(
-                13253,
-                "Hands of Power"
+                16801,
+                "Arcanist Gloves",
+                linkType.item,
+                "For 3-set Bonus"
             ),
-            null,
-            null,
+            new WowheadLink(
+                23290,
+                "Knight-Lieutenant's Silk Handwraps",
+                linkType.item,
+                "For 2-set Bonus if R7"
+            ),
+            new WowheadLink(
+                13947,
+                "Enchant Gloves - Riding skill",
+                linkType.spell
+            )
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
@@ -2487,6 +2497,26 @@ let tierTwoMage = new TableList(
             ),
             null
         ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                16915,
+                "Netherwind Pants"
+            ),
+            new WowheadLink(
+                16796,
+                "Arcanist Leggings"
+            ),
+            new WowheadLink(
+                13170,
+                "Skyshroud Leggings"
+            ),
+            new WowheadLink(
+                18330,
+                "Arcanum of Focus",
+                linkType.spell
+            )
+        ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
@@ -2494,30 +2524,49 @@ let tierTwoMage = new TableList(
                 "Ringo's Blizzard Boots"
             ),
             new WowheadLink(
-                10247,
-                "Arcanist Boots"
+                16800,
+                "Arcanist Boots",
+                linkType.item,
+                "For 3-set Bonus"
             ),
-            null,
+            new WowheadLink(
+                23291,
+                "Knight-Lieutenant's Silk Walkers",
+                linkType.item,
+                "For 2-set Bonus if R7"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
                 linkType.spell
-            ),
+            )
         ),
-        new ItemSlotRow( //Ring
+        new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
                 19147,
-                "Ring of Spell Power"
+                "Ring of Spell power",
+                linkType.item,
+                "You want 2 of these"
             ),
             new WowheadLink(
                 19403,
                 "Band of Forced Concentration"
             ),
             new WowheadLink(
+                942,
+                "Freezing Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
                 12543,
                 "Songstone of Ironforge"
             ),
+            null,
+            null,
             null
         ),
         new ItemSlotRow( //Trinkets
@@ -2536,51 +2585,65 @@ let tierTwoMage = new TableList(
             ),
             null
         ),
-        new ItemSlotRow( //Main Hand
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
+            new WowheadLink(
+                19347,
+                "Claw of Chromaggus",
+                linkType.item,
+                "
+                "
+            ),
             new WowheadLink(
                 17103,
                 "Azuresong Mageblade"
             ),
             new WowheadLink(
-                13964,
-                "Witchblade"
+                17070,
+                "Fang of the Mystics",
+                linkType.item,
+                "Do not count on ever seeing this drop."
             ),
-            null,
             new WowheadLink(
                 22749,
-                "Spell Power",
-                linkType.spell
-            ),
+                "Enchant Weapon - Spellpower"
+            )
         ),
-        new ItemSlotRow( //Off-hand
+        new ItemSlotRow( //Offhand
             itemSlots.offHand,
             new WowheadLink(
+                19310,
+                "Tome of the Ice Lord"
+            ),
+            new WowheadLink(
+                19366,
+                "Master Dragonslayer's Orb"
+            ),
+            new WowheadLink(
                 10796,
-                "Drakestone of Frozen Wrath"
-            ),
-            new WowheadLink(
-                19142,
-                "Fire Runed Grimoire",
-            ),
-            new WowheadLink(
-                11904,
-                "Spirit of Aquementas",
+                "Drakestone Of Frozen Wrath"
             ),
             null
         ),
-        new ItemSlotRow( //2H
+        new ItemSlotRow( //Twohand
             itemSlots.twoHand,
             new WowheadLink(
                 19356,
-                "Staff of the Shadow Flame"
+                "Staff of the Shadow Flame",
+                linkType.item,
+                "Better than MH+OH"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18842,
+                "Staff of Dominance"
+            ),
+            new WowheadLink(
+                19355,
+                "Shadow Wing Focus Staff"
+            ),
             new WowheadLink(
                 22749,
-                "Spell Power",
-                linkType.spell
+                "Enchant Weapon - Spellpower"
             )
         ),
         new ItemSlotRow( //Ranged
@@ -2588,14 +2651,20 @@ let tierTwoMage = new TableList(
             new WowheadLink(
                 19130,
                 "Cold Snap",
+                linkType.item,
+                "From Azuregos. 20 frost damage"
+            ),
+            new WowheadLink(
+                19108,
+                "Wand of Biting Cold",
+                linkType.item,
+                "From Alterac Valley quest. 16 frost damage"
             ),
             new WowheadLink(
                 15283,
-                "Lunar Wand of Frozen Wrath"
-            ),
-            new WowheadLink(
-                13938,
-                "Bonecreeper Stylus",
+                "Lunar Wand of Frozen Wrath",
+                linkType.item,
+                "13 frost damage. World drop"
             ),
             null
         )
