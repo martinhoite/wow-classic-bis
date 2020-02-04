@@ -501,7 +501,7 @@ let tierOneDruid = new TableList(
     ]
 );
 
-let tierTwoDruid = new TableList(
+let tierTwoDruidResto = new TableList(
     classes.druid,
     [
         new ItemSlotRow( //Head
@@ -792,8 +792,286 @@ let tierTwoDruid = new TableList(
                 linkType.spell
             ),
         ),
-    ]
+    ],
+    "Healer"
 );
+
+let tierTwoDruidTank = new TableList(
+    classes.druid,
+    [
+        new ItemSlotRow( //Head
+            itemSlots.head,
+            new WowheadLink(
+                16451,
+                "Field Marshal's Dragonhide Helmet",
+                linkType.item,
+                "Rank 13"
+            ),
+            new WowheadLink(
+                13404,
+                "Mask of the Unforgiven"
+            ),
+            new WowheadLink(
+                14539,
+                "Bone Ring Helm"
+            ),
+            new WowheadLink(
+                11646,
+                "Lesser Arcanum of Voracity"
+            )
+        ),
+        new ItemSlotRow( //Neck
+            itemSlots.neck,
+            new WowheadLink(
+                18404,
+                "Onyxia Tooth Pendant"
+            ),
+            new WowheadLink(
+                19383,
+                "Master Dragonslayer's Medallion"
+            ),
+            new WowheadLink(
+                19377,
+                "Prestor's Talisman of Connivery"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Shoulder
+            itemSlots.shoulder,
+            new WowheadLink(
+                19389,
+                "Taut Dragonhide Shoulderpads"
+            ),
+            new WowheadLink(
+                16449,
+                "Field Marshal's Dragonhide Spaulders",
+                linkType.item,
+                "Rank 13"
+            ),
+            new WowheadLink(
+                19139,
+                "Fireguard Shoulders"
+            ),
+            new WowheadLink(
+                18182,
+                "Chromatic Mantle of the Dawn",
+                linkType.item,
+                "Argent Dawn Revered/Exalted"
+            )
+        ),
+        new ItemSlotRow( //Back
+            itemSlots.back,
+            new WowheadLink(
+                19386,
+                "Elementium Threaded Cloak"
+            ),
+            new WowheadLink(
+                17107,
+                "Dragon's Blood Cape"
+            ),
+            new WowheadLink(
+                17102,
+                "Cloak of the Shrouded Mists"
+            ),
+            new WowheadLink(
+                13882,
+                "Enchant Cloak - Lesser Agility"
+            )
+        ),
+        new ItemSlotRow( //Chest
+            itemSlots.chest,
+            new WowheadLink(
+                19405,
+                "Malfurion's Blessed Bulwark"
+            ),
+            new WowheadLink(
+                16452,
+                "Field Marshal's Dragonhide Breastplate",
+                linkType.item,
+                "Rank 13"
+            ),
+            new WowheadLink(
+                12757,
+                "Breastplate of Bloodthirst"
+            ),
+            new WowheadLink(
+                20025,
+                "Enchant Chest - Greater Stats",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Wrist
+            itemSlots.wrist,
+            new WowheadLink(
+                12966,
+                "Blackmist Armguards"
+            ),
+            new WowheadLink(
+                19587,
+                "Forest Stalker's Bracers"
+            ),
+            new WowheadLink(
+                18700,
+                "Malefic Bracers"
+            ),
+            new WowheadLink(
+                20011,
+                "Enchant Bracer - Superior Stamina",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Hands
+            itemSlots.hands,
+            new WowheadLink(
+                13258,
+                "Slaghide Gauntlets",
+                linkType.item,
+                "of the Monkey"
+            ),
+            new WowheadLink(
+                16448,
+                "Marshal's Dragonhide Gauntlets",
+                linkType.item,
+                "Rank 12"
+            ),
+            new WowheadLink(
+                15063,
+                "Devilsaur Gauntlets"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Belt
+            itemSlots.belt,
+            new WowheadLink(
+                19149,
+                "Lava Belt",
+                linkType.item,
+                "Mitigation"
+            ),
+            new WowheadLink(
+                19163,
+                "Molten Belt",
+                linkType.item,
+                "Threat"
+            ),
+            new WowheadLink(
+                13252,
+                "Cloudrunner Girdle"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                12963,
+                "Blademaster Leggings"
+            ),
+            new WowheadLink(
+                22740,
+                "Outrider's Leather Pants"
+            ),
+            new WowheadLink(
+                16450,
+                "Marshal's Dragonhide Legguards",
+                linkType.item,
+                "Rank 12"
+            ),
+            new WowheadLink(
+                18331,
+                "Arcanum of Protection",
+                linkType.spell,
+                "Voracity also an option"
+            )
+        ),
+        new ItemSlotRow( //Feet
+            itemSlots.feet,
+            new WowheadLink(
+                19381,
+                "Boots of the Shadow Flame"
+            ),
+            new WowheadLink(
+                16459,
+                "Marshal's Dragonhide Boots"
+            ),
+            new WowheadLink(
+                18716,
+                "Ash Covered Boots"
+            ),
+            new WowheadLink(
+                13890,
+                "Enchant Boots - Minor Speed",
+                linkType.item,
+                "Greater Agility also an option"
+            )
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19376,
+                "Archimtiros' Ring of Reckoning"
+            ),
+            new WowheadLink(
+                17063,
+                "Band of Accuria"
+            ),
+            new WowheadLink(
+                19384,
+                "Master Dragonslayer's Ring"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19325,
+                "Don Julio's Band"
+            ),
+            new WowheadLink(
+                18879,
+                "Heavy Dark Iron Ring"
+            ),
+            null,
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                13966,
+                "Drake Fang Talisman"
+            ),
+            new WowheadLink(
+                19406,
+                "Drake Fang Talisman"
+            ),
+            new WowheadLink(
+                11811,
+                "Smoking Heart of the Mountain"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Twohand
+            itemSlots.twoHand,
+            new WowheadLink(
+                943,
+                "Warden Staff"
+            ),
+            new WowheadLink(
+                18531,
+                "Unyielding Maul"
+            ),
+            new WowheadLink(
+                9449,
+                "Manual Crowd Pummeler"
+            ),
+            new WowheadLink(
+                27837,
+                "Enchant 2H Weapon - Agility",
+                linkType.spell
+            )
+        )
+    ],
+    "Tank"
+)
 
 // #endregion Druid
 
@@ -7658,7 +7936,8 @@ var tierOne = [
 ];
 
 var tierTwo = [
-    tierTwoDruid,
+    tierTwoDruidResto,
+    tierTwoDruidTank,
     tierTwoHunter,
     tierTwoMage,
     tierTwoPaladin,
