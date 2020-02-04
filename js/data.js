@@ -979,7 +979,7 @@ let tierTwoDruidTank = new TableList(
             new WowheadLink(
                 18331,
                 "Arcanum of Protection",
-                linkType.spell,
+                linkType.item,
                 "Voracity also an option"
             )
         ),
@@ -2352,8 +2352,7 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 18330,
-                "Arcanum of Focus",
-                linkType.spell
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Neck
@@ -2513,8 +2512,7 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 18330,
-                "Arcanum of Focus",
-                linkType.spell
+                "Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Feet
@@ -2589,10 +2587,7 @@ let tierTwoMage = new TableList(
             itemSlots.mainHand,
             new WowheadLink(
                 19347,
-                "Claw of Chromaggus",
-                linkType.item,
-                "
-                "
+                "Claw of Chromaggus"
             ),
             new WowheadLink(
                 17103,
