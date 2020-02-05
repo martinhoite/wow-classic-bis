@@ -7432,79 +7432,91 @@ let tierTwoWarriorTank = new TableList(
                 "Best mixed"
             ),
             new WowheadLink(
+                12640,
+                "Lionheart Helm ",
+                linkType.item,
+                "Best threat"
+            ),
+            new WowheadLink(
                 16963,
                 "Helm of Wrath",
                 linkType.item,
-                "Mitigation"
-            ),
-            new WowheadLink(
-                12640,
-                "Lionheart Helm"
-                ,
-                linkType.item,
-                "Threat"
+                "Best mitigation"
             ),
             new WowheadLink(
                 11642,
-                "Lesser Arcanum of Constitution"
+                "Lesser Arcanum of Constitution",
+                linkType.item,
+                "+100 HP"
             )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
             new WowheadLink(
                 18404,
-                "Onyxia Tooth Pendant"
+                "Onyxia Tooth Pendant",
+                linkType.item,
+                "Best threat"
             ),
             new WowheadLink(
-                17065,
-                "Medallion of Steadfast Might"
+                19383,
+                "Master Dragonslayer's Medallion",
+                linkType.item,
+                "Best mitigation"
             ),
             new WowheadLink(
                 18205,
                 "Eskhandar's Collar"
-            ),
-            null
+            ), null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
             new WowheadLink(
-                16961,
-                "Pauldrons of Wrath"
-            ),
-            new WowheadLink(
                 19394,
                 "Drake Talon Pauldrons",
                 linkType.item,
-                "If defense capped"
+                "Best threat"
+            ),
+            new WowheadLink(
+                16961,
+                "Pauldrons of Wrath",
+                linkType.item,
+                "Best mitigation"
             ),
             new WowheadLink(
                 16868,
-                "Pauldrons of Might"
+                "Pauldrons of Might",
+                linkType.item,
+                "2nd mitigation"
             ),
             new WowheadLink(
                 18182,
-                "Chromatic Mantle of the Dawn"
+                "Chromatic Mantle of the Dawn",
+                linkType.item,
+                "+5 to all resistances"
             )
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
+                17102,
+                "Cloak of the Shrouded Mists",
+                linkType.item,
+                "Best threat"
+            ),
+            new WowheadLink(
                 19386,
                 "Elementium Threaded Cloak",
                 linkType.item,
-                "BiS until C'thun"
-            ),
-            new WowheadLink(
-                17102,
-                "Cloak of the Shrouded Mists"
+                "Best mitigation"
             ),
             new WowheadLink(
                 17107,
                 "Dragon's Blood Cape"
             ),
             new WowheadLink(
-                20015,
-                "Enchant Cloak - Superior Defense",
+                13882,
+                "Enchant Cloak - Lesser Agility",
                 linkType.spell
             )
         ),
@@ -7512,61 +7524,74 @@ let tierTwoWarriorTank = new TableList(
             itemSlots.chest,
             new WowheadLink(
                 16966,
-                "Breastplate of Wrath"
+                "Breastplate of Wrath",
+                linkType.item,
+                "Best mitigation"
+            ),
+            new WowheadLink(
+                11726,
+                "Savage Gladiator Chain",
+                linkType.item,
+                "Best threat"
             ),
             new WowheadLink(
                 16865,
-                "Breastplate of Might"
-            ),
-            new WowheadLink(
-                15413,
-                "Ornate Adamantium Breastplate"
+                "Breastplate of Might",
+                linkType.item,
+                "2nd mitigation"
             ),
             new WowheadLink(
                 20025,
                 "Enchant Chest - Greater Stats",
-                linkType.spell
+                linkType.spell,
+                "+100 HP is acceptable too"
             )
         ),
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
                 16959,
-                "Bracelets of Wrath"
-            ),
-            new WowheadLink(
-                16861,
-                "Bracers of Might"
+                "Bracelets of Wrath",
+                linkType.item,
+                "Best mitigation"
             ),
             new WowheadLink(
                 18812,
-                "Wristguards of True Flight"
+                "Wristguards of True Flight",
+                linkType.item,
+                "Best threat"
             ),
             new WowheadLink(
-                20011,
-                "Enchant Bracer - Superior Stamina",
+                16861,
+                "Bracers of Might",
+                linkType.item,
+                "2nd mitigation"
+            ),
+            new WowheadLink(
+                20010,
+                "Enchant Bracer - Superior Strength",
                 linkType.spell
             )
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
-                14551,
-                "Edgemaster's Handguards",
+                16964,
+                "Gauntlets of Wrath",
                 linkType.item,
-                "Threat (non-human)"
+                "Mitigation"
             ),
             new WowheadLink(
                 16863,
                 "Gauntlets of Might",
                 linkType.item,
-                "Threat (human)"
+                "Mix"
             ),
             new WowheadLink(
-                16964,
-                "Gauntlets of Wrath",
+                19143,
+                "Flameguard Gauntlets",
                 linkType.item,
-                "Mitigation"
+                "Threat"
             ),
             new WowheadLink(
                 20012,
@@ -7577,36 +7602,49 @@ let tierTwoWarriorTank = new TableList(
         new ItemSlotRow( //Belt
             itemSlots.belt,
             new WowheadLink(
-                18547,
-                "Unmelting Ice Girdle"
-            ),
-            new WowheadLink(
-                16864,
-                "Belt of Might"
+                19137,
+                "Onslaught Girdle",
+                linkType.item,
+                "Best threat"
             ),
             new WowheadLink(
                 16960,
-                "Waistband of Wrath"
+                "Waistband of Wrath",
+                linkType.item,
+                "Best mitigation"
             ),
-            null
+            new WowheadLink(
+                13142,
+                "Brigam Girdle",
+                linkType.item,
+                "2nd threat"
+            ), null
         ),
         new ItemSlotRow( //Legs
             itemSlots.legs,
             new WowheadLink(
                 16962,
-                "Legplates of Wrath"
-            ),
-            new WowheadLink(
-                16867,
-                "Legplates of Might"
+                "Legplates of Wrath",
+                linkType.item,
+                "Best mitigation"
             ),
             new WowheadLink(
                 19402,
-                "Legguards of the Fallen Crusader"
+                "Legguards of the Fallen Crusader",
+                linkType.item,
+                "Best threat"
+            ),
+            new WowheadLink(
+                16867,
+                "Legplates of Might",
+                linkType.item,
+                "2nd mitigation"
             ),
             new WowheadLink(
                 11642,
-                "Lesser Arcanum of Constitution"
+                "Lesser Arcanum of Constitution",
+                linkType.item,
+                "+100 HP"
             )
         ),
         new ItemSlotRow( //Feet
@@ -7615,22 +7653,25 @@ let tierTwoWarriorTank = new TableList(
                 16965,
                 "Sabatons of Wrath",
                 linkType.item,
-                "Mitigation"
+                "Best mitigation"
             ),
             new WowheadLink(
                 19387,
                 "Chromatic Boots",
                 linkType.item,
-                "Threat"
+                "Best threat"
             ),
             new WowheadLink(
                 16862,
-                "Sabatons of Might"
+                "Sabatons of Might",
+                linkType.item,
+                "2nd mitigation"
             ),
             new WowheadLink(
-                13890,
-                "Enchant Boots - Minor Speed",
-                linkType.spell
+                20020,
+                "Enchant Boots - Greater Stamina",
+                linkType.spell,
+                "or +7 agi"
             )
         ),
         new ItemSlotRow( //Rings
@@ -7640,71 +7681,146 @@ let tierTwoWarriorTank = new TableList(
                 "Band of Accuria"
             ),
             new WowheadLink(
+                19432,
+                "Circle of Applied Force"
+            ),
+            new WowheadLink(
                 19376,
                 "Archimtiros' Ring of Reckoning"
+            ), null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19325,
+                "Don Julio's Band"
             ),
             new WowheadLink(
                 19384,
-                "Master Dragonslayer's Ring",
-                linkType.item,
-                "Threat (Best until Naxx)"
+                "Master Dragonslayer's Ring"
             ),
-            null
+            new WowheadLink(
+                18879,
+                "Heavy Dark Iron Ring",
+                linkType.item,
+                "Mitigation"
+            ), null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                19341,
+                "Lifegiving Gem"
+            ),
+            new WowheadLink(
                 19431,
-                "Styleen's Impeding Scarab",
-                linkType.item,
-                "Never replaced"
+                "Styleen's Impeding Scarab"
             ),
             new WowheadLink(
                 17774,
                 "Mark of the Chosen"
-            ),
+            ), null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
             new WowheadLink(
                 19406,
                 "Drake Fang Talisman"
             ),
-            null
+            new WowheadLink(
+                11815,
+                "Hand of Justice"
+            ),
+            new WowheadLink(
+                13965,
+                "Blackhand's Breadth"
+            ), null
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
             new WowheadLink(
-                19335,
-                "Spineshatter",
-                linkType.item,
-                "Humans"
+                19019,
+                "Thunderfury, Blessed Blade of the Windseeker"
             ),
             new WowheadLink(
-                18348,
-                "Quel'Serrar"
+                19352,
+                "Chromatically Tempered Sword"
             ),
-            null,
+            new WowheadLink(
+                19351,
+                "Maladath, Runed Blade of the Black Flight"
+            ),
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
+            new WowheadLink(
+                19019,
+                "Thunderfury, Blessed Blade of the Windseeker",
+                linkType.item,
+                "Edgemaster"
+            ),
             new WowheadLink(
                 19363,
                 "Crul'shorukh, Edge of Chaos",
                 linkType.item,
-                "With Edgemaster's"
+                "Edgemaster"
             ),
+            new WowheadLink(
+                18816,
+                "Perdition's Blade",
+                linkType.item,
+                "Edgemaster"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhand
+            itemSlots.offHand,
+            new WowheadLink(
+                18832,
+                "Brutality Blade"
+            ),
+            new WowheadLink(
+                19351,
+                "Maladath, Runed Blade of the Black Flight"
+            ),
+            new WowheadLink(
+                15806,
+                "Mirah's Song"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhand
+            itemSlots.offHand,
             new WowheadLink(
                 18805,
                 "Core Hound Tooth",
                 linkType.item,
-                "With Edgemaster's"
+                "Edgemaster"
             ),
             new WowheadLink(
-                18348,
-                "Quel'Serrar"
+                19363,
+                "Crul'shorukh, Edge of Chaos",
+                linkType.item,
+                "Edgemaster"
+            ),
+            new WowheadLink(
+                19346,
+                "Dragonfang Blade",
+                linkType.item,
+                "Edgemaster"
             ),
             new WowheadLink(
                 20034,
@@ -7720,45 +7836,35 @@ let tierTwoWarriorTank = new TableList(
             ),
             new WowheadLink(
                 17066,
-                "Drillborer Disk",
-                linkType.item,
-                "Best if defense capped"
+                "Drillborer Disk"
             ),
             new WowheadLink(
-                12602,
-                "Draconian Deflector",
+                18168,
+                "Force Reactive Disk",
                 linkType.item,
-                "Best if not defense capped"
+                "AoE Threat"
             ),
             new WowheadLink(
-                20017,
-                "Enchant Shield - Greater Stamina",
-                linkType.spell
+                12645,
+                "Thorium Shield Spike"
             )
         ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
                 19368,
-                "Dragonbreath Hand Cannon",
-                linkType.item,
-                "Best mitigation - never replaced"
+                "Dragonbreath Hand Cannon"
             ),
             new WowheadLink(
                 17069,
-                "Striker's Mark",
-                linkType.item,
-                "Best Threat - never replaced"
+                "Striker's Mark"
             ),
             new WowheadLink(
-                19350,
-                "Heartstriker"
-            ),
-            new WowheadLink(
-                10548,
-                "Sniper Scope"
-            )
-        )
+                17072,
+                "Blastershot Launcher"
+            ), null
+        ),
+
     ],
     "Tank"
 );
