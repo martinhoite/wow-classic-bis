@@ -7876,23 +7876,23 @@ let tierTwoWarriorDPS = new TableList(
             itemSlots.head,
             new WowheadLink(
                 12640,
-                "Lionheart Helm"
-            ),
-            new WowheadLink(
-                23244,
-                "Champion's Plate Helm",
+                "Lionheart Helm",
                 linkType.item,
-                "Rank 10 PvP"
+                "Crafted"
             ),
             new WowheadLink(
-                16542,
-                "Warlord's Plate Headpiece",
+                19372,
+                "Helm of Endless Rage"
+            ),
+            new WowheadLink(
+                18817,
+                "Crown of Destruction"
+            ),
+            new WowheadLink(
+                18332,
+                "Arcanum of Rapidity",
                 linkType.item,
-                "Rank 13 PvP"
-            ),
-            new WowheadLink(
-                11645,
-                "Lesser Arcanum of Voracity"
+                "Voracity can be acceptable"
             )
         ),
         new ItemSlotRow( //Neck
@@ -7906,28 +7906,30 @@ let tierTwoWarriorDPS = new TableList(
                 "Mark of Fordring"
             ),
             new WowheadLink(
-                11933,
-                "Imperial Jewel"
+                19491,
+                "Amulet of the Darkmoon",
+                linkType.item,
+                "Don't bother"
             ),
             null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
             new WowheadLink(
-                23243,
-                "Champion's Plate Shoulders",
+                23315,
+                "Lieutenant Commander's Plate Shoulders",
                 linkType.item,
-                "Rank 10 PvP"
+                "BIS with 2 set"
             ),
             new WowheadLink(
-                16544,
-                "Warlord's Plate Shoulders",
-                linkType.item,
-                "Rank 13 PvP"
+                19394,
+                "Drake Talon Pauldrons"
             ),
             new WowheadLink(
-                12927,
-                "Truestrike Shoulders"
+                15051,
+                "Black Dragonscale Shoulders",
+                linkType.item,
+                "Truestrike is acceptable too"
             ),
             new WowheadLink(
                 18182,
@@ -7937,17 +7939,14 @@ let tierTwoWarriorDPS = new TableList(
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
-                18541,
-                "Puissant Cape"
+                19436,
+                "Cloak of Draconic Might"
             ),
             new WowheadLink(
                 13340,
                 "Cape of the Black Baron"
-            ),
-            new WowheadLink(
-                13397,
-                "Stoneskin Gargoyle Cape"
-            ),
+            ), null,
+
             new WowheadLink(
                 13882,
                 "Enchant Cloak - Lesser Agility",
@@ -7961,16 +7960,12 @@ let tierTwoWarriorDPS = new TableList(
                 "Savage Gladiator Chain"
             ),
             new WowheadLink(
-                22872,
-                "Legionnaire's Plate Hauberk",
-                linkType.item,
-                "Rank 8 PvP"
+                19405,
+                "Malfurion's Blessed Bulwark"
             ),
             new WowheadLink(
-                16541,
-                "Warlord's Plate Armor",
-                linkType.item,
-                "Rank 13 PvP"
+                23300,
+                "Knight-Captain's Plate Hauberk"
             ),
             new WowheadLink(
                 20025,
@@ -7982,9 +7977,7 @@ let tierTwoWarriorDPS = new TableList(
             itemSlots.wrist,
             new WowheadLink(
                 19578,
-                "Berserker Bracers",
-                linkType.item,
-                "WSG Exalted"
+                "Berserker Bracers"
             ),
             new WowheadLink(
                 19146,
@@ -8003,16 +7996,14 @@ let tierTwoWarriorDPS = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
-                16548,
-                "General's Plate Gauntlets",
+                19143,
+                "Flameguard Gauntlets",
                 linkType.item,
-                "Rank 12 PvP"
+                "Non-humans use Edgemaster's"
             ),
             new WowheadLink(
-                22868,
-                "Blood Guard's Plate Gauntlets",
-                linkType.item,
-                "Rank 7 PvP"
+                16863,
+                "Gauntlets of Might"
             ),
             new WowheadLink(
                 15063,
@@ -8031,38 +8022,36 @@ let tierTwoWarriorDPS = new TableList(
                 "Onslaught Girdle"
             ),
             new WowheadLink(
-                13142,
-                "Brigam Girdle"
-            ),
-            new WowheadLink(
                 13959,
                 "Omokk's Girth Restrainer"
+            ),
+            new WowheadLink(
+                13142,
+                "Brigam Girdle"
             ),
             null
         ),
         new ItemSlotRow( //Legs
             itemSlots.legs,
             new WowheadLink(
-                16543,
-                "General's Plate Leggins",
+                23301,
+                "Knight-Captain's Plate Leggings",
                 linkType.item,
-                "Rank 12 PvP"
+                "BIS with 2 set"
             ),
             new WowheadLink(
-                22651,
-                "Outrider's Plate Legguards",
-                linkType.item,
-                "WSG Exalted"
+                19402,
+                "Legguards of the Fallen Crusader"
             ),
             new WowheadLink(
-                22873,
-                "Legionnaire's Plate Leggings",
-                linkType.item,
-                "Rank 8 PvP"
+                15062,
+                "Cloudkeeper Legplates"
             ),
             new WowheadLink(
-                11645,
-                "Lesser Arcanum of Voracity"
+                18332,
+                "Arcanum of Rapidity",
+                linkType.item,
+                "Voracity can be acceptable"
             )
         ),
         new ItemSlotRow( //Feet
@@ -8072,76 +8061,115 @@ let tierTwoWarriorDPS = new TableList(
                 "Chromatic Boots"
             ),
             new WowheadLink(
-                16545,
-                "General's Plate Boots",
-                linkType.item,
-                "Rank 12 PvP"
+                19381,
+                "Boots of the Shadow Flame"
             ),
             new WowheadLink(
-                22858,
-                "Blood Guard's Plate Greaves",
+                16984,
+                "Black Dragonscale Boots",
                 linkType.item,
-                "Rank 7 PvP"
+                "Only with 3 set"
             ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
-                linkType.spell
+                linkType.spell,
+                "7 AGI is acceptable too"
             )
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                19325,
-                "Don Julio's Band",
-                linkType.item,
-                "AV Exalted"
+                18821,
+                "Quick Strike Ring"
             ),
+            new WowheadLink(
+                19432,
+                "Circle of Applied Force"
+            ),
+            new WowheadLink(
+                19325,
+                "Don Julio's Band"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
             new WowheadLink(
                 19384,
                 "Master Dragonslayer's Ring"
             ),
             new WowheadLink(
-                18821,
-                "Quick Strike Ring"
+                17063,
+                "Band of Accuria"
             ),
-            null
+            new WowheadLink(
+                13098,
+                "Painweaver Band"
+            ), null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
+                20130,
+                "Diamond Flask"
+            ),
+            null,
+            new WowheadLink(
                 19406,
-                "Drake Fang Talisman"
+                "Hand of Justice"
             ),
             new WowheadLink(
                 11815,
-                "Hand of Justice"
-            ),
+                "Blackhand's Breadth"
+            )
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
             new WowheadLink(
                 13965,
                 "Blackhand's Breadth"
             ),
+            null,
+            new WowheadLink(
+                19289,
+                "Darkmoon Card: Maelstrom"
+            ),
             null
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
             new WowheadLink(
-                17112,
-                "Empyrean Demolisher",
-                linkType.item,
-                "Rank 14 weapons are close"
+                19352,
+                "Chromatically Tempered Sword"
             ),
             new WowheadLink(
-                19352,
-                "Chromatically Tempered Sword",
-                linkType.item,
-                "Best human"
+                19335,
+                "Spineshatter"
+            ),
+            new WowheadLink(
+                17075,
+                "Vis'kag the Bloodletter"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Mainhand
+            itemSlots.mainHand,
+            new WowheadLink(
+                17068,
+                "Deathbringer"
             ),
             new WowheadLink(
                 19363,
-                "Crul'shorukh, Edge of Chaos",
-                linkType.item,
-                "Best non human"
+                "Crul'shorukh, Edge of Chaos"
+            ),
+            new WowheadLink(
+                18816,
+                "Perdition's Blade"
             ),
             new WowheadLink(
                 20034,
@@ -8149,54 +8177,46 @@ let tierTwoWarriorDPS = new TableList(
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //OH
+        new ItemSlotRow( //Offhand
             itemSlots.offHand,
             new WowheadLink(
-                23467,
-                "High Warlord's Quickblade",
-                linkType.item,
-                "Any of the Rank 14 PvP weapons are BiS",
+                18832,
+                "Brutality Blade"
             ),
             new WowheadLink(
                 19351,
-                "Maladath, Runed Blade of the Black Flight",
-                linkType.item,
-                "Best human"
+                "Maladath, Runed Blade of the Black Flight"
+            ),
+            new WowheadLink(
+                19170,
+                "Ebon Hand"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhand
+            itemSlots.offHand,
+            new WowheadLink(
+                19363,
+                "Crul'shorukh, Edge of Chaos"
+            ),
+            new WowheadLink(
+                18805,
+                "Core Hound Tooth"
             ),
             new WowheadLink(
                 19362,
-                "Doom's Edge",
-                linkType.item,
-                "Best non human"
+                "Doom's Edge"
             ),
             new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
                 linkType.spell
             )
-        ),
-        new ItemSlotRow( //2H
-            itemSlots.twoHand,
-            new WowheadLink(
-                17076,
-                "Bonereaver's Edge"
-            ),
-            new WowheadLink(
-                19334,
-                "The Untamed Blade",
-                linkType.item,
-                "Best if you fish for procs with Hamstring"
-            ),
-            new WowheadLink(
-                18876,
-                "Grand Marshal's Claymore"
-            ),
-            new WowheadLink(
-                20034,
-                "Enchant Weapon - Crusader",
-                linkType.spell
-            )
-        ),
+        ), ,
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
@@ -8208,14 +8228,11 @@ let tierTwoWarriorDPS = new TableList(
                 "Blastershot Launcher"
             ),
             new WowheadLink(
-                18323,
-                "Satyr's Bow"
+                19107,
+                "Bloodseeker"
             ),
-            new WowheadLink(
-                10548,
-                "Sniper Scope"
-            )
-        )
+            null
+        ),
     ],
     "DPS"
 );
