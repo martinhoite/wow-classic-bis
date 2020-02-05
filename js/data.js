@@ -3156,11 +3156,15 @@ let tierTwoPaladin = new TableList(
             itemSlots.head,
             new WowheadLink(
                 19375,
-                "Mish'undare, Circlet of the Mind Flayer"
+                "Mish'undare, Circlet of the Mind Flayer",
+                linkType.item,
+                "Crit > +heal"
             ),
             new WowheadLink(
-                10504,
-                "Green Lens"
+                19132,
+                "Crystal Adorned Crown",
+                linkType.item,
+                "Azuergos (World Boss drop)"
             ),
             new WowheadLink(
                 16955,
@@ -3169,19 +3173,22 @@ let tierTwoPaladin = new TableList(
             new WowheadLink(
                 11648,
                 "Lesser Arcanum of Voracity"
-            ),
+            )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
+            ),
             new WowheadLink(
                 18723,
                 "Animated Chain Necklace"
             ),
             new WowheadLink(
-                18814,
-                "Choker of the Fire Lord"
+                17109,
+                "Choker of Enlightenment"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Shoulder
@@ -3190,12 +3197,15 @@ let tierTwoPaladin = new TableList(
                 18810,
                 "Wild Growth Spaulders"
             ),
-            null,
-            null,
             new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn"
+                19370,
+                "Mantle of the Blackwing Cabal"
             ),
+            new WowheadLink(
+                14548,
+                "Royal Cap Spaulders"
+            ),
+            null
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
@@ -3204,15 +3214,20 @@ let tierTwoPaladin = new TableList(
                 "Shroud of Pure Thought"
             ),
             new WowheadLink(
-                13386,
-                "Archivist Cape"
+                18510,
+                "Hide of the Wild",
+                linkType.item,
+                "Leatherworking crafting"
             ),
-            null,
+            new WowheadLink(
+                19378,
+                "Cloak of the Brood Lord"
+            ),
             new WowheadLink(
                 20014,
                 "Enchant Cloak - Greater Resistance",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Chest
             itemSlots.chest,
@@ -3220,41 +3235,53 @@ let tierTwoPaladin = new TableList(
                 19145,
                 "Robe of Volatile Power"
             ),
-            null,
-            null,
+            new WowheadLink(
+                13346,
+                "Robes of the Exalted"
+            ),
+            new WowheadLink(
+                16853,
+                "Lawbringer Chestguard"
+            ),
             new WowheadLink(
                 20025,
                 "Enchant Chest - Greater Stats",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
             new WowheadLink(
+                18459,
+                "Gallant's Wristguards"
+            ),
+            new WowheadLink(
                 13969,
                 "Loomguard Armbraces"
             ),
-            null,
-            null,
+            new WowheadLink(
+                18525,
+                "Bracers of Prosperity"
+            ),
             new WowheadLink(
                 20008,
                 "Enchant Bracer - Greater Intellect",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
                 19390,
-                "Taut Dragonhide Gloves"
+                "Taunt Dragonhide Gloves"
             ),
             new WowheadLink(
-                10787,
-                "Atal'ai Gloves"
+                18527,
+                "Harmonious Gauntlets"
             ),
             new WowheadLink(
-                12554,
-                "Hands of the Exalted Herald"
+                18309,
+                "Gloves of Restoration"
             ),
             null
         ),
@@ -3262,10 +3289,18 @@ let tierTwoPaladin = new TableList(
             itemSlots.belt,
             new WowheadLink(
                 19162,
-                "Corehound Belt"
+                "Corehound Belt",
+                linkType.item,
+                "Leatherworking Crafting"
             ),
-            null,
-            null,
+            new WowheadLink(
+                19136,
+                "Mana Igniting Cord"
+            ),
+            new WowheadLink(
+                19400,
+                "Firemaw's Clutch"
+            ),
             null
         ),
         new ItemSlotRow( //Legs
@@ -3278,7 +3313,10 @@ let tierTwoPaladin = new TableList(
                 18875,
                 "Salamander Scale Pants"
             ),
-            null,
+            new WowheadLink(
+                18386,
+                "Padre's Trousers"
+            ),
             new WowheadLink(
                 11648,
                 "Lesser Arcanum of Voracity"
@@ -3288,13 +3326,16 @@ let tierTwoPaladin = new TableList(
             itemSlots.feet,
             new WowheadLink(
                 19437,
-                "Boots of Pure Thought"
+                "Boots of Pure Light"
             ),
             new WowheadLink(
-                13954,
-                "Verdant Footpads"
+                19131,
+                "Snowblind Shoes"
             ),
-            null,
+            new WowheadLink(
+                18102,
+                "Dragonrider Boots"
+            ),
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
@@ -3312,9 +3353,19 @@ let tierTwoPaladin = new TableList(
                 "Cauterizing Band"
             ),
             new WowheadLink(
-                19140,
-                "Cauterizing Band"
+                16058,
+                "Fordring's Seal"
             ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                13178,
+                "Rosewine Circle"
+            ),
+            null,
+            null,
             null
         ),
         new ItemSlotRow( //Trinkets
@@ -3324,20 +3375,33 @@ let tierTwoPaladin = new TableList(
                 "Rejuvenating Gem"
             ),
             new WowheadLink(
-                17064,
-                "Shard of the Scale"
+                18820,
+                "Talisman of Ephemeral Power"
             ),
+            new WowheadLink(
+                19343,
+                "Scrolls of Blinding Light"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
             new WowheadLink(
                 12930,
                 "Briarwood Reed"
             ),
+            new WowheadLink(
+                19379,
+                "Neltharion's Tear"
+            ),
+            null,
             null
         ),
-        new ItemSlotRow( //MH
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
             new WowheadLink(
                 19360,
-                "Lok'amir il Romathis"
+                "Lok'Amir il Romathis"
             ),
             new WowheadLink(
                 17103,
@@ -3353,17 +3417,24 @@ let tierTwoPaladin = new TableList(
                 linkType.spell
             )
         ),
-        new ItemSlotRow( //OH
+        new ItemSlotRow( //Offhand
             itemSlots.offHand,
             new WowheadLink(
-                19312,
-                "Lei of the Lifegiver"
+                19348,
+                "Red Dragonscale Protector"
             ),
             new WowheadLink(
-                11928,
-                "Thaurissan's Royal Scepter"
+                19366,
+                "Master Dragonslayer's Orb",
+                linkType.item,
+                "Head of Nefarian"
             ),
-            null,
+            new WowheadLink(
+                19312,
+                "Lei of the Lifegiver",
+                linkType.item,
+                "Alterac Valley Exalted"
+            ),
             null
         ),
     ]
