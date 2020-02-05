@@ -8106,7 +8106,8 @@ let tierTwoWarriorDPS = new TableList(
             new WowheadLink(
                 13098,
                 "Painweaver Band"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
@@ -8114,7 +8115,6 @@ let tierTwoWarriorDPS = new TableList(
                 20130,
                 "Diamond Flask"
             ),
-            null,
             new WowheadLink(
                 19406,
                 "Hand of Justice"
@@ -8122,7 +8122,8 @@ let tierTwoWarriorDPS = new TableList(
             new WowheadLink(
                 11815,
                 "Blackhand's Breadth"
-            )
+            ),
+            null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
@@ -8130,11 +8131,11 @@ let tierTwoWarriorDPS = new TableList(
                 13965,
                 "Blackhand's Breadth"
             ),
-            null,
             new WowheadLink(
                 19289,
                 "Darkmoon Card: Maelstrom"
             ),
+            null,
             null
         ),
         new ItemSlotRow( //Mainhand
@@ -8216,7 +8217,7 @@ let tierTwoWarriorDPS = new TableList(
                 "Enchant Weapon - Crusader",
                 linkType.spell
             )
-        ), ,
+        ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
