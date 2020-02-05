@@ -4352,7 +4352,7 @@ let tierTwoPriest = new TableList(
                 "of Healing Raw Output"
             ),
             null
-        )
+        ),
     ]
 );
 
@@ -5901,32 +5901,34 @@ let tierTwoWarlock = new TableList(
                 23255,
                 "Champion's Dreadweave Cowl",
                 linkType.item,
-                "PvP Rank 10"
+                "In combination with PvP Rank 10 Shoulders"
             ),
             new WowheadLink(
                 16929,
-                "Nemesis Skullcap"
+                "Nemesis Skullcap",
+                linkType.item,
+                "Only With 3-Set Bonus, one of three Nemesis Pieces"
             ),
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
-            ),
+                18330,
+                "Arcanum of Focus"
+            )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
             new WowheadLink(
                 18814,
-                "Choker of the Firelord"
+                "Choker of the Fire Lord"
+            ),
+            new WowheadLink(
+                19426,
+                "Orb of the Darkmoon"
             ),
             new WowheadLink(
                 18691,
                 "Dark Advisor's Pendant"
             ),
-            new WowheadLink(
-                17109,
-                "Choker of Enlightenment"
-            ),
-            null,
+            null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
@@ -5938,18 +5940,15 @@ let tierTwoWarlock = new TableList(
                 23311,
                 "Lieutenant Commander's Dreadweave Spaulders",
                 linkType.item,
-                "Rank 10 PvP"
+                "In Combination with PvP rank 10 Bonus"
             ),
             new WowheadLink(
-                14335,
-                "Eternal Spaulders",
+                16932,
+                "Nemesis Spaulders",
                 linkType.item,
-                "+30 Shadow damage"
+                "Only With 3-Set Bonus, one of three Nemesis Pieces"
             ),
-            new WowheadLink(
-                18182,
-                "Chromatic mantle of the Dawn"
-            ),
+            null
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
@@ -5959,17 +5958,19 @@ let tierTwoWarlock = new TableList(
             ),
             new WowheadLink(
                 13386,
-                "Archivist Cape of Shadow Wrath"
+                "Archivist Cape",
+                linkType.item,
+                "Of Shadow Wrath (+21 Shadow spell damage)"
             ),
             new WowheadLink(
-                11623,
-                "Master's Cloak of Shadow Wrath"
+                17078,
+                "Sapphiron Drape"
             ),
             new WowheadLink(
-                20025,
+                20014,
                 "Enchant Cloak - Greater Resistance",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Chest
             itemSlots.chest,
@@ -5982,14 +5983,16 @@ let tierTwoWarlock = new TableList(
                 "Robe of the Void"
             ),
             new WowheadLink(
-                16809,
-                "Felheart Robes"
+                16931,
+                "Nemesis Robes",
+                linkType.item,
+                "Only With 3-Set Bonus, one of three Nemesis Pieces"
             ),
             new WowheadLink(
                 20025,
                 "Enchant Chest - Greater Stats",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Wrist
             itemSlots.wrist,
@@ -5999,36 +6002,19 @@ let tierTwoWarlock = new TableList(
             ),
             new WowheadLink(
                 19595,
-                "Dryad's Wrist Bindings"
+                "Dryad's Wrist Bindings",
+                linkType.item,
+                "WSG Exalted"
             ),
             new WowheadLink(
-                13409,
-                "Tearfall Bracers of Shadow Wrath"
+                16934,
+                "Nemesis Bracers"
             ),
             new WowheadLink(
                 20008,
-                "Enchant Bracer - Greater intellect",
+                "Enchant Bracer - Greater Intellect",
                 linkType.spell
-            ),
-        ),
-        new ItemSlotRow( //Legs
-            itemSlots.legs,
-            new WowheadLink(
-                19133,
-                "Fel Infused Leggings"
-            ),
-            new WowheadLink(
-                16930,
-                "Nemesis Leggings"
-            ),
-            new WowheadLink(
-                13170,
-                "Skyshroud leggings"
-            ),
-            new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity"
-            ),
+            )
         ),
         new ItemSlotRow( //Hands
             itemSlots.hands,
@@ -6038,16 +6024,26 @@ let tierTwoWarlock = new TableList(
             ),
             new WowheadLink(
                 14146,
-                "Gloves of Spell Mastery"
+                "Gloves of Spell Mastery",
+                linkType.item,
+                "Crafted by Tailor w/Pattern"
             ),
             new WowheadLink(
-                16805,
-                "Felheart Gloves"
+                18407,
+                "Felcloth Gloves",
+                linkType.item,
+                "Crafted by Tailor w/Pattern"
             ),
-            null,
+            null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
+            new WowheadLink(
+                19388,
+                "Angelista's Grasp",
+                linkType.item,
+                "If lacking Hit"
+            ),
             new WowheadLink(
                 19136,
                 "Mana Igniting Cord"
@@ -6056,39 +6052,64 @@ let tierTwoWarlock = new TableList(
                 18809,
                 "Sash of Whispered Secrets"
             ),
-            new WowheadLink(
-                11662,
-                "Bhan'thok Sash"
-            ),
             null
+        ),
+        new ItemSlotRow( //Legs
+            itemSlots.legs,
+            new WowheadLink(
+                19133,
+                "Fel Infused Leggings",
+                linkType.item,
+                "Lord Kazzak Drop"
+            ),
+            new WowheadLink(
+                19165,
+                "Flarecore Leggings",
+                linkType.item,
+                "Crafted by Tailor w/Revered Thorium Rep"
+            ),
+            new WowheadLink(
+                16930,
+                "Nemesis Leggings",
+                linkType.item,
+                "Only with 3-Set Bonus, one of three Nemesis Pieces"
+            ),
+            new WowheadLink(
+                18330,
+                "Arcanum of Focus"
+            )
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
                 19131,
-                "Snowblind Shoes"
+                "Snowblind Shoes",
+                linkType.item,
+                "Azuregos Drop"
+            ),
+            new WowheadLink(
+                16927,
+                "Nemesis Boots",
+                linkType.item,
+                "Only with 3-Set Bonus, one of three Nemesis Pieces"
             ),
             new WowheadLink(
                 18735,
                 "Maleki's Footwraps"
             ),
             new WowheadLink(
-                10247,
-                "Master's Boots of Shadow Wrath",
-                linkType.item,
-                "+41 Shadow damage"
-            ),
-            new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
                 linkType.spell
-            ),
+            )
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
                 19434,
-                "Band of Dark Dominion"
+                "Band of Dark Dominion",
+                linkType.item,
+                "2nd BIS if you got 3rd BIS"
             ),
             new WowheadLink(
                 19403,
@@ -6097,6 +6118,22 @@ let tierTwoWarlock = new TableList(
             new WowheadLink(
                 19147,
                 "Ring of Spell Power"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Rings
+            itemSlots.rings,
+            new WowheadLink(
+                19397,
+                "Ring of Blackrock"
+            ),
+            new WowheadLink(
+                13001,
+                "Maiden's Circle"
+            ),
+            new WowheadLink(
+                12543,
+                "Songstone of Ironforge"
             ),
             null
         ),
@@ -6116,63 +6153,96 @@ let tierTwoWarlock = new TableList(
             ),
             null
         ),
-        new ItemSlotRow( //Main Hand
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                13968,
+                "Eye of the Beast"
+            ),
+            null,
+            null,
+            null
+        ),
+        new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
+            new WowheadLink(
+                19347,
+                "Claw of Chromaggus"
+            ),
             new WowheadLink(
                 17103,
                 "Azuresong Mageblade"
             ),
             new WowheadLink(
-                17719,
-                "Inventor's Focal Sword"
+                18878,
+                "Sorcerous Dagger"
             ),
             new WowheadLink(
-                13964,
-                "Witchblade"
+                22749,
+                "Enchant Weapon - Spell Power",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhand
+            itemSlots.offHand,
+            new WowheadLink(
+                19309,
+                "Tome of Shadow Force",
+                linkType.item,
+                "Alterac Valley Exalted"
+            ),
+            new WowheadLink(
+                19366,
+                "Master Dragonslayer's Orb",
+                linkType.item,
+                "Head of Nefarian"
+            ),
+            new WowheadLink(
+                10796,
+                "Drakestone",
+                linkType.item,
+                "of Shadow Wrath"
             ),
             null
         ),
-        new ItemSlotRow( //Off-hand
-            itemSlots.offHand,
-            new WowheadLink(
-                10796,
-                "Drakestone of Shadow Wrath"
-            ),
-            new WowheadLink(
-                11904,
-                "Spirit of Aquementas"
-            ),
-            null,
-            null,
-        ),
-        new ItemSlotRow(//2H
+        new ItemSlotRow( //Twohand
             itemSlots.twoHand,
             new WowheadLink(
                 19356,
                 "Staff of the Shadow Flame"
             ),
             new WowheadLink(
+                19355,
+                "Shadow Wing Focus Staff"
+            ),
+            new WowheadLink(
                 18842,
                 "Staff of Dominance"
             ),
-            null,
-            null
+            new WowheadLink(
+                22749,
+                "Enchant Weapon - Spell Power",
+                linkType.spell
+            )
         ),
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
-                15283,
-                "Lunar Wand of Shadow Wrath",
-                linkType.item,
-                "+20 Shadow damage"
+                13396,
+                "Skul's Ghastly Touch"
             ),
             new WowheadLink(
-                13396,
-                "Skul's Ghastly Touch",
+                15283,
+                "Lunar Wand",
+                linkType.item,
+                "Of Shadow Wrath"
             ),
-            null,
+            new WowheadLink(
+                19367,
+                "Dragon's Touch"
+            ),
             null
-        )
+        ),
     ]
 );
 
