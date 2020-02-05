@@ -7889,7 +7889,7 @@ let tierTwoWarriorDPS = new TableList(
                 "Crown of Destruction"
             ),
             new WowheadLink(
-                18332,
+                18329,
                 "Arcanum of Rapidity",
                 linkType.item,
                 "Voracity can be acceptable"
@@ -8048,7 +8048,7 @@ let tierTwoWarriorDPS = new TableList(
                 "Cloudkeeper Legplates"
             ),
             new WowheadLink(
-                18332,
+                18329,
                 "Arcanum of Rapidity",
                 linkType.item,
                 "Voracity can be acceptable"
