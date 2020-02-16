@@ -2897,13 +2897,10 @@ let tierOnePaladin = new TableList(
                 "Insightful Hood"
             ),
             new WowheadLink(
-                18870,
-                "Helm of the Lifegiver"
-            ),
-            new WowheadLink(
                 16955,
                 "Judgement Crown"
             ),
+            null,
             new WowheadLink(
                 18330,
                 "Arcanum of Focus"
