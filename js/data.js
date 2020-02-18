@@ -5209,11 +5209,13 @@ let tierTwoRogue = new TableList(
                 16906,
                 "Bloodfang Boots",
                 linkType.item,
-                "Best with 8 set"
+                "BiS with 8 set (Sword)"
             ),
             new WowheadLink(
                 19381,
-                "Boots of the Shadow Flame"
+                "Boots of the Shadow Flame",
+                linkType.item,
+                "(Dagger BiS)"
             ),
             new WowheadLink(
                 16824,
