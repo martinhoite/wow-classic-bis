@@ -1758,7 +1758,7 @@ let tierTwoHunter = new TableList(
                 "Drake Fang Talisman"
             ),
             new WowheadLink(
-                18472,
+                18473,
                 "Royal Seal of Eldre’Thalas"
             ),
             new WowheadLink(
