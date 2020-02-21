@@ -875,7 +875,8 @@ let tierTwoDruidTank = new TableList(
             ),
             new WowheadLink(
                 13882,
-                "Enchant Cloak - Lesser Agility"
+                "Enchant Cloak - Lesser Agility",
+                linkType.spell
             )
         ),
         new ItemSlotRow( //Chest
@@ -1000,7 +1001,7 @@ let tierTwoDruidTank = new TableList(
             new WowheadLink(
                 13890,
                 "Enchant Boots - Minor Speed",
-                linkType.item,
+                linkType.spell,
                 "Greater Agility also an option"
             )
         ),
