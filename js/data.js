@@ -2391,7 +2391,7 @@ let tierTwoMage = new TableList(
             new WowheadLink(
                 18182,
                 "Chromatic Mantle of the Dawn",
-                linkType.spell,
+                linkType.item,
                 "5 FR if not exalted"
             )
         ),
@@ -2602,7 +2602,8 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 22749,
-                "Enchant Weapon - Spellpower"
+                "Enchant Weapon - Spellpower",
+                linkType.spell
             )
         ),
         new ItemSlotRow( //Offhand
@@ -2639,7 +2640,8 @@ let tierTwoMage = new TableList(
             ),
             new WowheadLink(
                 22749,
-                "Enchant Weapon - Spellpower"
+                "Enchant Weapon - Spellpower",
+                linkType.spell
             )
         ),
         new ItemSlotRow( //Ranged
