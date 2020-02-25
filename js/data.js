@@ -3192,7 +3192,8 @@ let tierTwoPaladin = new TableList(
             new WowheadLink(
                 17109,
                 "Choker of Enlightenment"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
@@ -3249,7 +3250,7 @@ let tierTwoPaladin = new TableList(
                 19145,
                 "Robe of Volatile Power",
                 linkType.item,
-                "Crit"
+                "Crit build"
             ),
             new WowheadLink(
                 13346,
@@ -3294,18 +3295,19 @@ let tierTwoPaladin = new TableList(
                 19390,
                 "Taunt Dragonhide Gloves",
                 linkType.item,
-                "To get some extra Crit"
+                "Crit build"
             ),
             new WowheadLink(
                 18527,
                 "Harmonious Gauntlets",
                 linkType.item,
-                "Most +heal"
+                "most +heal"
             ),
             new WowheadLink(
                 18309,
                 "Gloves of Restoration"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Belt
             itemSlots.belt,
@@ -3322,7 +3324,8 @@ let tierTwoPaladin = new TableList(
             new WowheadLink(
                 19400,
                 "Firemaw's Clutch"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Legs
             itemSlots.legs,
@@ -3379,12 +3382,15 @@ let tierTwoPaladin = new TableList(
             ),
             new WowheadLink(
                 19140,
-                "Cauterizing Band"
+                "Cauterizing Band",
+                linkType.item,
+                "BiS until P5"
             ),
             new WowheadLink(
                 16058,
                 "Fordring's Seal"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
@@ -3395,7 +3401,8 @@ let tierTwoPaladin = new TableList(
             new WowheadLink(
                 19397,
                 "Ring of Blackrock"
-            ), null,
+            ),
+            null,
             null
         ),
         new ItemSlotRow( //Trinkets
@@ -3407,30 +3414,34 @@ let tierTwoPaladin = new TableList(
                 "BiG"
             ),
             new WowheadLink(
-                19343,
-                "Scrolls of Blinding Light"
-            ),
-            new WowheadLink(
-                12930,
-                "Briarwood Reed"
-            ), null
-        ),
-        new ItemSlotRow( //Trinkets
-            itemSlots.trinkets,
-            new WowheadLink(
-                11819,
-                "Second Wind"
-            ),
-            new WowheadLink(
                 19379,
                 "Neltharion's Tear",
                 linkType.item,
                 "Caster prio"
             ),
             new WowheadLink(
+                19343,
+                "Scrolls of Blinding Light",
+                linkType.item,
+                "Situational"
+            ),
+            null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                12930,
+                "Briarwood Reed"
+            ),
+            new WowheadLink(
+                11819,
+                "Second Wind"
+            ),
+            new WowheadLink(
                 18820,
                 "Talisman of Ephemeral Power"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
@@ -3471,7 +3482,8 @@ let tierTwoPaladin = new TableList(
                 "Master Dragonslayer's Orb",
                 linkType.item,
                 "Head of Nefarian"
-            ), null
+            ),
+            null
         ),
     ]
 );
