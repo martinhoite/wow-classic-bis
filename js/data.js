@@ -1037,16 +1037,16 @@ let tierTwoDruidTank = new TableList(
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
-                13966,
-                "Drake Fang Talisman"
+                19395,
+                "Rejuvenating Gem"
             ),
             new WowheadLink(
-                19406,
-                "Drake Fang Talisman"
+                19288,
+                "Darkmoon Card: Blue Dragon"
             ),
             new WowheadLink(
-                11811,
-                "Smoking Heart of the Mountain"
+                17064,
+                "Shard of the Scale"
             ),
             null
         ),
