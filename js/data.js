@@ -719,10 +719,8 @@ let tierTwoDruidResto = new TableList(
                 "Rejuvenating Gem"
             ),
             new WowheadLink(
-                19379,
-                "Neltharion's Tear",
-                linkType.item,
-                "Crit Build"
+                19288,
+                "Darkmoon Card: Blue Dragon"
             ),
             new WowheadLink(
                 17064,
@@ -1037,16 +1035,16 @@ let tierTwoDruidTank = new TableList(
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
-                19395,
-                "Rejuvenating Gem"
+                13966,
+                "Drake Fang Talisman"
             ),
             new WowheadLink(
-                19288,
-                "Darkmoon Card: Blue Dragon"
+                19406,
+                "Drake Fang Talisman"
             ),
             new WowheadLink(
-                17064,
-                "Shard of the Scale"
+                11811,
+                "Smoking Heart of the Mountain"
             ),
             null
         ),
