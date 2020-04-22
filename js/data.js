@@ -3161,7 +3161,13 @@ let tierTwoPaladin = new TableList(
                 19132,
                 "Crystal Adorned Crown",
                 linkType.item,
-                "Azuergos (World Boss drop)"
+                "BiS until P5"
+            ),
+            new WowheadLink(
+                20628,
+                "Deviate Growth Cap",
+                linkType.item,
+                "Crit, +heal and mp5"
             ),
             new WowheadLink(
                 19375,
@@ -3170,31 +3176,25 @@ let tierTwoPaladin = new TableList(
                 "Crit"
             ),
             new WowheadLink(
-                18490,
-                "Insightful Hood"
-            ),
-            new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity",
-                linkType.item,
-                "or Arcanum of Focus"
+                19783,
+                "Syncretist's Sigil"
             )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
             new WowheadLink(
-                18814,
-                "Choker of the Fire Lord",
+                19885,
+                "Jin'do's Evil Eye",
                 linkType.item,
-                "BiS until P4"
+                "BiS until P5"
+            ),
+            new WowheadLink(
+                18814,
+                "Choker of the Fire Lord"
             ),
             new WowheadLink(
                 18723,
                 "Animated Chain Necklace"
-            ),
-            new WowheadLink(
-                17109,
-                "Choker of Enlightenment"
             ),
             null
         ),
@@ -3207,18 +3207,16 @@ let tierTwoPaladin = new TableList(
                 "BiS until P6"
             ),
             new WowheadLink(
+                19928,
+                "Animist's Spaulders"
+            ),
+            new WowheadLink(
                 19370,
                 "Mantle of the Blackwing Cabal"
             ),
             new WowheadLink(
-                12625,
-                "Dawnbringer Shoulder",
-                linkType.item,
-                "Blacksmith crafting"
-            ),
-            new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn",
+                20078,
+                "Zandalar Signet of Serenity",
                 linkType.item,
                 "Or Mantle of the Dawn"
             )
@@ -3262,8 +3260,8 @@ let tierTwoPaladin = new TableList(
                 "Most +heal"
             ),
             new WowheadLink(
-                16958,
-                "Judgement Breastplate"
+                20635,
+                "Jade Inlaid Vestments"
             ),
             new WowheadLink(
                 20025,
@@ -3295,6 +3293,12 @@ let tierTwoPaladin = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
+                20264,
+                "Peacekeeper Gauntlets",
+                linkType.item,
+                "BiG"
+            ),
+            new WowheadLink(
                 19390,
                 "Taunt Dragonhide Gloves",
                 linkType.item,
@@ -3305,10 +3309,6 @@ let tierTwoPaladin = new TableList(
                 "Harmonious Gauntlets",
                 linkType.item,
                 "most +heal"
-            ),
-            new WowheadLink(
-                18309,
-                "Gloves of Restoration"
             ),
             null
         ),
@@ -3347,10 +3347,8 @@ let tierTwoPaladin = new TableList(
                 "Padre's Trousers"
             ),
             new WowheadLink(
-                11648,
-                "Lesser Arcanum of Voracity",
-                linkType.item,
-                "or Arcanum of Focus"
+                19783,
+                "Syncretist's Sigil"
             )
         ),
         new ItemSlotRow( //Feet
@@ -3366,8 +3364,8 @@ let tierTwoPaladin = new TableList(
                 "Snowblind Shoes"
             ),
             new WowheadLink(
-                18507,
-                "Boots of Full Moon"
+                20634,
+                "Boots of Fright"
             ),
             new WowheadLink(
                 13890,
@@ -3455,12 +3453,12 @@ let tierTwoPaladin = new TableList(
                 "BiS until P5"
             ),
             new WowheadLink(
-                17103,
-                "Azuresong Mageblade"
+                19890,
+                "Jin'do's Hexxer"
             ),
             new WowheadLink(
-                17105,
-                "Aurastone Hammer"
+                17103,
+                "Azuresong Mageblade"
             ),
             new WowheadLink(
                 22750,
