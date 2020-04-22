@@ -2350,8 +2350,8 @@ let tierTwoMage = new TableList(
                 "Netherwind Crown"
             ),
             new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19787,
+                "Presence of Sight"
             )
         ),
         new ItemSlotRow( //Neck
@@ -2387,10 +2387,8 @@ let tierTwoMage = new TableList(
                 "For 3-set Bonus"
             ),
             new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn",
-                linkType.item,
-                "5 FR if not exalted"
+                20076,
+                "Zandalar Signet of Mojo"
             )
         ),
         new ItemSlotRow( //Back
@@ -2400,16 +2398,14 @@ let tierTwoMage = new TableList(
                 "Cloak of the Brood Lord"
             ),
             new WowheadLink(
-                13386,
-                "Archivist Cape of Frozen Wrath",
-                linkType.item,
-                "Any cloak with +21 Frost damage"
+                19857,
+                "Cloak of Consumption"
             ),
             new WowheadLink(
                 17078,
                 "Sapphiron Drape",
                 linkType.item,
-                "For stats"
+                "For stats/ or use any cloak with +21 frost damage."
             ),
             new WowheadLink(
                 20014,
@@ -2420,16 +2416,16 @@ let tierTwoMage = new TableList(
         new ItemSlotRow( //Chest
             itemSlots.chest,
             new WowheadLink(
+                19682,
+                "Bloodvine Vest"
+            ),
+            new WowheadLink(
                 14152,
                 "Robe of the Archmage"
             ),
             new WowheadLink(
                 16916,
                 "Netherwind Robes"
-            ),
-            new WowheadLink(
-                19145,
-                "Robe of Volatile Power"
             ),
             new WowheadLink(
                 20025,
@@ -2510,21 +2506,19 @@ let tierTwoMage = new TableList(
                 "Skyshroud Leggings"
             ),
             new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19787,
+                "Presence of Sight"
             )
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
             new WowheadLink(
-                19438,
-                "Ringo's Blizzard Boots"
+                19684,
+                "Bloodvine Boots"
             ),
             new WowheadLink(
-                16800,
-                "Arcanist Boots",
-                linkType.item,
-                "For 3-set Bonus"
+                19438,
+                "Ringo's Blizzard Boots"
             ),
             new WowheadLink(
                 23291,
@@ -2547,12 +2541,13 @@ let tierTwoMage = new TableList(
                 "You want 2 of these"
             ),
             new WowheadLink(
-                19403,
-                "Band of Forced Concentration"
+                20632,
+                "Mindtear Band"
             ),
             new WowheadLink(
-                942,
-                "Freezing Band"
+                19403,
+                "Band of Forced Concentration",
+                linkType.item,
             ),
             null
         ),
@@ -2562,15 +2557,25 @@ let tierTwoMage = new TableList(
                 12543,
                 "Songstone of Ironforge"
             ),
-            null,
-            null,
+            new WowheadLink(
+                19905,
+                "Zanzil's Band",
+                linkType.item,
+                "Good set for 3% hit 17sp"
+            ),
+            new WowheadLink(
+                19893,
+                "Zanzil's Seal"
+            ),
             null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
-                18820,
-                "Talisman of Ephemeral Power"
+                19950,
+                "Zandalarian Hero Charm",
+                linkType.item,
+                "Talisman is mostly equal"
             ),
             new WowheadLink(
                 19379,
@@ -2651,16 +2656,16 @@ let tierTwoMage = new TableList(
                 "From Azuregos. 20 frost damage"
             ),
             new WowheadLink(
+                19861,
+                "Touch of Chaos",
+                linkType.item,
+                "Fire BiS"
+            ),
+            new WowheadLink(
                 19108,
                 "Wand of Biting Cold",
                 linkType.item,
                 "From Alterac Valley quest. 16 frost damage"
-            ),
-            new WowheadLink(
-                15283,
-                "Lunar Wand of Frozen Wrath",
-                linkType.item,
-                "13 frost damage. World drop"
             ),
             null
         )
