@@ -4037,12 +4037,18 @@ let tierTwoPriest = new TableList(
                 "Set"
             ),
             new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19789,
+                "Prophetic Aura",
+                linkType.item,
+                "or Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Neck
             itemSlots.neck,
+            new WowheadLink(
+                19885,
+                "Jin'do's Evil Eye"
+            ),
             new WowheadLink(
                 18814,
                 "Choker of the Fire Lord"
@@ -4050,12 +4056,6 @@ let tierTwoPriest = new TableList(
             new WowheadLink(
                 18723,
                 "Animated Chain Necklace"
-            ),
-            new WowheadLink(
-                19371,
-                "Pendant of the Fallen Dragon",
-                linkType.item,
-                "MP5"
             ),
             null
         ),
@@ -4078,10 +4078,10 @@ let tierTwoPriest = new TableList(
                 "Burial Shawl"
             ),
             new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn",
+                20078,
+                "Zandalar Signet of Serenity",
                 linkType.item,
-                "or +5 Fire Res. if not Exalted"
+                "or Chromatic Mantle of the Dawn"
             )
         ),
         new ItemSlotRow( //Back
@@ -4166,10 +4166,10 @@ let tierTwoPriest = new TableList(
                 "Set"
             ),
             new WowheadLink(
-                19369,
-                "Gloves of Rapid Evolution",
+                20618,
+                "Gloves of Delusional Power",
                 linkType.item,
-                "High Spirit or T1 Gloves depending on how many Setitems "
+                "Emerald Dragon Loot"
             ),
             new WowheadLink(
                 12554,
@@ -4218,8 +4218,10 @@ let tierTwoPriest = new TableList(
                 "MP5"
             ),
             new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19789,
+                "Prophetic Aura",
+                linkType.item,
+                "or Arcanum of Focus"
             )
         ),
         new ItemSlotRow( //Feet
@@ -4273,6 +4275,10 @@ let tierTwoPriest = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
+                22721,
+                "Band of Servitude"
+            ),
+            new WowheadLink(
                 16058,
                 "Fordring's Seal"
             ),
@@ -4282,7 +4288,6 @@ let tierTwoPriest = new TableList(
                 linkType.item,
                 "MP5"
             ),
-            null,
             null
         ),
         new ItemSlotRow( //Trinkets
@@ -4352,7 +4357,7 @@ let tierTwoPriest = new TableList(
                 19366,
                 "Master Dragonslayer's Orb",
                 linkType.item,
-                "Head of Nefarian Stat Chice"
+                "Head of Nefarian Stat Choice"
             ),
             new WowheadLink(
                 19312,
@@ -4361,7 +4366,7 @@ let tierTwoPriest = new TableList(
                 "Stormpike Guard Exalted (AV) Raw Output / MP5"
             ),
             new WowheadLink(
-                18532,
+                18523,
                 "Brightly Glowing Stone"
             ),
             null
