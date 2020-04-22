@@ -5060,8 +5060,8 @@ let tierTwoRogue = new TableList(
                 "Mask of the Unforgiven"
             ),
             new WowheadLink(
-                11647,
-                "Lesser Arcanum of Voracity"
+                19784,
+                "Death's Embrace"
             )
         ),
         new ItemSlotRow( //Neck
@@ -5075,8 +5075,8 @@ let tierTwoRogue = new TableList(
                 "Onyxia Tooth Pendant"
             ),
             new WowheadLink(
-                15411,
-                "Mark of Fordring"
+                19856,
+                "The Eye of Hakkar"
             ),
             null
         ),
@@ -5098,7 +5098,7 @@ let tierTwoRogue = new TableList(
             ),
             new WowheadLink(
                 18182,
-                "Chromatic Mantle of the Dawn"
+                "Zandalar Signet of Might"
             )
         ),
         new ItemSlotRow( //Back
@@ -5112,8 +5112,8 @@ let tierTwoRogue = new TableList(
                 "Cape of the Black Baron"
             ),
             new WowheadLink(
-                17102,
-                "Cloak of the Shrouded Mists"
+                19907,
+                "Zulian Tigerhide Cloak"
             ),
             new WowheadLink(
                 13882,
@@ -5164,16 +5164,16 @@ let tierTwoRogue = new TableList(
         new ItemSlotRow( //Hands
             itemSlots.hands,
             new WowheadLink(
-                16907,
-                "Bloodfang Gloves",
-                linkType.item,
-                "(Sword BiS)"
-            ),
-            new WowheadLink(
                 18823,
                 "Aged Core Leather Gloves",
                 linkType.item,
                 "(Dagger BiS)"
+            ),
+            new WowheadLink(
+                16907,
+                "Bloodfang Gloves",
+                linkType.item,
+                "(Sword BiS)"
             ),
             new WowheadLink(
                 16826,
@@ -5220,8 +5220,8 @@ let tierTwoRogue = new TableList(
                 "Keep set until you can replace both"
             ),
             new WowheadLink(
-                11647,
-                "Lesser Arcanum of Voracity"
+                19784,
+                "Death's Embrace"
             )
         ),
         new ItemSlotRow( //Feet
@@ -5312,48 +5312,6 @@ let tierTwoRogue = new TableList(
             ),
             null
         ),
-        new ItemSlotRow( //Mainhand
-            itemSlots.mainHand,
-            new WowheadLink(
-                19352,
-                "Chromatically Tempered Sword"
-            ),
-            new WowheadLink(
-                17075,
-                "Vis'kag the Bloodletter"
-            ),
-            new WowheadLink(
-                12940,
-                "Dal'Rend's Sacred Charge"
-            ),
-            new WowheadLink(
-                20034,
-                "Enchant Weapon - Crusader",
-                linkType.spell
-            )
-        ),
-        new ItemSlotRow( //Offhand
-            itemSlots.offHand,
-            new WowheadLink(
-                19351,
-                "Maladath, Runed Blade of the Black Flight"
-            ),
-            new WowheadLink(
-                18832,
-                "Brutality Blade"
-            ),
-            new WowheadLink(
-                15806,
-                "Mirah's Song",
-                linkType.item,
-                "Use Dal'Rends OH if using MH"
-            ),
-            new WowheadLink(
-                20034,
-                "Enchant Weapon - Crusader",
-                linkType.spell
-            )
-        ),
         new ItemSlotRow( //Mainhanddagger
             itemSlots.mainHandDagger,
             new WowheadLink(
@@ -5365,8 +5323,10 @@ let tierTwoRogue = new TableList(
                 "Dragonfang Blade"
             ),
             new WowheadLink(
-                12590,
-                "Felstriker"
+                19859,
+                "Fang of the Faceless",
+                linkType.item,
+                "2nd BiS OH if no CHT"
             ),
             new WowheadLink(
                 20031,
@@ -5389,6 +5349,48 @@ let tierTwoRogue = new TableList(
                 "Bonescraper"
             ),
             new WowheadLink(
+                23800,
+                "Enchant Weapon - Agility",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Mainhand
+            itemSlots.mainHand,
+            new WowheadLink(
+                19352,
+                "Chromatically Tempered Sword"
+            ),
+            new WowheadLink(
+                17075,
+                "Vis'kag the Bloodletter"
+            ),
+            new WowheadLink(
+                19865,
+                "Warblade of the Hakkari",
+                linkType.item,
+                "Only with off-hand for set"
+            ),
+            new WowheadLink(
+                20034,
+                "Enchant Weapon - Crusader",
+                linkType.spell
+            )
+        ),
+        new ItemSlotRow( //Offhand
+            itemSlots.offHand,
+            new WowheadLink(
+                19351,
+                "Maladath, Runed Blade of the Black Flight"
+            ),
+            new WowheadLink(
+                18832,
+                "Brutality Blade"
+            ),
+            new WowheadLink(
+                19866,
+                "Warblade of the Hakkari"
+            ),
+            new WowheadLink(
                 20034,
                 "Enchant Weapon - Crusader",
                 linkType.spell
@@ -5401,18 +5403,21 @@ let tierTwoRogue = new TableList(
                 "Striker's Mark"
             ),
             new WowheadLink(
-                19350,
-                "Heartstriker",
+                19853,
+                "Gurubashi Dwarf Destroyer",
                 linkType.item,
-                "Slightly ahead of +14 agi options"
+                "Heartstriker is close"
             ),
             new WowheadLink(
                 18323,
                 "Satyr's Bow",
                 linkType.item,
-                "Better if you need hit"
+                "2nd if you need hit"
             ),
-            null
+            new WowheadLink(
+                10548,
+                "Sniper Scope"
+            )
         )
     ]
 );
