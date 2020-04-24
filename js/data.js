@@ -5959,20 +5959,20 @@ let tierTwoWarlock = new TableList(
                 "Mish'undare, Circlet of the Mind Flayer"
             ),
             new WowheadLink(
-                23255,
-                "Champion's Dreadweave Cowl",
+                19999,
+                "Bloodvine Goggles",
                 linkType.item,
-                "In combination with PvP Rank 10 Shoulders"
+                "Requires Engineering 300"
             ),
             new WowheadLink(
                 16929,
                 "Nemesis Skullcap",
                 linkType.item,
-                "Only With 3-Set Bonus, one of three Nemesis Pieces"
+                "W/ Nemesis Belt & Shoulders"
             ),
             new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19788,
+                "Hoodoo Hex"
             )
         ),
         new ItemSlotRow( //Neck
@@ -5982,12 +5982,12 @@ let tierTwoWarlock = new TableList(
                 "Choker of the Fire Lord"
             ),
             new WowheadLink(
-                19426,
-                "Orb of the Darkmoon"
+                19876,
+                "Soul Corrupter's Necklace"
             ),
             new WowheadLink(
-                18691,
-                "Dark Advisor's Pendant"
+                19426,
+                "Orb of the Darkmoon"
             ),
             null
         ),
@@ -6001,31 +6001,34 @@ let tierTwoWarlock = new TableList(
                 23311,
                 "Lieutenant Commander's Dreadweave Spaulders",
                 linkType.item,
-                "In Combination with PvP rank 10 Bonus"
+                "w/PvP rank 10 Bonus"
             ),
             new WowheadLink(
                 16932,
                 "Nemesis Spaulders",
                 linkType.item,
-                "Only With 3-Set Bonus, one of three Nemesis Pieces"
+                "W/ Nemesis Head & Belt"
             ),
-            null
+            new WowheadLink(
+                20076,
+                "Zandalar Signet of Mojo"
+            )
         ),
         new ItemSlotRow( //Back
             itemSlots.back,
             new WowheadLink(
                 19378,
-                "Cloak of the Brood Lord"
+                "Cloak of Consumption"
             ),
             new WowheadLink(
-                13386,
-                "Archivist Cape",
+                19378,
+                "Cloak of the Brood Lord",
                 linkType.item,
                 "Of Shadow Wrath (+21 Shadow spell damage)"
             ),
             new WowheadLink(
-                17078,
-                "Sapphiron Drape"
+                13386,
+                "Archivist Cape"
             ),
             new WowheadLink(
                 20014,
@@ -6036,18 +6039,18 @@ let tierTwoWarlock = new TableList(
         new ItemSlotRow( //Chest
             itemSlots.chest,
             new WowheadLink(
+                19682,
+                "Bloodvine Vest",
+                linkType.item,
+                "Tailor Bonus: +2% Crit"
+            ),
+            new WowheadLink(
                 19145,
                 "Robe of Volatile Power"
             ),
             new WowheadLink(
                 14153,
                 "Robe of the Void"
-            ),
-            new WowheadLink(
-                16931,
-                "Nemesis Robes",
-                linkType.item,
-                "Only With 3-Set Bonus, one of three Nemesis Pieces"
             ),
             new WowheadLink(
                 20025,
@@ -6118,6 +6121,12 @@ let tierTwoWarlock = new TableList(
         new ItemSlotRow( //Legs
             itemSlots.legs,
             new WowheadLink(
+                19683,
+                "Bloodvine Leggings",
+                linkType.item,
+                "Tailor Bonus: +2% Crit"
+            ),
+            new WowheadLink(
                 19133,
                 "Fel Infused Leggings",
                 linkType.item,
@@ -6130,18 +6139,18 @@ let tierTwoWarlock = new TableList(
                 "Crafted by Tailor w/Revered Thorium Rep"
             ),
             new WowheadLink(
-                16930,
-                "Nemesis Leggings",
-                linkType.item,
-                "Only with 3-Set Bonus, one of three Nemesis Pieces"
-            ),
-            new WowheadLink(
-                18330,
-                "Arcanum of Focus"
+                19788,
+                "Hoodoo Hex"
             )
         ),
         new ItemSlotRow( //Feet
             itemSlots.feet,
+            new WowheadLink(
+                19684,
+                "Bloodvine Boots",
+                linkType.item,
+                "Tailor Bonus: +2% Crit"
+            ),
             new WowheadLink(
                 19131,
                 "Snowblind Shoes",
@@ -6149,14 +6158,8 @@ let tierTwoWarlock = new TableList(
                 "Azuregos Drop"
             ),
             new WowheadLink(
-                16927,
-                "Nemesis Boots",
-                linkType.item,
-                "Only with 3-Set Bonus, one of three Nemesis Pieces"
-            ),
-            new WowheadLink(
-                18735,
-                "Maleki's Footwraps"
+                19897,
+                "Betrayer's Boots"
             ),
             new WowheadLink(
                 13890,
@@ -6167,34 +6170,44 @@ let tierTwoWarlock = new TableList(
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                19434,
-                "Band of Dark Dominion",
+                19893,
+                "Zanzil's Seal",
                 linkType.item,
-                "2nd BIS if you got 3rd BIS"
+                "Nr1"
+            ),
+            new WowheadLink(
+                20632,
+                "Mindtear Band",
+                linkType.item,
+                "Nr3"
             ),
             new WowheadLink(
                 19403,
-                "Band of Forced Concentration"
-            ),
-            new WowheadLink(
-                19147,
-                "Ring of Spell Power"
+                "Band of Forced Concentration",
+                linkType.item,
+                "Nr5"
             ),
             null
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
             new WowheadLink(
-                19397,
-                "Ring of Blackrock"
+                19905,
+                "Zanzil's Band",
+                linkType.item,
+                "Nr2"
             ),
             new WowheadLink(
-                13001,
-                "Maiden's Circle"
+                19434,
+                "Band of Dark Dominion",
+                linkType.item,
+                "Nr4"
             ),
             new WowheadLink(
-                12543,
-                "Songstone of Ironforge"
+                19147,
+                "Ring of Spell Power",
+                linkType.item,
+                "Nr6"
             ),
             null
         ),
@@ -6217,12 +6230,45 @@ let tierTwoWarlock = new TableList(
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
             new WowheadLink(
-                13968,
-                "Eye of the Beast"
+                19379,
+                "Neltharion's Tear",
+                linkType.item,
+                "Nr1"
             ),
-            null,
-            null,
+            new WowheadLink(
+                19950,
+                "Zandalarian Hero Charm",
+                linkType.item,
+                "Nr3 - Heart Of Hakkar"
+            ),
+            new WowheadLink(
+                13968,
+                "Eye of the Beast",
+                linkType.item,
+                "Nr5"
+            ),
             null
+        ),
+        new ItemSlotRow( //Trinkets
+            itemSlots.trinkets,
+            new WowheadLink(
+                18820,
+                "Talisman of Ephemeral Power",
+                linkType.item,
+                "Nr2"
+            ),
+            new WowheadLink(
+                12930,
+                "Briarwood Reed",
+                linkType.item,
+                "Nr4"
+            ),
+            new WowheadLink(
+                18467,
+                "Royal Seal of Eldre'Thalas",
+                linkType.item,
+                "Nr6"
+            ), null
         ),
         new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
@@ -6235,8 +6281,8 @@ let tierTwoWarlock = new TableList(
                 "Azuresong Mageblade"
             ),
             new WowheadLink(
-                18878,
-                "Sorcerous Dagger"
+                19864,
+                "Bloodcaller"
             ),
             new WowheadLink(
                 22749,
@@ -6246,6 +6292,12 @@ let tierTwoWarlock = new TableList(
         ),
         new ItemSlotRow( //Offhand
             itemSlots.offHand,
+            new WowheadLink(
+                19891,
+                "Jin'do's Bag of Whammies",
+                linkType.item,
+                "If lacking +Hit"
+            ),
             new WowheadLink(
                 19309,
                 "Tome of Shadow Force",
@@ -6257,12 +6309,6 @@ let tierTwoWarlock = new TableList(
                 "Master Dragonslayer's Orb",
                 linkType.item,
                 "Head of Nefarian"
-            ),
-            new WowheadLink(
-                10796,
-                "Drakestone",
-                linkType.item,
-                "of Shadow Wrath"
             ),
             null
         ),
@@ -6289,18 +6335,16 @@ let tierTwoWarlock = new TableList(
         new ItemSlotRow( //Ranged
             itemSlots.ranged,
             new WowheadLink(
+                19861,
+                "Touch of Chaos"
+            ),
+            new WowheadLink(
                 13396,
                 "Skul's Ghastly Touch"
             ),
             new WowheadLink(
-                15283,
-                "Lunar Wand",
-                linkType.item,
-                "Of Shadow Wrath"
-            ),
-            new WowheadLink(
-                19367,
-                "Dragon's Touch"
+                13938,
+                "Bonecreeper Stylus"
             ),
             null
         ),
