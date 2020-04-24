@@ -7549,10 +7549,10 @@ let tierTwoWarriorTank = new TableList(
                 "Best mitigation"
             ),
             new WowheadLink(
-                11642,
-                "Lesser Arcanum of Constitution",
+                19782,
+                "Presence of Might",
                 linkType.item,
-                "+100 HP"
+                "+10 stam, 7 def, 15 block"
             )
         ),
         new ItemSlotRow( //Neck
@@ -7572,7 +7572,8 @@ let tierTwoWarriorTank = new TableList(
             new WowheadLink(
                 18205,
                 "Eskhandar's Collar"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Shoulder
             itemSlots.shoulder,
@@ -7595,10 +7596,10 @@ let tierTwoWarriorTank = new TableList(
                 "2nd mitigation"
             ),
             new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn",
+                20077,
+                "Zandalar Signet of Might",
                 linkType.item,
-                "+5 to all resistances"
+                "+30 AP"
             )
         ),
         new ItemSlotRow( //Back
@@ -7723,7 +7724,8 @@ let tierTwoWarriorTank = new TableList(
                 "Brigam Girdle",
                 linkType.item,
                 "2nd threat"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Legs
             itemSlots.legs,
@@ -7746,10 +7748,10 @@ let tierTwoWarriorTank = new TableList(
                 "2nd mitigation"
             ),
             new WowheadLink(
-                11642,
-                "Lesser Arcanum of Constitution",
+                19782,
+                "Presence of Might",
                 linkType.item,
-                "+100 HP"
+                "+10 stam, 7 def and 15 block"
             )
         ),
         new ItemSlotRow( //Feet
@@ -7792,7 +7794,8 @@ let tierTwoWarriorTank = new TableList(
             new WowheadLink(
                 19376,
                 "Archimtiros' Ring of Reckoning"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Rings
             itemSlots.rings,
@@ -7809,7 +7812,8 @@ let tierTwoWarriorTank = new TableList(
                 "Heavy Dark Iron Ring",
                 linkType.item,
                 "Mitigation"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
@@ -7824,7 +7828,8 @@ let tierTwoWarriorTank = new TableList(
             new WowheadLink(
                 17774,
                 "Mark of the Chosen"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Trinkets
             itemSlots.trinkets,
@@ -7839,7 +7844,8 @@ let tierTwoWarriorTank = new TableList(
             new WowheadLink(
                 13965,
                 "Blackhand's Breadth"
-            ), null
+            ),
+            null
         ),
         new ItemSlotRow( //Mainhand
             itemSlots.mainHand,
@@ -7898,8 +7904,8 @@ let tierTwoWarriorTank = new TableList(
                 "Maladath, Runed Blade of the Black Flight"
             ),
             new WowheadLink(
-                15806,
-                "Mirah's Song"
+                19866,
+                "Warblade of the Hakkari"
             ),
             new WowheadLink(
                 20034,
@@ -7941,7 +7947,9 @@ let tierTwoWarriorTank = new TableList(
             ),
             new WowheadLink(
                 17066,
-                "Drillborer Disk"
+                "Drillborer Disk",
+                linkType.item,
+                "Aegis of the Blood God is close"
             ),
             new WowheadLink(
                 18168,
@@ -7967,7 +7975,8 @@ let tierTwoWarriorTank = new TableList(
             new WowheadLink(
                 17072,
                 "Blastershot Launcher"
-            ), null
+            ),
+            null
         ),
 
     ],
@@ -7994,7 +8003,7 @@ let tierTwoWarriorDPS = new TableList(
                 "Crown of Destruction"
             ),
             new WowheadLink(
-                18329,
+                18332,
                 "Arcanum of Rapidity",
                 linkType.item,
                 "Voracity can be acceptable"
@@ -8007,14 +8016,12 @@ let tierTwoWarriorDPS = new TableList(
                 "Onyxia Tooth Pendant"
             ),
             new WowheadLink(
-                15411,
-                "Mark of Fordring"
+                19856,
+                "The Eye of Hakkar"
             ),
             new WowheadLink(
-                19491,
-                "Amulet of the Darkmoon",
-                linkType.item,
-                "Don't bother"
+                15411,
+                "Mark of Fordring"
             ),
             null
         ),
@@ -8031,14 +8038,14 @@ let tierTwoWarriorDPS = new TableList(
                 "Drake Talon Pauldrons"
             ),
             new WowheadLink(
-                15051,
-                "Black Dragonscale Shoulders",
+                19878,
+                "Bloodsoaked Pauldrons",
                 linkType.item,
                 "Truestrike is acceptable too"
             ),
             new WowheadLink(
-                18182,
-                "Chromatic Mantle of the Dawn"
+                20077,
+                "Zandalar Signet of Might"
             )
         ),
         new ItemSlotRow( //Back
@@ -8050,8 +8057,11 @@ let tierTwoWarriorDPS = new TableList(
             new WowheadLink(
                 13340,
                 "Cape of the Black Baron"
-            ), null,
-
+            ),
+            new WowheadLink(
+                19907,
+                "Zulian Tigerhide Cloak"
+            ),
             new WowheadLink(
                 13882,
                 "Enchant Cloak - Lesser Agility",
@@ -8089,8 +8099,10 @@ let tierTwoWarriorDPS = new TableList(
                 "Wristguards of Stability"
             ),
             new WowheadLink(
-                12936,
-                "Battleborn Armbraces"
+                19824,
+                "Zandalar Vindicator's Armguards",
+                linkType.item,
+                "Better than stability if over hit cap and under crit cap"
             ),
             new WowheadLink(
                 20010,
@@ -8107,12 +8119,12 @@ let tierTwoWarriorDPS = new TableList(
                 "Non-humans use Edgemaster's"
             ),
             new WowheadLink(
-                16863,
-                "Gauntlets of Might"
+                22714,
+                "Sacrificial Gauntlets"
             ),
             new WowheadLink(
-                15063,
-                "Devilsaur Gauntlets"
+                16863,
+                "Gauntlets of Might"
             ),
             new WowheadLink(
                 20013,
@@ -8127,12 +8139,12 @@ let tierTwoWarriorDPS = new TableList(
                 "Onslaught Girdle"
             ),
             new WowheadLink(
-                13959,
-                "Omokk's Girth Restrainer"
+                19823,
+                "Zandalar Vindicator's Belt"
             ),
             new WowheadLink(
-                13142,
-                "Brigam Girdle"
+                20216,
+                "Belt of Preserved Heads"
             ),
             null
         ),
@@ -8146,14 +8158,16 @@ let tierTwoWarriorDPS = new TableList(
             ),
             new WowheadLink(
                 19402,
-                "Legguards of the Fallen Crusader"
+                "Legguards of the Fallen Crusader",
+                linkType.item,
+                "Cloudkeeper is better, but world BOE"
             ),
             new WowheadLink(
-                15062,
-                "Cloudkeeper Legplates"
+                19855,
+                "Bloodsoaked Legplates"
             ),
             new WowheadLink(
-                18329,
+                18332,
                 "Arcanum of Rapidity",
                 linkType.item,
                 "Voracity can be acceptable"
@@ -8209,8 +8223,10 @@ let tierTwoWarriorDPS = new TableList(
                 "Band of Accuria"
             ),
             new WowheadLink(
-                13098,
-                "Painweaver Band"
+                19898,
+                "Seal of Jin",
+                linkType.item,
+                "with Band of Jin"
             ),
             null
         ),
@@ -8222,11 +8238,11 @@ let tierTwoWarriorDPS = new TableList(
             ),
             new WowheadLink(
                 19406,
-                "Hand of Justice"
+                "Drake Fang Talisman"
             ),
             new WowheadLink(
                 11815,
-                "Blackhand's Breadth"
+                "Hand of Justice"
             ),
             null
         ),
@@ -8294,8 +8310,8 @@ let tierTwoWarriorDPS = new TableList(
                 "Maladath, Runed Blade of the Black Flight"
             ),
             new WowheadLink(
-                19170,
-                "Ebon Hand"
+                19866,
+                "Warblade of the Hakkari"
             ),
             new WowheadLink(
                 20034,
@@ -8307,15 +8323,21 @@ let tierTwoWarriorDPS = new TableList(
             itemSlots.offHand,
             new WowheadLink(
                 19363,
-                "Crul'shorukh, Edge of Chaos"
+                "Crul'shorukh, Edge of Chaos",
+                linkType.item,
+                "Edgemaster"
             ),
             new WowheadLink(
                 18805,
-                "Core Hound Tooth"
+                "Core Hound Tooth",
+                linkType.item,
+                "Edgemaster"
             ),
             new WowheadLink(
                 19362,
-                "Doom's Edge"
+                "Doom's Edge",
+                linkType.item,
+                "Edgemaster"
             ),
             new WowheadLink(
                 20034,
@@ -8330,12 +8352,12 @@ let tierTwoWarriorDPS = new TableList(
                 "Striker's Mark"
             ),
             new WowheadLink(
-                17072,
-                "Blastershot Launcher"
+                19853,
+                "Gurubashi Dwarf Destroyer"
             ),
             new WowheadLink(
-                19107,
-                "Bloodseeker"
+                17072,
+                "Blastershot Launcher"
             ),
             null
         ),
