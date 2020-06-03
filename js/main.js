@@ -200,20 +200,20 @@ createClassTabFrames("tier-2", tierTwo);
 
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
-    
+
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
-        
+
         $('a').each(function () {
             $(this).removeClass('active');
         })
         $(this).addClass('active');
-      
+
         var target = this.hash,
             // menu = target;
-        $target = $(target);
+            $target = $(target);
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top - 90
         }, 1500, 'swing', function () {
@@ -222,7 +222,7 @@ $(document).ready(function () {
         });
     });
 
-    $('.collapse-control').click( function () {
+    $('.collapse-control').click(function () {
         let el = $(this);
         el.parent().find('section').slideToggle("fast", function () {
             el.find('.collapse-indicator').toggleClass('collapsed');
@@ -230,26 +230,30 @@ $(document).ready(function () {
     });
 });
 
-function onScroll(event){
+function onScroll(event) {
     var scrollPos = $(document).scrollTop() + 125;
-    $('.navbar-nav a').each(function () {
+    $('a.scroll-link').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('.navbar-nav li').removeClass("active");
             currLink.addClass("active");
         }
-        else{
+        else {
             currLink.removeClass("active");
         }
     });
 }
 
 //Class selector handler
-$('.class-selector > .nav-item > a').on('click', function (e) {
+$('.class-selector > .nav-item > a, .mobile-class-selector > .nav-item > a').on('click', function (e) {
     e.preventDefault();
     const tabClass = $(this).data('class');
     const article = 'article.' + tabClass;
+
+    if ($('#navbarResponsive').hasClass('show')) {
+        $('#navbarResponsive').removeClass('show');
+    }
 
     $('article').removeClass('show active');
 

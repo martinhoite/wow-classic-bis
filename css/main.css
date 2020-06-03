@@ -25,6 +25,22 @@ td>p {
     background-color: #222;
 }
 
+.mobile-class-selector {
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+    .class-selector {
+        display: none;
+    }
+
+    .mobile-class-selector {
+        display: block;
+        padding: 0;
+        list-style: none;
+    }
+}
+
 .collapse-control {
     cursor: pointer;
 }
@@ -53,16 +69,16 @@ td>p {
     /*Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625) */
     padding-top: 56.25%;
     position: relative;
-  }
-   
-  .iframe-container iframe {
-     border: 0;
-     height: 100%;
-     left: 0;
-     position: absolute;
-     top: 0;
-     width: 100%;
-  }
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 
 /* Overwrite Bootstrap */
