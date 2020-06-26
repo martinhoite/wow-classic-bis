@@ -11,4 +11,4 @@ https://blizz991.github.io/wow-classic-bis/
 This is a terrible way to do it, it was originally made in a hurry - and has since then been abandoned (replacement WIP) due to the nightmare it would be to maintain.
 
 
-Currently doing bare minimum to keep it running until the replacement is ready.
+Currently doing bare minimum to keep it running until the replacement (https://github.com/Blizz991/wowtools-issue-tracker/projects) is ready.
