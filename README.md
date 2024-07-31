@@ -1,14 +1,9 @@
 # wow-classic-bis
-Best in slot lists for World of Warcraft Classic (All classes)
+Best in slot lists for World of Warcraft Classic Vanilla (All classes)
 
 Shown live here:
-https://blizz991.github.io/wow-classic-bis/
+https://martinhoite.github.io/wow-classic-bis/
 
 
 --- **Disclaimer**  ---
-
-
-This is a terrible way to do it, it was originally made in a hurry - and has since then been abandoned (replacement WIP) due to the nightmare it would be to maintain.
-
-
-Currently doing bare minimum to keep it running until the replacement (https://github.com/Blizz991/wowtools-issue-tracker/projects) is ready.
+Made in a hurry, mostly as a proof of concept.
